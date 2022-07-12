@@ -1,0 +1,17 @@
+build/*
+!build/.gitkeep
+
+*.bak
+
+# Ignore Eagle backup files
+*.s#[0-9]
+*.b#[0-9]
+*.l##[0-9]
+*.s##
+*.b##
+*.l##
+
+# Ignore Multisim backup files
+*.ms11 (Security copy)
+*.ms12 (Security copy)
+*.ms14 (Security copy)
