@@ -1,0 +1,2 @@
+# _LIB
+ Eagle library
