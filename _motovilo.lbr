@@ -346,20 +346,20 @@
 <wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
 <circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
 <circle x="0" y="11.176" radius="3.81" width="0" layer="42"/>
-<pad name="IN" x="-2.54" y="-5.08" drill="1.016" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-5.08" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-5.08" drill="1.016" shape="long" rot="R90"/>
+<pad name="IN" x="-2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="GND" x="0" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-0.508" y="0" size="1.27" layer="51" ratio="10">-</text>
 <text x="-3.048" y="0" size="1.27" layer="51" ratio="10">I</text>
 <text x="2.032" y="0" size="1.27" layer="51" ratio="10">O</text>
 <rectangle x1="1.905" y1="-3.429" x2="3.175" y2="-2.54" layer="21"/>
-<rectangle x1="1.905" y1="-5.08" x2="3.175" y2="-3.429" layer="51"/>
+<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
 <rectangle x1="-0.635" y1="-3.429" x2="0.635" y2="-2.54" layer="21"/>
 <rectangle x1="-3.175" y1="-3.429" x2="-1.905" y2="-2.54" layer="21"/>
-<rectangle x1="-0.635" y1="-5.08" x2="0.635" y2="-3.429" layer="51"/>
-<rectangle x1="-3.175" y1="-5.08" x2="-1.905" y2="-3.429" layer="51"/>
+<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
+<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
 <hole x="0" y="11.176" drill="3.302"/>
 <rectangle x1="-3.175" y1="-2.54" x2="-1.905" y2="-0.889" layer="51"/>
 <rectangle x1="-0.635" y1="-2.54" x2="0.635" y2="-0.889" layer="51"/>
@@ -2021,9 +2021,9 @@ drill 1.3 mm</description>
 <wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
 <circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
 <circle x="0" y="11.176" radius="3.429" width="0" layer="43"/>
-<pad name="GND" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="IN" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="GND" x="-2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="IN" x="0" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.937" y="2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-3.175" y="0" size="1.27" layer="51" ratio="10">+</text>
@@ -2055,9 +2055,9 @@ drill 1.3 mm</description>
 <wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
 <wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
 <wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
-<pad name="IN" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="GND" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
-<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="IN" x="-2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="GND" x="0" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
+<pad name="OUT" x="2.54" y="-3.81" drill="1.016" shape="octagon" rot="R90"/>
 <text x="-3.81" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-3.937" y="2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-0.508" y="0" size="1.27" layer="51" ratio="10">-</text>
