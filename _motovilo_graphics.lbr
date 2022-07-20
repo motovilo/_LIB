@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.042227" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -36572,6 +36572,62 @@
 <rectangle x1="12.9743" y1="126.87721875" x2="14.1768" y2="126.89830625" layer="29"/>
 <rectangle x1="14.6409" y1="126.87721875" x2="15.8435" y2="126.89830625" layer="29"/>
 <rectangle x1="17.7422" y1="126.87721875" x2="18.8814" y2="126.89830625" layer="29"/>
+</package>
+<package name="ZSPLIT_GOLD">
+<wire x1="4.445" y1="0" x2="4.445" y2="1.42875" width="0.254" layer="29"/>
+<wire x1="4.445" y1="1.42875" x2="4.445" y2="2.38125" width="0.254" layer="29"/>
+<wire x1="4.445" y1="2.38125" x2="5.3975" y2="3.175" width="0.254" layer="29" curve="-90"/>
+<wire x1="5.3975" y1="3.175" x2="5.715" y2="2.8575" width="0.254" layer="29" curve="-90"/>
+<wire x1="5.715" y1="2.8575" x2="5.715" y2="2.2225" width="0.254" layer="29"/>
+<wire x1="5.715" y1="2.2225" x2="4.92125" y2="1.42875" width="0.254" layer="29" curve="-90"/>
+<wire x1="4.92125" y1="1.42875" x2="4.445" y2="1.42875" width="0.254" layer="29"/>
+<wire x1="10.16" y1="3.175" x2="10.16" y2="0.635" width="0.254" layer="29"/>
+<wire x1="10.16" y1="0.635" x2="9.68375" y2="0" width="0.254" layer="29" curve="-75"/>
+<wire x1="11.1125" y1="3.2385" x2="9.2075" y2="3.2385" width="0.254" layer="29" curve="-120"/>
+<wire x1="8.5725" y1="2.69875" x2="8.5725" y2="0.635" width="0.254" layer="29"/>
+<wire x1="8.5725" y1="0.635" x2="8.255" y2="0" width="0.254" layer="29" curve="-45"/>
+<wire x1="8.5725" y1="3.175" x2="8.5725" y2="3.33375" width="0.254" layer="29"/>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.254" layer="29" curve="-90"/>
+<wire x1="1.905" y1="3.175" x2="0" y2="3.175" width="0.254" layer="29" curve="-90"/>
+<wire x1="1.905" y1="3.175" x2="1.905" y2="2.957103125" width="0.254" layer="29"/>
+<wire x1="1.905" y1="2.957103125" x2="1.16105" y2="1.16105" width="0.254" layer="29" curve="-45.00005"/>
+<wire x1="1.16105" y1="1.16105" x2="0" y2="0" width="0.254" layer="29"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="0" width="0.254" layer="29"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0.635" width="0.254" layer="29" curve="60"/>
+<wire x1="3.81" y1="0.635" x2="3.175" y2="1.905" width="0.254" layer="29" curve="100"/>
+<wire x1="3.175" y1="1.905" x2="2.54" y2="2.54" width="0.254" layer="29" curve="-60"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="3.175" width="0.254" layer="29" curve="-100"/>
+<wire x1="6.19125" y1="3.175" x2="6.50875" y2="2.54" width="0.254" layer="29" curve="-45"/>
+<wire x1="6.50875" y1="2.54" x2="6.50875" y2="0" width="0.254" layer="29"/>
+<wire x1="6.50875" y1="0" x2="7.14375" y2="0" width="0.254" layer="29"/>
+<wire x1="7.14375" y1="0" x2="7.77875" y2="0.635" width="0.254" layer="29" curve="90"/>
+<wire x1="4.445" y1="0" x2="4.445" y2="1.42875" width="0.3048" layer="1"/>
+<wire x1="4.445" y1="1.42875" x2="4.445" y2="2.38125" width="0.3048" layer="1"/>
+<wire x1="4.445" y1="2.38125" x2="5.3975" y2="3.175" width="0.3048" layer="1" curve="-90"/>
+<wire x1="5.3975" y1="3.175" x2="5.715" y2="2.8575" width="0.3048" layer="1" curve="-90"/>
+<wire x1="5.715" y1="2.8575" x2="5.715" y2="2.2225" width="0.3048" layer="1"/>
+<wire x1="5.715" y1="2.2225" x2="4.92125" y2="1.42875" width="0.3048" layer="1" curve="-90"/>
+<wire x1="4.92125" y1="1.42875" x2="4.445" y2="1.42875" width="0.3048" layer="1"/>
+<wire x1="10.16" y1="3.175" x2="10.16" y2="0.635" width="0.3048" layer="1"/>
+<wire x1="10.16" y1="0.635" x2="9.68375" y2="0" width="0.3048" layer="1" curve="-75"/>
+<wire x1="11.1125" y1="3.2385" x2="9.2075" y2="3.2385" width="0.3048" layer="1" curve="-120"/>
+<wire x1="8.5725" y1="2.69875" x2="8.5725" y2="0.635" width="0.3048" layer="1"/>
+<wire x1="8.5725" y1="0.635" x2="8.255" y2="0" width="0.3048" layer="1" curve="-45"/>
+<wire x1="8.5725" y1="3.175" x2="8.5725" y2="3.33375" width="0.3048" layer="1"/>
+<wire x1="0" y1="0" x2="1.905" y2="0" width="0.3048" layer="1" curve="-90"/>
+<wire x1="1.905" y1="3.175" x2="0" y2="3.175" width="0.3048" layer="1" curve="-90"/>
+<wire x1="1.905" y1="3.175" x2="1.905" y2="2.957103125" width="0.3048" layer="1"/>
+<wire x1="1.905" y1="2.957103125" x2="1.16105" y2="1.16105" width="0.3048" layer="1" curve="-45.00005"/>
+<wire x1="1.16105" y1="1.16105" x2="0" y2="0" width="0.3048" layer="1"/>
+<wire x1="2.54" y1="0" x2="3.175" y2="0" width="0.3048" layer="1"/>
+<wire x1="3.175" y1="0" x2="3.81" y2="0.635" width="0.3048" layer="1" curve="60"/>
+<wire x1="3.81" y1="0.635" x2="3.175" y2="1.905" width="0.3048" layer="1" curve="100"/>
+<wire x1="3.175" y1="1.905" x2="2.54" y2="2.54" width="0.3048" layer="1" curve="-60"/>
+<wire x1="2.54" y1="2.54" x2="3.175" y2="3.175" width="0.3048" layer="1" curve="-100"/>
+<wire x1="6.19125" y1="3.175" x2="6.50875" y2="2.54" width="0.3048" layer="1" curve="-45"/>
+<wire x1="6.50875" y1="2.54" x2="6.50875" y2="0" width="0.3048" layer="1"/>
+<wire x1="6.50875" y1="0" x2="7.14375" y2="0" width="0.3048" layer="1"/>
+<wire x1="7.14375" y1="0" x2="7.77875" y2="0.635" width="0.3048" layer="1" curve="90"/>
 </package>
 </packages>
 <symbols>
