@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -54,14 +54,14 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -70,10 +70,73 @@
 </layers>
 <library>
 <packages>
+<package name="QD803A">
+<smd name="1" x="-9" y="-1.79" dx="1" dy="2" layer="1"/>
+<dimension x1="0" y1="4" x2="11" y2="4" x3="5.5" y3="5" textsize="1.27" layer="47"/>
+<dimension x1="0" y1="4" x2="-11" y2="4" x3="-5.5" y3="5" textsize="1.27" layer="47"/>
+<wire x1="-10" y1="0.6" x2="10" y2="0.6" width="0" layer="20"/>
+<wire x1="10" y1="-0.6" x2="-10" y2="-0.6" width="0" layer="20"/>
+<smd name="2" x="-7" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="3" x="-5" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="4" x="-3" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="5" x="-1" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="6" x="1" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="7" x="3" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="8" x="5" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="9" x="7" y="-1.79" dx="1" dy="2" layer="1"/>
+<smd name="10" x="9" y="-1.79" dx="1" dy="2" layer="1"/>
+<wire x1="-10" y1="0.6" x2="-10" y2="-0.6" width="0" layer="20" curve="180"/>
+<wire x1="10" y1="-0.6" x2="10" y2="0.6" width="0" layer="20" curve="180"/>
+</package>
 </packages>
 <symbols>
+<symbol name="QD803A">
+<description>&lt;b&gt;LED controller ic&lt;/b&gt;&lt;p&gt;
+https://www.alibaba.com/product-detail/New-QD803-ic-chip_60571949392.html</description>
+<wire x1="-5.08" y1="25.4" x2="-5.08" y2="-25.4" width="0.3048" layer="94"/>
+<wire x1="-5.08" y1="-25.4" x2="10.16" y2="-25.4" width="0.3048" layer="94"/>
+<wire x1="10.16" y1="-25.4" x2="10.16" y2="25.4" width="0.3048" layer="94"/>
+<wire x1="10.16" y1="25.4" x2="-5.08" y2="25.4" width="0.3048" layer="94"/>
+<pin name="VDD" x="12.7" y="22.86" length="short" rot="R180"/>
+<pin name="SEL" x="12.7" y="17.78" length="short" rot="R180"/>
+<pin name="NC2" x="12.7" y="12.7" length="short" rot="R180"/>
+<pin name="NC1" x="12.7" y="7.62" length="short" rot="R180"/>
+<pin name="OUT4" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="OUT3" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="OUT2" x="12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="OUT1" x="12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="GND" x="12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="SYNC" x="12.7" y="-22.86" length="short" rot="R180"/>
+<text x="-5.08" y="27.94" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="QD803A" prefix="IC">
+<description>&lt;b&gt;LED controller IC&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="QD803A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QD803A">
+<connects>
+<connect gate="G$1" pin="GND" pad="10"/>
+<connect gate="G$1" pin="NC1" pad="4"/>
+<connect gate="G$1" pin="NC2" pad="3"/>
+<connect gate="G$1" pin="OUT1" pad="8"/>
+<connect gate="G$1" pin="OUT2" pad="7"/>
+<connect gate="G$1" pin="OUT3" pad="6"/>
+<connect gate="G$1" pin="OUT4" pad="5"/>
+<connect gate="G$1" pin="SEL" pad="2"/>
+<connect gate="G$1" pin="SYNC" pad="9"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
