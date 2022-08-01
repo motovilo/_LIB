@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1166,23 +1166,23 @@ Combo footprint TH with 5.08 pitch + SMD 7.4 x 7.4</description>
 <text x="0.9525" y="-1.27" size="0.8128" layer="21">C</text>
 </package>
 <package name="SOT23">
-<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<description>&lt;B&gt;SOT-23&lt;/B&gt;</description>
 <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
 <wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
 <wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
-<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1" roundness="20"/>
-<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="20"/>
-<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="20"/>
-<text x="-1.905" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="0.6096" layer="27">&gt;VALUE</text>
+<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<smd name="2" x="0.95" y="-1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<smd name="1" x="-0.95" y="-1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
-<wire x1="-1.651" y1="-2.032" x2="1.651" y2="-2.032" width="0.0508" layer="39"/>
-<wire x1="1.651" y1="-2.032" x2="1.651" y2="2.032" width="0.0508" layer="39"/>
-<wire x1="1.651" y1="2.032" x2="-1.651" y2="2.032" width="0.0508" layer="39"/>
-<wire x1="-1.651" y1="2.032" x2="-1.651" y2="-2.032" width="0.0508" layer="39"/>
 </package>
 <package name="D02A-L">
 <description>&lt;b&gt;HEATSINK&lt;/b&gt;&lt;p&gt;

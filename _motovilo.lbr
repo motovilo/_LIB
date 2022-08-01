@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -8421,12 +8421,14 @@ Metric Code Size 4532</description>
 <pad name="4" x="-4.8" y="0" drill="2" shape="octagon" rot="R90"/>
 <pad name="5" x="4.8" y="0" drill="2" shape="octagon" rot="R90"/>
 <text x="-4.445" y="5.08" size="1.27" layer="25">&gt;NAME</text>
-<text x="0" y="3.175" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.54" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="-1.5875" y1="-5.08" x2="1.5875" y2="-3.81" layer="39"/>
 <rectangle x1="-1.5875" y1="-5.08" x2="1.5875" y2="-3.81" layer="43"/>
 <wire x1="4.75" y1="-4.85" x2="-4.75" y2="-4.85" width="0.127" layer="21"/>
 <rectangle x1="-1.5875" y1="3.81" x2="1.5875" y2="5.08" layer="39"/>
 <rectangle x1="-1.5875" y1="3.81" x2="1.5875" y2="5.08" layer="43"/>
+<rectangle x1="-1.5875" y1="-5.08" x2="1.5875" y2="-3.81" layer="21"/>
+<rectangle x1="-1.5875" y1="3.81" x2="1.5875" y2="5.08" layer="21"/>
 </package>
 <package name="SMD_2512">
 <wire x1="-2.362" y1="1.473" x2="2.387" y2="1.473" width="0.1524" layer="51"/>
