@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -166,8 +166,6 @@
 </package>
 <package name="6,223-PAD">
 <description>&lt;b&gt;JACK 3.5mm HOLE&lt;/b&gt;</description>
-<circle x="0" y="0" radius="5.3" width="0" layer="39"/>
-<circle x="0" y="0" radius="5.3" width="0" layer="40"/>
 <circle x="0" y="0" radius="5.3" width="0" layer="43"/>
 <pad name="B6,223" x="0" y="0" drill="6.223" diameter="8.128" thermals="no"/>
 </package>

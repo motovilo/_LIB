@@ -229,8 +229,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="-1.8415" y1="-0.94615" x2="-1.8415" y2="0.94615" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.27" dy="1.4478" layer="1" roundness="20"/>
 <smd name="2" x="0.95" y="0" dx="1.27" dy="1.4478" layer="1" roundness="20"/>
-<text x="-1.778" y="1.016" size="0.6096" layer="25">&gt;NAME</text>
-<text x="0.254" y="1.016" size="0.6096" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.667" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
