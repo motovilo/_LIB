@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -11199,6 +11199,83 @@ https://static.chipdip.ru/lib/095/DOC006095303.pdf</description>
 <wire x1="0.5" y1="-2.5" x2="1" y2="-3" width="0.127" layer="21" curve="-90"/>
 <wire x1="1" y1="-5" x2="0.5" y2="-5.5" width="0.127" layer="21" curve="-90"/>
 </package>
+<package name="DG500-5.08-02P">
+<wire x1="-5.08" y1="4.873" x2="5.08" y2="4.873" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-4.873" x2="-5.08" y2="-4.873" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-4.873" x2="-5.08" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="4.873" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="-5.5" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="2.54" x2="-5.5" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="3.81" x2="-5.08" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-3.75" y1="-0.75" x2="-1.75" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-3.25" y1="-1.25" x2="-1.25" y2="0.75" width="0.127" layer="51"/>
+<wire x1="1.25" y1="-0.75" x2="3.25" y2="1.25" width="0.127" layer="51"/>
+<wire x1="1.75" y1="-1.25" x2="3.75" y2="0.75" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="51"/>
+<wire x1="5.08" y1="-2.5" x2="-5.08" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="1.905" x2="0.2" y2="1.905" width="0.127" layer="51"/>
+<wire x1="0.2" y1="1.905" x2="0.2" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="0.2" y1="-1.905" x2="-0.2" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-0.2" y1="-1.905" x2="-0.2" y2="1.905" width="0.127" layer="51"/>
+<circle x="-2.54" y="0" radius="1.5" width="0.127" layer="51"/>
+<circle x="-2.54" y="0" radius="2" width="0.127" layer="51"/>
+<circle x="2.54" y="0" radius="1.5" width="0.127" layer="51"/>
+<circle x="2.54" y="0" radius="2" width="0.127" layer="51"/>
+<circle x="-2.54" y="3.81" radius="0.5" width="0.127" layer="51"/>
+<circle x="2.54" y="3.831" radius="0.5" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
+<pad name="2" x="2.5" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
+<text x="-4.84" y="5" size="1.27" layer="25" ratio="18">&gt;NAME</text>
+<text x="0.08" y="-4.525" size="1.27" layer="27" ratio="18" align="bottom-center">&gt;VALUE</text>
+<wire x1="5.08" y1="-4.873" x2="5.08" y2="3.81" width="0.127" layer="21"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="4.873" width="0.127" layer="21"/>
+<wire x1="4.66" y1="2.54" x2="4.66" y2="3.81" width="0.127" layer="21"/>
+<wire x1="4.66" y1="3.81" x2="5.08" y2="3.81" width="0.127" layer="21"/>
+</package>
+<package name="DG500-5.08-03P">
+<wire x1="-7.62" y1="4.873" x2="7.62" y2="4.873" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-4.873" x2="-7.62" y2="-4.873" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-4.873" x2="-7.62" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="3.81" x2="-7.62" y2="4.873" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="2.54" x2="-8.04" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-8.04" y1="2.54" x2="-8.04" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-8.04" y1="3.81" x2="-7.62" y2="3.81" width="0.127" layer="21"/>
+<wire x1="-6.29" y1="-0.75" x2="-4.29" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-5.79" y1="-1.25" x2="-3.79" y2="0.75" width="0.127" layer="51"/>
+<wire x1="-1.29" y1="-0.75" x2="0.71" y2="1.25" width="0.127" layer="51"/>
+<wire x1="-0.79" y1="-1.25" x2="1.21" y2="0.75" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-2.5" x2="-7.62" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.74" y1="1.905" x2="-2.34" y2="1.905" width="0.127" layer="51"/>
+<wire x1="-2.34" y1="1.905" x2="-2.34" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-2.34" y1="-1.905" x2="-2.74" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-2.74" y1="-1.905" x2="-2.74" y2="1.905" width="0.127" layer="51"/>
+<circle x="-5.08" y="0" radius="1.5" width="0.127" layer="51"/>
+<circle x="-5.08" y="0" radius="2" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.5" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2" width="0.127" layer="51"/>
+<circle x="-5.08" y="3.81" radius="0.5" width="0.127" layer="51"/>
+<circle x="0" y="3.831" radius="0.5" width="0.127" layer="51"/>
+<pad name="1" x="-5.08" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
+<pad name="2" x="-0.04" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
+<text x="-7.38" y="5" size="1.27" layer="25" ratio="18">&gt;NAME</text>
+<text x="0.08" y="-4.525" size="1.27" layer="27" ratio="18" align="bottom-center">&gt;VALUE</text>
+<wire x1="7.62" y1="-4.873" x2="7.62" y2="3.81" width="0.127" layer="21"/>
+<wire x1="7.62" y1="3.81" x2="7.62" y2="4.873" width="0.127" layer="21"/>
+<wire x1="7.2" y1="2.54" x2="7.2" y2="3.81" width="0.127" layer="21"/>
+<wire x1="7.2" y1="3.81" x2="7.62" y2="3.81" width="0.127" layer="21"/>
+<wire x1="3.79" y1="-0.75" x2="5.79" y2="1.25" width="0.127" layer="51"/>
+<wire x1="4.29" y1="-1.25" x2="6.29" y2="0.75" width="0.127" layer="51"/>
+<wire x1="2.34" y1="1.905" x2="2.74" y2="1.905" width="0.127" layer="51"/>
+<wire x1="2.74" y1="1.905" x2="2.74" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="2.74" y1="-1.905" x2="2.34" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="2.34" y1="-1.905" x2="2.34" y2="1.905" width="0.127" layer="51"/>
+<circle x="5.08" y="0" radius="1.5" width="0.127" layer="51"/>
+<circle x="5.08" y="0" radius="2" width="0.127" layer="51"/>
+<pad name="3" x="5.04" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JACK-1">
@@ -17087,6 +17164,43 @@ Source: amp_227161.pdf</description>
 <connect gate="G$1" pin="1" pad="1_1 1_2"/>
 <connect gate="G$1" pin="2" pad="2_1 2_2"/>
 <connect gate="G$1" pin="3" pad="3_1 3_2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGXXX-02_" prefix="X" uservalue="yes">
+<description>&lt;b&gt;Screw terminal blocks&lt;/&gt;&lt;p&gt;</description>
+<gates>
+<gate name="-1" symbol="KL" x="0" y="5.08"/>
+<gate name="-2" symbol="KL" x="0" y="-5.08"/>
+</gates>
+<devices>
+<device name="DG500-5.08-02P" package="DG500-5.08-02P">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-2" pin="KL" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGXXX-03_" prefix="X" uservalue="yes">
+<gates>
+<gate name="-1" symbol="KL" x="0" y="7.62"/>
+<gate name="-2" symbol="KL" x="0" y="0"/>
+<gate name="-3" symbol="KL" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="DG500-5.08-03P" package="DG500-5.08-03P">
+<connects>
+<connect gate="-1" pin="KL" pad="1"/>
+<connect gate="-2" pin="KL" pad="2"/>
+<connect gate="-3" pin="KL" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
