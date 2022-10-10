@@ -366,8 +366,6 @@ grid 5 mm, diameter 10.5 mm, height 13.5 mm</description>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
 <rectangle x1="0.3" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<wire x1="-0.2032" y1="0.4699" x2="0.2032" y2="0.4699" width="0.0508" layer="41"/>
-<wire x1="-0.2032" y1="-0.4699" x2="0.2032" y2="-0.4699" width="0.0508" layer="41"/>
 </package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
