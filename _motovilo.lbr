@@ -7292,9 +7292,9 @@ grid 5 mm, diameter 10.5 mm, height 13.5 mm</description>
 <wire x1="5.2" y1="-4.575" x2="-5.2" y2="-4.575" width="0.2032" layer="21"/>
 <wire x1="-5.2" y1="-4.575" x2="-5.2" y2="-3.175" width="0.2032" layer="21"/>
 <wire x1="5.2" y1="-4.575" x2="5.2" y2="-3.175" width="0.2032" layer="21"/>
-<smd name="GND" x="0" y="2" dx="12.2" dy="9.75" layer="1"/>
-<smd name="OUT" x="2.54" y="-8.275" dx="1.6" dy="3.5" layer="1"/>
-<smd name="IN" x="-2.54" y="-8.275" dx="1.6" dy="3.5" layer="1"/>
+<smd name="GND" x="0" y="2" dx="12.2" dy="9.75" layer="1" roundness="20"/>
+<smd name="OUT" x="2.54" y="-8.275" dx="1.6" dy="3.5" layer="1" roundness="20"/>
+<smd name="IN" x="-2.54" y="-8.275" dx="1.6" dy="3.5" layer="1" roundness="20"/>
 <text x="-3.048" y="7.62" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.048" y="-4.318" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="2.015" y1="-9.775" x2="3.065" y2="-6.575" layer="51"/>
