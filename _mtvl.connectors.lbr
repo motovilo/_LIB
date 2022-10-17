@@ -11259,7 +11259,7 @@ https://static.chipdip.ru/lib/095/DOC006095303.pdf</description>
 <circle x="-5.08" y="3.81" radius="0.5" width="0.127" layer="51"/>
 <circle x="0" y="3.831" radius="0.5" width="0.127" layer="51"/>
 <pad name="1" x="-5.08" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
-<pad name="2" x="-0.04" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1.4" diameter="2.54" shape="square" rot="R90"/>
 <text x="-7.38" y="5" size="1.27" layer="25" ratio="18">&gt;NAME</text>
 <text x="0.08" y="-4.525" size="1.27" layer="27" ratio="18" align="bottom-center">&gt;VALUE</text>
 <wire x1="7.62" y1="-4.873" x2="7.62" y2="3.81" width="0.127" layer="21"/>

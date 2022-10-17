@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -372,9 +372,9 @@ grid 5.08 mm</description>
 <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.127" layer="51"/>
 <wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.127" layer="51"/>
 <wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.127" layer="51"/>
-<smd name="C" x="0" y="1.1" dx="1" dy="1.4" layer="1" roundness="20"/>
-<smd name="E" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="20"/>
-<smd name="B" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1" roundness="20"/>
+<smd name="C" x="0" y="1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<smd name="E" x="0.95" y="-1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<smd name="B" x="-0.95" y="-1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
 <text x="0.635" y="1.27" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
