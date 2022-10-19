@@ -528,7 +528,7 @@ manufacturer Siemens</description>
 <smd name="6" x="2.7051" y="-0.635" dx="1.6002" dy="0.6096" layer="1" roundness="20"/>
 <smd name="7" x="2.7051" y="0.635" dx="1.6002" dy="0.6096" layer="1" roundness="20"/>
 <smd name="8" x="2.7051" y="1.905" dx="1.6002" dy="0.6096" layer="1" roundness="20"/>
-<smd name="9" x="0" y="0" dx="2.54" dy="3.81" layer="1" roundness="20" thermals="no"/>
+<smd name="9" x="0" y="0" dx="2.54" dy="3.5052" layer="1" roundness="20" thermals="no"/>
 <text x="-1.905" y="2.794" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.905" y="-3.81" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-1.905" y1="2.4638" x2="1.905" y2="2.4638" width="0.127" layer="21"/>
