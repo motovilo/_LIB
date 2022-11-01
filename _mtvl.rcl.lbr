@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -204,18 +204,17 @@ type 0204, grid 7.5 mm</description>
 <description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
 <wire x1="-0.3" y1="-0.35" x2="0.3" y2="-0.35" width="0.1016" layer="51"/>
 <wire x1="0.3" y1="0.35" x2="-0.3" y2="0.35" width="0.1016" layer="51"/>
-<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.05" layer="39"/>
-<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.05" layer="39"/>
-<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.05" layer="39"/>
-<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.05" layer="39"/>
-<smd name="1" x="-0.8" y="0" dx="0.9" dy="1" layer="1" roundness="20"/>
-<smd name="2" x="0.8" y="0" dx="0.9" dy="1" layer="1" roundness="20"/>
+<wire x1="-1.53" y1="0.73" x2="1.53" y2="0.73" width="0.02" layer="39"/>
+<wire x1="1.53" y1="0.73" x2="1.53" y2="-0.73" width="0.02" layer="39"/>
+<wire x1="1.53" y1="-0.73" x2="-1.53" y2="-0.73" width="0.02" layer="39"/>
+<wire x1="-1.53" y1="-0.73" x2="-1.53" y2="0.73" width="0.02" layer="39"/>
+<smd name="1" x="-0.8" y="0" dx="0.95" dy="1" layer="1" roundness="20"/>
+<smd name="2" x="0.8" y="0" dx="0.95" dy="1" layer="1" roundness="20"/>
 <text x="-1.524" y="0.762" size="0.6096" layer="25" rot="SR0">&gt;NAME</text>
 <text x="0.254" y="0.762" size="0.6096" layer="27" rot="SR0">&gt;VALUE</text>
 <rectangle x1="0.3" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.3" y2="0.4" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
-<wire x1="-0.2032" y1="0.4699" x2="0.2032" y2="0.4699" width="0.0508" layer="41"/>
 <wire x1="-0.2032" y1="0.4699" x2="0.2032" y2="0.4699" width="0.0508" layer="41"/>
 <wire x1="-0.2032" y1="-0.4699" x2="0.2032" y2="-0.4699" width="0.0508" layer="41"/>
 </package>
