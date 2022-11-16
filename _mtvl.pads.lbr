@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -181,6 +181,10 @@
 &lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
+<package name="PAD-6MM">
+<smd name="1" x="0" y="0" dx="6" dy="6" layer="1" roundness="99"/>
+<circle x="0" y="0" radius="3.5" width="1" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MNT-PAD">
@@ -218,6 +222,21 @@
 </technologies>
 </device>
 <device name="UFIDUCIAL" package="FIDUCIAL-MICRO">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PAD_ROUND" prefix="P">
+<gates>
+<gate name="G$1" symbol="MNT-PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD-6MM">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
