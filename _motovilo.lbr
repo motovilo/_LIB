@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1560,12 +1560,12 @@ Source: coiltronics_dr_series.pdf</description>
 <wire x1="-3.175" y1="-3.81" x2="13.755" y2="-3.81" width="0.254" layer="51"/>
 <rectangle x1="-2.54" y1="-3.81" x2="-1.27" y2="3.81" layer="51"/>
 <rectangle x1="2.54" y1="-3.81" x2="3.81" y2="3.81" layer="51"/>
-<pad name="R" x="0" y="8.115" drill="1.3" shape="long"/>
-<pad name="RN" x="0" y="-8.115" drill="1.3" shape="long"/>
-<pad name="S" x="6.35" y="8.115" drill="1.3" shape="long"/>
-<pad name="SN" x="6.35" y="-8.115" drill="1.3" shape="long"/>
-<pad name="T" x="-6.35" y="8.115" drill="1.3" shape="long"/>
-<pad name="TN" x="-6.35" y="-8.115" drill="1.3" shape="long"/>
+<pad name="R" x="0" y="8.115" drill="1.4" shape="long"/>
+<pad name="RN" x="0" y="-8.115" drill="1.4" shape="long"/>
+<pad name="S" x="6.35" y="8.115" drill="1.4" shape="long"/>
+<pad name="SN" x="6.35" y="-8.115" drill="1.4" shape="long"/>
+<pad name="T" x="-6.35" y="8.115" drill="1.4" shape="long"/>
+<pad name="TN" x="-6.35" y="-8.115" drill="1.4" shape="long"/>
 <text x="-6.985" y="5.715" size="1.27" layer="21" font="vector" ratio="12">T</text>
 <text x="-0.635" y="5.715" size="1.27" layer="21" font="vector" ratio="12">R</text>
 <text x="5.715" y="5.715" size="1.27" layer="21" font="vector" ratio="12">S</text>
