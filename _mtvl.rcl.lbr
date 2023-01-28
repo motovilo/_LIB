@@ -1165,12 +1165,12 @@ http://www.bccomponents.com/</description>
 <wire x1="-2.2" y1="-0.95" x2="-2.2" y2="0.95" width="0.2032" layer="51" curve="-46.71113"/>
 <wire x1="-2.2" y1="0.95" x2="2.2" y2="0.95" width="0.2032" layer="21" curve="-133.28887"/>
 <wire x1="2.2" y1="-0.95" x2="2.2" y2="0.95" width="0.2032" layer="51" curve="46.71113"/>
-<smd name="+" x="2.2" y="0" dx="3" dy="1.6" layer="1"/>
-<smd name="-" x="-2.2" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="+" x="2.2" y="0" dx="3" dy="1.6" layer="1" roundness="20"/>
+<smd name="-" x="-2.2" y="0" dx="3" dy="1.6" layer="1" roundness="20"/>
 <text x="-2.74" y="2.98" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.775" y="-4.235" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="-1" x="-1.27" y="0" drill="0.8128" shape="square"/>
-<pad name="+1" x="1.27" y="0" drill="0.8128" shape="square"/>
+<pad name="-1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
+<pad name="+1" x="1.27" y="0" drill="0.8128" shape="octagon"/>
 </package>
 <package name="SMD1014+E5-10,5H">
 <wire x1="4.3" y1="-5.2" x2="-5.2" y2="-5.2" width="0.2032" layer="21"/>
