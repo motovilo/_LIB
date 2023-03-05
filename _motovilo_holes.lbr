@@ -1188,6 +1188,11 @@ https://www.buydisplay.com/arduino-character-1602-16x2-lcd-display-module-i2c-3-
 <wire x1="-8.5" y1="-2.8" x2="-6.05" y2="-5" width="0" layer="45" curve="80"/>
 <wire x1="-6.05" y1="-5" x2="6" y2="-5" width="0" layer="45"/>
 </package>
+<package name="JACK_6.35V_9.2">
+<hole x="0" y="0" drill="9.2"/>
+<circle x="0" y="0" radius="6.25" width="2.5" layer="29"/>
+<circle x="0" y="0" radius="6.25" width="2.5" layer="30"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNT-PAD">
