@@ -940,13 +940,13 @@ https://www.buydisplay.com/arduino-character-1602-16x2-lcd-display-module-i2c-3-
 </package>
 <package name="3,3">
 <description>&lt;b&gt;MOUNTING HOLE&lt;/b&gt; 3.3 mm with drill center</description>
-<wire x1="-2.5" y1="0" x2="0" y2="-2.5" width="1.5" layer="51" curve="90" cap="flat"/>
-<wire x1="0" y1="2.5" x2="2.5" y2="0" width="1.5" layer="51" curve="-90" cap="flat"/>
-<circle x="0" y="0" radius="2.75" width="2" layer="39"/>
-<circle x="0" y="0" radius="2.75" width="2" layer="40"/>
-<circle x="0" y="0" radius="2.75" width="2" layer="43"/>
-<circle x="0" y="0" radius="2.75" width="2" layer="41"/>
-<circle x="0" y="0" radius="2.75" width="2" layer="42"/>
+<wire x1="-2.55" y1="0" x2="0" y2="-2.55" width="1.4" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.55" x2="2.55" y2="0" width="1.4" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="2.75" width="1.8" layer="39"/>
+<circle x="0" y="0" radius="2.75" width="1.8" layer="40"/>
+<circle x="0" y="0" radius="2.75" width="1.8" layer="43"/>
+<circle x="0" y="0" radius="2.75" width="1.8" layer="41"/>
+<circle x="0" y="0" radius="2.75" width="1.8" layer="42"/>
 <wire x1="-3.15" y1="0" x2="0" y2="3.15" width="0.2" layer="21" curve="-90" cap="flat"/>
 <wire x1="3.15" y1="0" x2="0" y2="-3.15" width="0.2" layer="21" curve="-90" cap="flat"/>
 <hole x="0" y="0" drill="3.3"/>
