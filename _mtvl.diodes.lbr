@@ -183,10 +183,9 @@
 <rectangle x1="-1.95" y1="-0.45" x2="-1.2" y2="0.4" layer="51"/>
 <rectangle x1="1.2" y1="-0.45" x2="1.95" y2="0.4" layer="51"/>
 <rectangle x1="-1.05" y1="-0.65" x2="-0.15" y2="0.7" layer="51"/>
-<smd name="A" x="1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<smd name="C" x="-1.9" y="0" dx="1.4" dy="1.4" layer="1"/>
-<text x="-1.1" y="1" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.1" y="-2.3" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A" x="1.6" y="0" dx="1.2" dy="1.2" layer="1" roundness="20"/>
+<smd name="C" x="-1.6" y="0" dx="1.2" dy="1.2" layer="1" roundness="20"/>
+<text x="-1.1" y="1" size="0.8128" layer="25">&gt;NAME</text>
 </package>
 <package name="SOD323-R">
 <description>&lt;b&gt;SOD323 Reflow soldering&lt;/b&gt; Philips SC01_Mounting_1996.pdf</description>
@@ -449,6 +448,170 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 <wire x1="3.1496" y1="2.159" x2="-3.1496" y2="2.159" width="0.0508" layer="39"/>
 <wire x1="-3.1496" y1="2.159" x2="-3.1496" y2="-2.159" width="0.0508" layer="39"/>
 </package>
+<package name="C1702-15">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 3.5 mm, horizontal, grid 15.24 mm</description>
+<wire x1="-4.572" y1="-1.778" x2="-4.572" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="1.778" x2="-4.572" y2="1.778" width="0.1524" layer="21"/>
+<wire x1="4.572" y1="1.778" x2="4.572" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-1.778" x2="4.572" y2="-1.778" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="0" x2="6.096" y2="0" width="1.1176" layer="51"/>
+<wire x1="-7.62" y1="0" x2="-6.096" y2="0" width="1.1176" layer="51"/>
+<pad name="C" x="-7.62" y="0" drill="1.397" shape="long"/>
+<pad name="A" x="7.62" y="0" drill="1.397" shape="long"/>
+<text x="-4.572" y="2.159" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.794" y="-1.397" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-3.81" y1="-1.778" x2="-3.302" y2="1.778" layer="21"/>
+<rectangle x1="4.572" y1="-0.5334" x2="5.9436" y2="0.5334" layer="21"/>
+<rectangle x1="-5.9436" y1="-0.5334" x2="-4.572" y2="0.5334" layer="21"/>
+</package>
+<package name="SOD80C">
+<description>&lt;B&gt;DIODE&lt;/B&gt;</description>
+<wire x1="1.3208" y1="0.7874" x2="-1.3208" y2="0.7874" width="0.1524" layer="51"/>
+<wire x1="1.3208" y1="-0.7874" x2="-1.3208" y2="-0.7874" width="0.1524" layer="51"/>
+<wire x1="0.627" y1="0.6" x2="-0.373" y2="0" width="0.2032" layer="21"/>
+<wire x1="-0.373" y1="0" x2="0.627" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="0.627" y1="-0.6" x2="0.627" y2="0.6" width="0.2032" layer="21"/>
+<smd name="C" x="-1.7" y="0" dx="1.4" dy="1.8" layer="1" roundness="20"/>
+<smd name="A" x="1.7" y="0" dx="1.4" dy="1.8" layer="1" roundness="20"/>
+<text x="-1.524" y="1.143" size="0.6096" layer="25">&gt;NAME</text>
+<text x="0" y="-1.778" size="0.6096" layer="27" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.8542" y1="-0.8636" x2="-1.2954" y2="0.8636" layer="51"/>
+<rectangle x1="1.2954" y1="-0.8636" x2="1.8542" y2="0.8636" layer="51"/>
+<rectangle x1="-0.8636" y1="-0.7874" x2="-0.254" y2="0.7874" layer="21"/>
+<wire x1="-2.794" y1="-1.143" x2="2.794" y2="-1.143" width="0.0508" layer="39"/>
+<wire x1="2.794" y1="-1.143" x2="2.794" y2="1.143" width="0.0508" layer="39"/>
+<wire x1="2.794" y1="1.143" x2="-2.794" y2="1.143" width="0.0508" layer="39"/>
+<wire x1="-2.794" y1="1.143" x2="-2.794" y2="-1.143" width="0.0508" layer="39"/>
+<wire x1="-0.889" y1="0.762" x2="-0.889" y2="-0.762" width="0.0508" layer="41"/>
+<wire x1="0.889" y1="0.762" x2="0.889" y2="-0.762" width="0.0508" layer="41"/>
+</package>
+<package name="DO35-7">
+<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
+diameter 2 mm, horizontal, grid 7.62 mm</description>
+<wire x1="3.81" y1="0" x2="2.921" y2="0" width="0.508" layer="51"/>
+<wire x1="-3.81" y1="0" x2="-2.921" y2="0" width="0.508" layer="21"/>
+<wire x1="-0.635" y1="0" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="0.635" x2="1.016" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.016" y1="-0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="1.016" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="0" width="0.1524" layer="21"/>
+<wire x1="0" y1="0" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="1.016" x2="2.286" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.286" y1="0.762" x2="2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-1.016" x2="2.286" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.286" y1="0.762" x2="-2.032" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.286" y1="-0.762" x2="-2.032" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="-1.016" x2="2.032" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="0.762" x2="-2.286" y2="-0.762" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="1.016" x2="2.032" y2="1.016" width="0.1524" layer="21"/>
+<pad name="C" x="-3.81" y="0" drill="0.8" shape="octagon"/>
+<pad name="A" x="3.81" y="0" drill="0.8" shape="octagon"/>
+<text x="-5.08" y="0" size="0.8128" layer="25" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.032" size="0.8128" layer="27" ratio="10" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.905" y1="-1.016" x2="-1.397" y2="1.016" layer="21"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.921" y2="0.254" layer="21"/>
+<rectangle x1="-2.921" y1="-0.254" x2="-2.286" y2="0.254" layer="21"/>
+</package>
+<package name="DO-34-5-ZENER">
+<description>&lt;B&gt;ZENER DIODE&lt;/B&gt;&lt;p&gt;
+diameter 1.8 mm, horizontal, grid 5.08 mm</description>
+<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="0.889" x2="-1.524" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="-0.889" x2="1.524" y2="0.889" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="0.889" x2="-1.524" y2="-0.889" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0" x2="1.778" y2="0" width="0.508" layer="51"/>
+<wire x1="-2.54" y1="0" x2="-1.778" y2="0" width="0.508" layer="51"/>
+<wire x1="-0.508" y1="0" x2="-0.127" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="0.508" x2="0.889" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-0.508" x2="-0.127" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.127" y1="0" x2="1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.127" y1="0" x2="0.889" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="-0.127" y1="0.508" x2="-0.127" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.127" y1="0" x2="-0.127" y2="-0.508" width="0.1524" layer="21"/>
+<pad name="C" x="-2.54" y="0" drill="0.8" shape="octagon"/>
+<pad name="A" x="2.54" y="0" drill="0.8" shape="octagon"/>
+<text x="-3.81" y="0" size="0.8128" layer="25" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.6096" layer="27" ratio="10" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.143" y1="-0.889" x2="-0.762" y2="0.889" layer="21"/>
+<rectangle x1="-1.651" y1="-0.254" x2="-1.524" y2="0.254" layer="21"/>
+<rectangle x1="1.524" y1="-0.254" x2="1.651" y2="0.254" layer="21"/>
+<wire x1="-0.127" y1="0.508" x2="0.127" y2="0.508" width="0.1524" layer="21"/>
+</package>
+<package name="KD-8">
+<description>&lt;b&gt;SOVIET ZENER DIODE&lt;/b&gt;</description>
+<pad name="C" x="-12.7" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
+<pad name="A" x="12.7" y="0" drill="1.2" diameter="2.54" shape="octagon"/>
+<text x="-12.7" y="1.905" size="1.27" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="2.54" size="1.27" layer="27" ratio="10" align="bottom-center">&gt;VALUE</text>
+<wire x1="-6.25" y1="-3.5" x2="-6.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="-2" x2="-6.25" y2="2" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="2" x2="-6.25" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="3.5" x2="-5.75" y2="3.5" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="3.5" x2="-5.75" y2="2" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="2" x2="-5.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="-2" x2="-5.75" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="-3.5" x2="-6.25" y2="-3.5" width="0.127" layer="21"/>
+<wire x1="-6.25" y1="2" x2="-6.9" y2="2" width="0.127" layer="21"/>
+<wire x1="-6.9" y1="2" x2="-7.25" y2="1.65" width="0.127" layer="21" curve="90"/>
+<wire x1="-7.25" y1="1.65" x2="-7.25" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="-7.25" y1="-1.65" x2="-6.9" y2="-2" width="0.127" layer="21" curve="90"/>
+<wire x1="-6.9" y1="-2" x2="-6.25" y2="-2" width="0.127" layer="21"/>
+<wire x1="-5.75" y1="2" x2="1.4" y2="2" width="0.127" layer="21"/>
+<wire x1="1.4" y1="2" x2="1.75" y2="1.65" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.75" y1="1.65" x2="1.75" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.75" y1="0.8" x2="1.75" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-0.8" x2="1.75" y2="-1.65" width="0.127" layer="21"/>
+<wire x1="1.75" y1="-1.65" x2="1.4" y2="-2" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.4" y1="-2" x2="-5.75" y2="-2" width="0.127" layer="21"/>
+<wire x1="1.75" y1="0.8" x2="4.75" y2="0.8" width="0.127" layer="21"/>
+<wire x1="4.75" y1="0.8" x2="4.75" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="4.75" y1="-0.8" x2="1.75" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="4.75" y1="0.8" x2="5.75" y2="1.25" width="0.127" layer="21"/>
+<wire x1="5.75" y1="1.25" x2="7.5" y2="1.25" width="0.127" layer="21"/>
+<wire x1="7.5" y1="1.25" x2="7.75" y2="1" width="0.127" layer="21" curve="-90"/>
+<wire x1="7.75" y1="1" x2="7.75" y2="-1" width="0.127" layer="21"/>
+<wire x1="7.75" y1="-1" x2="7.5" y2="-1.25" width="0.127" layer="21" curve="-90"/>
+<wire x1="7.5" y1="-1.25" x2="5.75" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="5.75" y1="-1.25" x2="4.75" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="0" x2="-3.75" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.75" y1="-1" x2="-3.75" y2="0" width="0.254" layer="21"/>
+<wire x1="-3.75" y1="0" x2="-3.75" y2="1" width="0.254" layer="21"/>
+<wire x1="-3.75" y1="1" x2="-3.25" y2="1" width="0.254" layer="21"/>
+<wire x1="-3.75" y1="0" x2="-1.75" y2="1" width="0.254" layer="21"/>
+<wire x1="-1.75" y1="1" x2="-1.75" y2="0" width="0.254" layer="21"/>
+<wire x1="-1.75" y1="0" x2="-1.75" y2="-1" width="0.254" layer="21"/>
+<wire x1="-1.75" y1="-1" x2="-3.75" y2="0" width="0.254" layer="21"/>
+<wire x1="-1.75" y1="0" x2="0" y2="0" width="0.254" layer="21"/>
+<rectangle x1="-11.3" y1="-0.5" x2="-7.3" y2="0.5" layer="21"/>
+<rectangle x1="7.75" y1="-0.4" x2="11.3" y2="0.4" layer="21"/>
+<wire x1="-12.75" y1="0" x2="-11.25" y2="0" width="1" layer="51"/>
+<wire x1="12.75" y1="0" x2="11.25" y2="0" width="0.8" layer="51"/>
+</package>
+<package name="SOT23">
+<description>&lt;B&gt;SOT-23&lt;/B&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<smd name="2" x="0.95" y="-1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<smd name="1" x="-0.95" y="-1.1" dx="0.8" dy="1" layer="1" roundness="20"/>
+<text x="-1.905" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<wire x1="-1.651" y1="2.032" x2="-1.651" y2="-2.032" width="0.0508" layer="39"/>
+<wire x1="-1.651" y1="-2.032" x2="1.651" y2="-2.032" width="0.0508" layer="39"/>
+<wire x1="1.651" y1="-2.032" x2="1.651" y2="2.032" width="0.0508" layer="39"/>
+<wire x1="1.651" y1="2.032" x2="-1.651" y2="2.032" width="0.0508" layer="39"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ZD">
@@ -502,6 +665,18 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 <text x="2.794" y="-0.889" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="A" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="C" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="ZD-1">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<text x="-1.778" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.778" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -726,6 +901,77 @@ Source: http://www.onsemi.com/pub/Collateral/MBRS130LT3-D.PDF</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZENER_" prefix="ZD" uservalue="yes">
+<description>&lt;b&gt;ZENER DIODE&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="1" symbol="ZD-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C1702-15">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-80" package="SOD80C">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DO35" package="DO35-7">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="DO34-5" package="DO-34-5-ZENER">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="KD-8" package="KD-8">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOT23" package="SOT23">
+<connects>
+<connect gate="1" pin="A" pad="1 2"/>
+<connect gate="1" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD123" package="SOD123">
+<connects>
+<connect gate="1" pin="A" pad="A"/>
+<connect gate="1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
