@@ -144,54 +144,35 @@ https://assets.nexperia.com/documents/package-information/SOT108-1.pdf</descript
 <wire x1="-4.39" y1="1.9" x2="-4.39" y2="0.5" width="0.1524" layer="21"/>
 <wire x1="-4.39" y1="-0.5" x2="-4.39" y2="0.5" width="0.1524" layer="21" curve="180"/>
 </package>
-<package name="SO16">
+<package name="SO16-NEXPERIA">
 <description>&lt;b&gt;Small Outline package&lt;/b&gt; 150 mil</description>
-<wire x1="4.699" y1="1.9558" x2="-4.699" y2="1.9558" width="0.1524" layer="51"/>
-<wire x1="4.699" y1="-1.9558" x2="5.08" y2="-1.5748" width="0.1524" layer="21" curve="90"/>
-<wire x1="-5.08" y1="1.5748" x2="-4.699" y2="1.9558" width="0.1524" layer="21" curve="-90"/>
-<wire x1="4.699" y1="1.9558" x2="5.08" y2="1.5748" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-5.08" y1="-1.5748" x2="-4.699" y2="-1.9558" width="0.1524" layer="21" curve="90"/>
-<wire x1="-4.699" y1="-1.9558" x2="4.699" y2="-1.9558" width="0.1524" layer="51"/>
-<wire x1="5.08" y1="-1.5748" x2="5.08" y2="1.5748" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="1.5748" x2="-5.08" y2="0.508" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="-0.508" x2="-5.08" y2="-1.5748" width="0.1524" layer="21"/>
-<wire x1="-5.08" y1="0.508" x2="-5.08" y2="-0.508" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-5.08" y1="-1.6002" x2="5.08" y2="-1.6002" width="0.0508" layer="21"/>
-<smd name="1" x="-4.445" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="16" x="-4.445" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="2" x="-3.175" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="3" x="-1.905" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="15" x="-3.175" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="14" x="-1.905" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="4" x="-0.635" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="13" x="-0.635" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="5" x="0.635" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="12" x="0.635" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="6" x="1.905" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="7" x="3.175" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="11" x="1.905" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="10" x="3.175" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="8" x="4.445" y="-2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
-<smd name="9" x="4.445" y="2.9464" dx="0.6604" dy="1.778" layer="1" roundness="20"/>
+<smd name="1" x="-4.495" y="-2.775" dx="0.7" dy="1.65" layer="1" roundness="20"/>
+<smd name="16" x="-4.495" y="2.775" dx="0.7" dy="1.65" layer="1" roundness="20"/>
+<smd name="2" x="-3.175" y="-2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="3" x="-1.905" y="-2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="15" x="-3.175" y="2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="14" x="-1.905" y="2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="4" x="-0.635" y="-2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="13" x="-0.635" y="2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="5" x="0.635" y="-2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="12" x="0.635" y="2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="6" x="1.905" y="-2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="7" x="3.175" y="-2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="11" x="1.905" y="2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="10" x="3.175" y="2.775" dx="0.6" dy="1.65" layer="1" roundness="20"/>
+<smd name="8" x="4.495" y="-2.775" dx="0.7" dy="1.65" layer="1" roundness="20"/>
+<smd name="9" x="4.495" y="2.775" dx="0.7" dy="1.65" layer="1" roundness="20"/>
+<wire x1="-5.025" y1="-1.9" x2="-5.025" y2="-0.5" width="0.1524" layer="21"/>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
 <text x="-5.461" y="-1.905" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<rectangle x1="-0.889" y1="1.9558" x2="-0.381" y2="3.0988" layer="51"/>
-<rectangle x1="-4.699" y1="-3.0988" x2="-4.191" y2="-1.9558" layer="51"/>
-<rectangle x1="-3.429" y1="-3.0988" x2="-2.921" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.159" y1="-3.0734" x2="-1.651" y2="-1.9304" layer="51"/>
-<rectangle x1="-0.889" y1="-3.0988" x2="-0.381" y2="-1.9558" layer="51"/>
-<rectangle x1="-2.159" y1="1.9558" x2="-1.651" y2="3.0988" layer="51"/>
-<rectangle x1="-3.429" y1="1.9558" x2="-2.921" y2="3.0988" layer="51"/>
-<rectangle x1="-4.699" y1="1.9558" x2="-4.191" y2="3.0988" layer="51"/>
-<rectangle x1="0.381" y1="-3.0988" x2="0.889" y2="-1.9558" layer="51"/>
-<rectangle x1="1.651" y1="-3.0988" x2="2.159" y2="-1.9558" layer="51"/>
-<rectangle x1="2.921" y1="-3.0988" x2="3.429" y2="-1.9558" layer="51"/>
-<rectangle x1="4.191" y1="-3.0988" x2="4.699" y2="-1.9558" layer="51"/>
-<rectangle x1="0.381" y1="1.9558" x2="0.889" y2="3.0988" layer="51"/>
-<rectangle x1="1.651" y1="1.9558" x2="2.159" y2="3.0988" layer="51"/>
-<rectangle x1="2.921" y1="1.9558" x2="3.429" y2="3.0988" layer="51"/>
-<rectangle x1="4.191" y1="1.9558" x2="4.699" y2="3.0988" layer="51"/>
+<wire x1="-5.95" y1="3.825" x2="5.95" y2="3.825" width="0.0508" layer="39"/>
+<wire x1="5.95" y1="3.825" x2="5.95" y2="-3.825" width="0.0508" layer="39"/>
+<wire x1="5.95" y1="-3.825" x2="-5.95" y2="-3.825" width="0.0508" layer="39"/>
+<wire x1="-5.95" y1="-3.825" x2="-5.95" y2="3.825" width="0.0508" layer="39"/>
+<wire x1="5.025" y1="-1.9" x2="5.025" y2="1.9" width="0.1524" layer="21"/>
+<wire x1="5.01" y1="-1.27" x2="-5.01" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-5.025" y1="1.9" x2="-5.025" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="-5.025" y1="-0.5" x2="-5.025" y2="0.5" width="0.1524" layer="21" curve="180"/>
 </package>
 <package name="SO20W">
 <description>&lt;b&gt;Wide Small Outline package&lt;/b&gt; 300 mil</description>
@@ -6003,20 +5984,20 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <wire x1="-7.62" y1="12.7" x2="-7.62" y2="-15.24" width="0.4064" layer="94"/>
 <text x="-7.62" y="13.335" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="QB" x="12.7" y="7.62" length="middle" direction="hiz" rot="R180"/>
-<pin name="QC" x="12.7" y="5.08" length="middle" direction="hiz" rot="R180"/>
-<pin name="QD" x="12.7" y="2.54" length="middle" direction="hiz" rot="R180"/>
-<pin name="QE" x="12.7" y="0" length="middle" direction="hiz" rot="R180"/>
-<pin name="QF" x="12.7" y="-2.54" length="middle" direction="hiz" rot="R180"/>
-<pin name="QG" x="12.7" y="-5.08" length="middle" direction="hiz" rot="R180"/>
-<pin name="QH" x="12.7" y="-7.62" length="middle" direction="hiz" rot="R180"/>
-<pin name="SCL" x="-12.7" y="2.54" length="middle" direction="in" function="dot"/>
-<pin name="SCK" x="-12.7" y="5.08" length="middle" direction="in" function="clk"/>
-<pin name="RCK" x="-12.7" y="-2.54" length="middle" direction="in" function="clk"/>
-<pin name="G" x="-12.7" y="-12.7" length="middle" direction="in" function="dot"/>
-<pin name="SER" x="-12.7" y="10.16" length="middle" direction="in"/>
-<pin name="QA" x="12.7" y="10.16" length="middle" direction="hiz" rot="R180"/>
-<pin name="QH*" x="12.7" y="-12.7" length="middle" direction="hiz" rot="R180"/>
+<pin name="QB" x="10.16" y="7.62" length="short" direction="hiz" rot="R180"/>
+<pin name="QC" x="10.16" y="5.08" length="short" direction="hiz" rot="R180"/>
+<pin name="QD" x="10.16" y="2.54" length="short" direction="hiz" rot="R180"/>
+<pin name="QE" x="10.16" y="0" length="short" direction="hiz" rot="R180"/>
+<pin name="QF" x="10.16" y="-2.54" length="short" direction="hiz" rot="R180"/>
+<pin name="QG" x="10.16" y="-5.08" length="short" direction="hiz" rot="R180"/>
+<pin name="QH" x="10.16" y="-7.62" length="short" direction="hiz" rot="R180"/>
+<pin name="SCL" x="-10.16" y="2.54" length="short" direction="in" function="dot"/>
+<pin name="SCK" x="-10.16" y="5.08" length="short" direction="in" function="clk"/>
+<pin name="RCK" x="-10.16" y="-2.54" length="short" direction="in" function="clk"/>
+<pin name="G" x="-10.16" y="-12.7" length="short" direction="in" function="dot"/>
+<pin name="SER" x="-10.16" y="10.16" length="short" direction="in"/>
+<pin name="QA" x="10.16" y="10.16" length="short" direction="hiz" rot="R180"/>
+<pin name="QH*" x="10.16" y="-12.7" length="short" direction="hiz" rot="R180"/>
 </symbol>
 <symbol name="74596">
 <wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.4064" layer="94"/>
@@ -9708,7 +9689,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="15"/>
 <connect gate="A" pin="B" pad="14"/>
@@ -9794,7 +9775,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="15"/>
 <connect gate="A" pin="B" pad="14"/>
@@ -10507,7 +10488,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!Q1" pad="1"/>
 <connect gate="A" pin="!Q2" pad="14"/>
@@ -10567,7 +10548,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HC"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!Q" pad="14"/>
 <connect gate="A" pin="CLK" pad="1"/>
@@ -10765,7 +10746,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A0" pad="10"/>
 <connect gate="A" pin="A1" pad="12"/>
@@ -11042,7 +11023,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="2"/>
 <connect gate="A" pin="B" pad="3"/>
@@ -11097,7 +11078,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="B0" pad="4"/>
 <connect gate="A" pin="B1" pad="1"/>
@@ -11252,7 +11233,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!Q" pad="7"/>
 <connect gate="A" pin="CLK" pad="4"/>
@@ -11377,7 +11358,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!Q" pad="6"/>
 <connect gate="A" pin="CLK" pad="1"/>
@@ -11720,7 +11701,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!Q" pad="4"/>
 <connect gate="A" pin="A" pad="1"/>
@@ -11801,7 +11782,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="CX@1" pad="4"/>
 <connect gate="A" pin="CX@2" pad="5"/>
@@ -11880,7 +11861,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HC"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="1"/>
 <connect gate="A" pin="B" pad="2"/>
@@ -11937,7 +11918,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="1"/>
 <connect gate="A" pin="B" pad="2"/>
@@ -12024,7 +12005,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="1"/>
 <connect gate="A" pin="B" pad="2"/>
@@ -12118,7 +12099,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="2"/>
 <connect gate="A" pin="B" pad="3"/>
@@ -12247,7 +12228,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="0" pad="1"/>
 <connect gate="A" pin="1" pad="2"/>
@@ -12328,7 +12309,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HCT"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1" pad="11"/>
 <connect gate="A" pin="2" pad="12"/>
@@ -12385,7 +12366,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="0" pad="10"/>
 <connect gate="A" pin="1" pad="11"/>
@@ -12513,7 +12494,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="11"/>
 <connect gate="A" pin="B" pad="10"/>
@@ -12638,7 +12619,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1C0" pad="6"/>
 <connect gate="A" pin="1C1" pad="5"/>
@@ -12803,7 +12784,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1C" pad="1"/>
 <connect gate="A" pin="1G" pad="2"/>
@@ -12886,7 +12867,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1C" pad="1"/>
 <connect gate="A" pin="1G" pad="2"/>
@@ -12971,7 +12952,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!A!/B" pad="1"/>
 <connect gate="A" pin="1A" pad="2"/>
@@ -13066,7 +13047,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!A!/B" pad="1"/>
 <connect gate="A" pin="1A" pad="2"/>
@@ -13198,7 +13179,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HCT"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="3"/>
 <connect gate="A" pin="B" pad="4"/>
@@ -13345,7 +13326,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!QH" pad="7"/>
 <connect gate="A" pin="A" pad="11"/>
@@ -13432,7 +13413,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="2"/>
 <connect gate="A" pin="B" pad="3"/>
@@ -13579,7 +13560,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="D1" pad="15"/>
 <connect gate="A" pin="D2" pad="1"/>
@@ -13692,7 +13673,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="CLK" pad="7"/>
 <connect gate="A" pin="CLR" pad="15"/>
@@ -13780,7 +13761,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="CLK" pad="9"/>
 <connect gate="A" pin="CLR" pad="1"/>
@@ -13876,7 +13857,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!Q1" pad="3"/>
 <connect gate="A" pin="!Q2" pad="6"/>
@@ -14200,7 +14181,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="CN" pad="13"/>
 <connect gate="A" pin="CN+X" pad="12"/>
@@ -14365,7 +14346,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="15"/>
 <connect gate="A" pin="B" pad="1"/>
@@ -14424,7 +14405,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="15"/>
 <connect gate="A" pin="B" pad="1"/>
@@ -14485,7 +14466,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="3"/>
 <connect gate="A" pin="B" pad="4"/>
@@ -14576,7 +14557,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!QD" pad="11"/>
 <connect gate="A" pin="A" pad="4"/>
@@ -15253,7 +15234,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="11"/>
 <connect gate="A" pin="B" pad="10"/>
@@ -15346,7 +15327,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1C0" pad="6"/>
 <connect gate="A" pin="1C1" pad="5"/>
@@ -15438,7 +15419,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!A!/B" pad="1"/>
 <connect gate="A" pin="1A" pad="2"/>
@@ -15531,7 +15512,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!A!/B" pad="1"/>
 <connect gate="A" pin="1A" pad="2"/>
@@ -15624,7 +15605,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="CLR" pad="15"/>
 <connect gate="A" pin="D" pad="13"/>
@@ -15886,7 +15867,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="Q" pad="4"/>
 <connect gate="A" pin="R" pad="1"/>
@@ -16054,7 +16035,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A1" pad="5"/>
 <connect gate="A" pin="A2" pad="3"/>
@@ -16433,7 +16414,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A1" pad="3"/>
 <connect gate="A" pin="A2" pad="2"/>
@@ -16711,7 +16692,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="0" pad="10"/>
 <connect gate="A" pin="1" pad="11"/>
@@ -16792,7 +16773,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1C0" pad="6"/>
 <connect gate="A" pin="1C1" pad="5"/>
@@ -16852,7 +16833,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HC"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1C0" pad="6"/>
 <connect gate="A" pin="1C1" pad="5"/>
@@ -17114,7 +17095,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A1" pad="2"/>
 <connect gate="A" pin="A2" pad="4"/>
@@ -17198,7 +17179,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A1" pad="2"/>
 <connect gate="A" pin="A2" pad="4"/>
@@ -17282,7 +17263,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HCT"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1A1" pad="2"/>
 <connect gate="A" pin="1A2" pad="4"/>
@@ -17366,7 +17347,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HCT"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1A1" pad="2"/>
 <connect gate="A" pin="1A2" pad="4"/>
@@ -17656,7 +17637,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!1Q" pad="2"/>
 <connect gate="A" pin="!2Q" pad="6"/>
@@ -17734,7 +17715,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1J" pad="2"/>
 <connect gate="A" pin="1K" pad="3"/>
@@ -17892,7 +17873,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1D" pad="3"/>
 <connect gate="A" pin="1Q" pad="2"/>
@@ -17973,7 +17954,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!1Q" pad="3"/>
 <connect gate="A" pin="!2Q" pad="6"/>
@@ -18278,7 +18259,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="1"/>
 <connect gate="A" pin="B" pad="4"/>
@@ -18441,7 +18422,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="3"/>
 <connect gate="A" pin="B" pad="4"/>
@@ -18519,7 +18500,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1Q1" pad="2"/>
 <connect gate="A" pin="1Q2" pad="5"/>
@@ -18633,7 +18614,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A1" pad="3"/>
 <connect gate="A" pin="A2" pad="4"/>
@@ -21336,7 +21317,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="I0" pad="1"/>
 <connect gate="A" pin="I1" pad="2"/>
@@ -21449,7 +21430,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="1A" pad="1"/>
 <connect gate="A" pin="1B" pad="2"/>
@@ -22592,7 +22573,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="HC"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="15"/>
 <connect gate="A" pin="B" pad="1"/>
@@ -22650,7 +22631,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="CCKEN" pad="12"/>
 <connect gate="A" pin="CCLR" pad="10"/>
@@ -22765,7 +22746,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="15"/>
 <connect gate="A" pin="B" pad="1"/>
@@ -22941,7 +22922,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="QA" pad="15"/>
 <connect gate="A" pin="QB" pad="1"/>
@@ -23000,7 +22981,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="G" pad="13"/>
 <connect gate="A" pin="QA" pad="15"/>
@@ -23081,7 +23062,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="G" pad="13"/>
 <connect gate="A" pin="QA" pad="15"/>
@@ -23138,7 +23119,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A" pad="15"/>
 <connect gate="A" pin="B" pad="1"/>
@@ -23308,7 +23289,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="QA" pad="15"/>
 <connect gate="A" pin="QB" pad="1"/>
@@ -23660,7 +23641,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="D1" pad="15"/>
 <connect gate="A" pin="D2" pad="1"/>
@@ -27311,7 +27292,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="J" package="SO16">
+<device name="J" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="CLK" pad="8"/>
 <connect gate="A" pin="CLR" pad="10"/>
@@ -27428,7 +27409,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="J" package="SO16">
+<device name="J" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="0" pad="10"/>
 <connect gate="A" pin="1" pad="9"/>
@@ -27523,7 +27504,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="J" package="SO16">
+<device name="J" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A1" pad="3"/>
 <connect gate="A" pin="A2" pad="4"/>
@@ -27649,7 +27630,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="J" package="SO16">
+<device name="J" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="2N+0" pad="9"/>
 <connect gate="A" pin="2N+1" pad="11"/>
@@ -27748,7 +27729,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="S"/>
 </technologies>
 </device>
-<device name="J" package="SO16">
+<device name="J" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="A1" pad="2"/>
 <connect gate="A" pin="A2" pad="4"/>
@@ -28297,7 +28278,7 @@ Source: http://www.nxp.com/documents/data_sheet/74ABT125.pdf</description>
 <technology name="LS"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="A" pin="!Q" pad="4"/>
 <connect gate="A" pin="A" pad="1"/>
@@ -28383,7 +28364,7 @@ Philips Semiconductor</description>
 <technology name="HCT"/>
 </technologies>
 </device>
-<device name="D" package="SO16">
+<device name="D" package="SO16-NEXPERIA">
 <connects>
 <connect gate="G$1" pin="1Y0" pad="12"/>
 <connect gate="G$1" pin="1Y1" pad="13"/>
