@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -181,7 +181,7 @@
 &lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
-<package name="SQR-3X3">
+<package name="SQR-3X3_WITH_GAP">
 <description>&lt;b&gt;Solder pad 3mm &lt;/b&gt;</description>
 <smd name="1" x="0" y="0" dx="3" dy="3" layer="1" thermals="no"/>
 <rectangle x1="-2" y1="-2" x2="2" y2="-1.75" layer="41" rot="R180"/>
@@ -544,6 +544,16 @@ drill 1.2 mm</description>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="-1.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 </package>
+<package name="SQR-3X3">
+<smd name="1" x="0" y="0" dx="3" dy="3" layer="1" thermals="no"/>
+<wire x1="-2" y1="1" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="21"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="21"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="21"/>
+<wire x1="-2" y1="-2" x2="-2" y2="-1" width="0.127" layer="21"/>
+<text x="-2" y="2.25" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.195" y="0" size="1.27" layer="27" align="center-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MNT-PAD">
@@ -619,7 +629,15 @@ drill 1.2 mm</description>
 <gate name="G$1" symbol="SOLDERPAD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-SQR-3X3" package="SQR-3X3">
+<device name="-SQR-3X3" package="SQR-3X3_WITH_GAP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SQR-3X3">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 </connects>
