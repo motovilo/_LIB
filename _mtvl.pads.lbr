@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -200,8 +200,9 @@
 <package name="LSP10">
 <description>&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt;
 drill 1.0 mm</description>
-<pad name="SP" x="0" y="0" drill="1" diameter="3" thermals="no"/>
-<text x="0" y="1.27" size="1.27" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<pad name="SP" x="0" y="0" drill="1" diameter="2"/>
+<text x="0" y="1.52" size="1.27" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.925" size="1.27" layer="27" ratio="10" align="bottom-center">&gt;VALUE</text>
 </package>
 <package name="MCS10B">
 <description>&lt;b&gt;SOLDER PAD&lt;/b&gt;&lt;p&gt;
