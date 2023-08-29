@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1486,6 +1486,16 @@ wave soldering</description>
 <wire x1="1.35" y1="-1.4" x2="1.65" y2="-1.1" width="0.127" layer="51"/>
 <smd name="A" x="0.8" y="0" dx="2.6" dy="2.55" layer="1"/>
 <smd name="C" x="-1.6" y="0" dx="1" dy="2.55" layer="1"/>
+</package>
+<package name="LED_PAD_3MM">
+<description>LED PAD 3mm for panel</description>
+<circle x="0" y="0" radius="1.7" width="0" layer="29"/>
+<circle x="0" y="0" radius="1.7" width="0" layer="30"/>
+<circle x="0" y="0" radius="1.5" width="0" layer="41"/>
+<circle x="0" y="0" radius="1.5" width="0" layer="42"/>
+<circle x="0" y="0" radius="1.5" width="0" layer="43"/>
+<circle x="0" y="0" radius="1.5" width="0" layer="39"/>
+<circle x="0" y="0" radius="1.5" width="0" layer="40"/>
 </package>
 </packages>
 <symbols>
