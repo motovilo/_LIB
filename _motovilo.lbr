@@ -9578,8 +9578,6 @@ EC12E series with push-on switch</description>
 <wire x1="-2.3876" y1="0.9525" x2="-2.3876" y2="-0.9525" width="0.0508" layer="39"/>
 <rectangle x1="-0.381" y1="-0.381" x2="0.381" y2="0.381" layer="35"/>
 <rectangle x1="1.397" y1="-0.381" x2="1.905" y2="0.381" layer="51"/>
-<wire x1="-1.016" y1="0.6096" x2="-1.016" y2="-0.6096" width="0.0508" layer="39"/>
-<wire x1="1.016" y1="0.6096" x2="1.016" y2="-0.6096" width="0.0508" layer="39"/>
 </package>
 <package name="FIDUCIAL-1X2">
 <description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
