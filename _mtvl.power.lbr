@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1760,6 +1760,39 @@ https://static.chipdip.ru/lib/904/DOC002904350.pdf</description>
 <wire x1="-4" y1="-1.66" x2="-2.51" y2="-1.66" width="0.127" layer="21"/>
 <wire x1="2.51" y1="1.66" x2="4" y2="1.66" width="0.127" layer="21"/>
 <wire x1="2.51" y1="-1.66" x2="4" y2="-1.66" width="0.127" layer="21"/>
+</package>
+<package name="QFN_5X5_20">
+<description>&lt;b&gt;QFN 5x5-20 base footprint&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="-2.325" y="1.6" dx="0.35" dy="0.4" layer="1"/>
+<smd name="2" x="-2.325" y="0.8" dx="0.35" dy="0.4" layer="1"/>
+<smd name="3" x="-2.325" y="0" dx="0.35" dy="0.4" layer="1"/>
+<smd name="4" x="-2.325" y="-0.8" dx="0.35" dy="0.4" layer="1"/>
+<smd name="5" x="-2.325" y="-1.6" dx="0.35" dy="0.4" layer="1"/>
+<smd name="6" x="-1.6" y="-2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="7" x="-0.8" y="-2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="8" x="0" y="-2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="9" x="0.8" y="-2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="10" x="1.6" y="-2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="11" x="2.325" y="-1.6" dx="0.35" dy="0.4" layer="1"/>
+<smd name="12" x="2.325" y="-0.8" dx="0.35" dy="0.4" layer="1"/>
+<smd name="13" x="2.325" y="0" dx="0.35" dy="0.4" layer="1"/>
+<smd name="14" x="2.325" y="0.8" dx="0.35" dy="0.4" layer="1"/>
+<smd name="15" x="2.325" y="1.6" dx="0.35" dy="0.4" layer="1"/>
+<smd name="16" x="1.6" y="2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="17" x="0.8" y="2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="18" x="0" y="2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="19" x="-0.8" y="2.325" dx="0.4" dy="0.35" layer="1"/>
+<smd name="20" x="-1.6" y="2.325" dx="0.4" dy="0.35" layer="1"/>
+<wire x1="-2.5" y1="-2" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2" y2="2.5" width="0.127" layer="21"/>
+<smd name="TP" x="0" y="0" dx="3.85" dy="3.85" layer="1"/>
+<circle x="-2.75" y="2.75" radius="0.1" width="0.2" layer="21"/>
 </package>
 </packages>
 <symbols>
