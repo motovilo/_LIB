@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1794,6 +1794,36 @@ https://static.chipdip.ru/lib/904/DOC002904350.pdf</description>
 <smd name="TP" x="0" y="0" dx="3.85" dy="3.85" layer="1"/>
 <circle x="-2.75" y="2.75" radius="0.1" width="0.2" layer="21"/>
 </package>
+<package name="TSOT-23-6">
+<wire x1="-0.8" y1="1.565" x2="-0.8" y2="1.425" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.565" x2="0.8" y2="1.565" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.565" x2="0.8" y2="-1.565" width="0.127" layer="21"/>
+<wire x1="-2.13" y1="-1.495" x2="-1.05" y2="-1.495" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-1.495" x2="-1.05" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-1.7" x2="1.05" y2="-1.7" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-1.7" x2="1.05" y2="-1.495" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-1.495" x2="2.13" y2="-1.495" width="0.05" layer="39"/>
+<wire x1="2.13" y1="-1.495" x2="2.13" y2="1.495" width="0.05" layer="39"/>
+<wire x1="2.13" y1="1.495" x2="1.05" y2="1.495" width="0.05" layer="39"/>
+<wire x1="1.05" y1="1.495" x2="1.05" y2="1.7" width="0.05" layer="39"/>
+<wire x1="1.05" y1="1.7" x2="-1.05" y2="1.7" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="1.7" x2="-1.05" y2="1.495" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="1.495" x2="-2.13" y2="1.495" width="0.05" layer="39"/>
+<wire x1="-2.13" y1="1.495" x2="-2.13" y2="-1.495" width="0.05" layer="39"/>
+<circle x="-2.4" y="1.2" radius="0.1" width="0.2" layer="21"/>
+<circle x="-2.4" y="1.2" radius="0.1" width="0.2" layer="51"/>
+<text x="-2.1" y="1.8" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-2.1" y="-1.8" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
+<smd name="1" x="-1.35" y="0.95" dx="1.1" dy="0.6" layer="1" roundness="25"/>
+<smd name="2" x="-1.35" y="0" dx="1.1" dy="0.6" layer="1" roundness="25"/>
+<smd name="3" x="-1.35" y="-0.95" dx="1.1" dy="0.6" layer="1" roundness="25"/>
+<smd name="4" x="1.35" y="-0.95" dx="1.1" dy="0.6" layer="1" roundness="25"/>
+<smd name="5" x="1.35" y="0" dx="1.1" dy="0.6" layer="1" roundness="25"/>
+<smd name="6" x="1.35" y="0.95" dx="1.1" dy="0.6" layer="1" roundness="25"/>
+<wire x1="-0.8" y1="-1.425" x2="-0.8" y2="-1.565" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1.425" x2="0.8" y2="-1.565" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1.565" x2="0.8" y2="1.425" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS5430DDAR_">
@@ -2600,6 +2630,20 @@ https://datasheet.lcsc.com/lcsc/1810010350_BPS-Bright-Power-Semicon-BP1808_C8565
 <pin name="VDD" x="12.7" y="-2.54" length="short" rot="R180"/>
 <pin name="VOUT" x="12.7" y="2.54" length="short" rot="R180"/>
 <pin name="CS" x="12.7" y="7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="TPS563200">
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.41" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.41" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.41" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.41" layer="94"/>
+<text x="-10.16" y="8.382" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="EN" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="FB" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="VIN" x="-12.7" y="5.08" length="short" direction="in"/>
+<pin name="BOOT" x="12.7" y="0" length="short" direction="out" rot="R180"/>
+<pin name="SW" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="-12.7" y="0" length="short" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3850,6 +3894,37 @@ https://datasheet.lcsc.com/lcsc/1810010350_BPS-Bright-Power-Semicon-BP1808_C8565
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS563200" prefix="IC">
+<description>&lt;b&gt;TPS56x200 4.5-V to 17-V Input, 2-A, 3-A Synchronous Step-down Voltage Regulator in
+6-Pin SOT-23&lt;/b&gt;&lt;p&gt;
+
+
+
+
+&lt;a href="https://www.chipdip.ru/product/tps563200ddct"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS563200" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOT-23-6">
+<connects>
+<connect gate="G$1" pin="BOOT" pad="6"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SW" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="Texas Instruments"/>
+<attribute name="PACKAGE" value="SOT-23-THN-6"/>
+<attribute name="PURCHASE-URL" value="https://www.chipdip.ru/product/tps563200ddctterm=None"/>
+</technology>
 </technologies>
 </device>
 </devices>

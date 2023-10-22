@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
@@ -362,15 +362,15 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <text x="-5.08" y="-5.08" size="1.778" layer="27">&gt;VALUE</text>
 </package>
 <package name="2MD1T1B1M2">
-<pad name="3A" x="-2.54" y="2.54" drill="1" shape="square"/>
+<pad name="3A" x="-2.54" y="-2.54" drill="1" shape="square"/>
 <pad name="2A" x="-2.54" y="0" drill="1" shape="square"/>
-<pad name="1A" x="-2.54" y="-2.54" drill="1" shape="square"/>
-<circle x="0" y="0" radius="1.905" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="2.413" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-4.28625" x2="-1.27" y2="-4.28625" width="0.127" layer="21" curve="-168.578814"/>
-<wire x1="-0.9525" y1="-0.15875" x2="0.9525" y2="0" width="0.127" layer="21" curve="-180"/>
-<wire x1="-0.9525" y1="-0.15875" x2="-1.27" y2="-4.28625" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-4.28625" x2="0.9525" y2="0" width="0.127" layer="21"/>
+<pad name="1A" x="-2.54" y="2.54" drill="1" shape="square"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="2.413" width="0.127" layer="51"/>
+<wire x1="1.27" y1="-4.28625" x2="-1.27" y2="-4.28625" width="0.127" layer="51" curve="-168.578814"/>
+<wire x1="-0.9525" y1="-0.15875" x2="0.9525" y2="0" width="0.127" layer="51" curve="-180"/>
+<wire x1="-0.9525" y1="-0.15875" x2="-1.27" y2="-4.28625" width="0.127" layer="51"/>
+<wire x1="1.27" y1="-4.28625" x2="0.9525" y2="0" width="0.127" layer="51"/>
 <circle x="0" y="3.81" radius="0.254" width="0" layer="21"/>
 <wire x1="-4.572" y1="3.81" x2="-4.572" y2="-3.81" width="0.127" layer="21"/>
 <wire x1="-4.572" y1="-3.81" x2="-4.318" y2="-4.064" width="0.127" layer="21" curve="90"/>
@@ -382,9 +382,12 @@ Source: http://www2.produktinfo.conrad.com/datenblaetter/700000-724999/705152-da
 <wire x1="4.318" y1="4.064" x2="4.572" y2="3.81" width="0.127" layer="21" curve="-90"/>
 <text x="-2.54" y="5.08" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="3B" x="2.54" y="2.54" drill="1" shape="square"/>
+<pad name="3B" x="2.54" y="-2.54" drill="1" shape="square"/>
 <pad name="2B" x="2.54" y="0" drill="1" shape="square"/>
-<pad name="1B" x="2.54" y="-2.54" drill="1" shape="square"/>
+<pad name="1B" x="2.54" y="2.54" drill="1" shape="square"/>
+<text x="0" y="2.54" size="1.27" layer="21" align="center">1</text>
+<text x="0" y="0" size="1.27" layer="21" align="center">2</text>
+<text x="0" y="-2.54" size="1.27" layer="21" align="center">3</text>
 </package>
 <package name="MTS-2XX-C4">
 <description>&lt;b&gt;MTS-2XX-C4&lt;/b&gt;&lt;p&gt;
