@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.5.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SIMM_30-PIN-1">
+<description>&lt;b&gt;30-pin SIMM module&lt;/b&gt;&lt;/p&gt;</description>
+<wire x1="-44.45" y1="12.7" x2="-44.45" y2="6.35" width="0.127" layer="51"/>
+<wire x1="-44.45" y1="6.35" x2="-42.418" y2="4.318" width="0.127" layer="51" curve="-90"/>
+<wire x1="-42.418" y1="4.318" x2="-42.418" y2="0" width="0.127" layer="51"/>
+<wire x1="-42.418" y1="0" x2="44.45" y2="0" width="0.127" layer="51"/>
+<wire x1="44.45" y1="0" x2="44.45" y2="12.7" width="0.127" layer="51"/>
+<wire x1="44.45" y1="12.7" x2="-44.45" y2="12.7" width="0.127" layer="51"/>
+<smd name="1" x="-36.83" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<hole x="-41.0718" y="10.16" drill="3.175"/>
+<hole x="41.0718" y="10.16" drill="3.175"/>
+<smd name="1'" x="-36.83" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="2'" x="-34.29" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="3'" x="-31.75" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="4'" x="-29.21" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="5'" x="-26.67" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="6'" x="-24.13" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="7'" x="-21.59" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="8'" x="-19.05" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="9'" x="-16.51" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="10'" x="-13.97" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="11'" x="-11.43" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="12'" x="-8.89" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="13'" x="-6.35" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="14'" x="-3.81" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="15'" x="-1.27" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="16'" x="1.27" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="17'" x="3.81" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="18'" x="6.35" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="19'" x="8.89" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="20'" x="11.43" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="21'" x="13.97" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="22'" x="16.51" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="23'" x="19.05" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="24'" x="21.59" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="25'" x="24.13" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="26'" x="26.67" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="27'" x="29.21" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="28'" x="31.75" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="29'" x="34.29" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="30'" x="36.83" y="1.27" dx="1.778" dy="1.778" layer="16" rot="R180"/>
+<smd name="2" x="-34.29" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="3" x="-31.75" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="4" x="-29.21" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="5" x="-26.67" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="6" x="-24.13" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="7" x="-21.59" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="8" x="-19.05" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="9" x="-16.51" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="10" x="-13.97" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="11" x="-11.43" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="12" x="-8.89" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="13" x="-6.35" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="14" x="-3.81" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="15" x="-1.27" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="16" x="1.27" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="17" x="3.81" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="18" x="6.35" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="19" x="8.89" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="20" x="11.43" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="21" x="13.97" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="22" x="16.51" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="23" x="19.05" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="24" x="21.59" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="25" x="24.13" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="26" x="26.67" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="27" x="29.21" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="28" x="31.75" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="29" x="34.29" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+<smd name="30" x="36.83" y="1.27" dx="1.778" dy="1.778" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SIMM_30-PIN">
+<description>&lt;b&gt;30-pin SIMM memory module&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-5.08" y1="39.37" x2="-5.08" y2="-36.83" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-36.83" x2="5.08" y2="-36.83" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-36.83" x2="5.08" y2="39.37" width="0.254" layer="94"/>
+<wire x1="5.08" y1="39.37" x2="-5.08" y2="39.37" width="0.254" layer="94"/>
+<pin name="VCC" x="7.62" y="-35.56" length="short" direction="pwr" rot="R180"/>
+<pin name="CAS" x="7.62" y="-33.02" length="short" rot="R180"/>
+<pin name="DQ0" x="7.62" y="-30.48" length="short" rot="R180"/>
+<pin name="A0" x="7.62" y="-27.94" length="short" rot="R180"/>
+<pin name="A1" x="7.62" y="-25.4" length="short" rot="R180"/>
+<pin name="DQ1" x="7.62" y="-22.86" length="short" rot="R180"/>
+<pin name="A2" x="7.62" y="-20.32" length="short" rot="R180"/>
+<pin name="A3" x="7.62" y="-17.78" length="short" rot="R180"/>
+<pin name="VSS" x="7.62" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="DQ2" x="7.62" y="-12.7" length="short" rot="R180"/>
+<pin name="A4" x="7.62" y="-10.16" length="short" rot="R180"/>
+<pin name="A5" x="7.62" y="-7.62" length="short" rot="R180"/>
+<pin name="DQ3" x="7.62" y="-5.08" length="short" rot="R180"/>
+<pin name="A6" x="7.62" y="-2.54" length="short" rot="R180"/>
+<pin name="A7" x="7.62" y="0" length="short" rot="R180"/>
+<pin name="DQ4" x="7.62" y="2.54" length="short" rot="R180"/>
+<pin name="A8" x="7.62" y="5.08" length="short" rot="R180"/>
+<pin name="A9" x="7.62" y="7.62" length="short" rot="R180"/>
+<pin name="A10" x="7.62" y="10.16" length="short" rot="R180"/>
+<pin name="DQ5" x="7.62" y="12.7" length="short" rot="R180"/>
+<pin name="WE" x="7.62" y="15.24" length="short" rot="R180"/>
+<pin name="VSS1" x="7.62" y="17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="DQ6" x="7.62" y="20.32" length="short" rot="R180"/>
+<pin name="A11" x="7.62" y="22.86" length="short" rot="R180"/>
+<pin name="DQ7" x="7.62" y="25.4" length="short" rot="R180"/>
+<pin name="QP" x="7.62" y="27.94" length="short" rot="R180"/>
+<pin name="RAS" x="7.62" y="30.48" length="short" rot="R180"/>
+<pin name="CASP" x="7.62" y="33.02" length="short" rot="R180"/>
+<pin name="DP" x="7.62" y="35.56" length="short" rot="R180"/>
+<pin name="VCC1" x="7.62" y="38.1" length="short" direction="pwr" rot="R180"/>
+<text x="-5.08" y="40.132" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-39.37" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SIMM_30-PIN" prefix="SIMM" uservalue="yes">
+<description>&lt;b&gt;30-pin SIMM module&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SIMM_30-PIN" x="0" y="-1.27"/>
+</gates>
+<devices>
+<device name="-1" package="SIMM_30-PIN-1">
+<connects>
+<connect gate="G$1" pin="A0" pad="4 4'"/>
+<connect gate="G$1" pin="A1" pad="5 5'"/>
+<connect gate="G$1" pin="A10" pad="19 19'"/>
+<connect gate="G$1" pin="A11" pad="24 24'"/>
+<connect gate="G$1" pin="A2" pad="7 7'"/>
+<connect gate="G$1" pin="A3" pad="8 8'"/>
+<connect gate="G$1" pin="A4" pad="11 11'"/>
+<connect gate="G$1" pin="A5" pad="12 12'"/>
+<connect gate="G$1" pin="A6" pad="14 14'"/>
+<connect gate="G$1" pin="A7" pad="15 15'"/>
+<connect gate="G$1" pin="A8" pad="17 17'"/>
+<connect gate="G$1" pin="A9" pad="18 18'"/>
+<connect gate="G$1" pin="CAS" pad="2 2'"/>
+<connect gate="G$1" pin="CASP" pad="28 28'"/>
+<connect gate="G$1" pin="DP" pad="29 29'"/>
+<connect gate="G$1" pin="DQ0" pad="3 3'"/>
+<connect gate="G$1" pin="DQ1" pad="6 6'"/>
+<connect gate="G$1" pin="DQ2" pad="10 10'"/>
+<connect gate="G$1" pin="DQ3" pad="13 13'"/>
+<connect gate="G$1" pin="DQ4" pad="16 16'"/>
+<connect gate="G$1" pin="DQ5" pad="20 20'"/>
+<connect gate="G$1" pin="DQ6" pad="23 23'"/>
+<connect gate="G$1" pin="DQ7" pad="25 25'"/>
+<connect gate="G$1" pin="QP" pad="26 26'"/>
+<connect gate="G$1" pin="RAS" pad="27 27'"/>
+<connect gate="G$1" pin="VCC" pad="1 1'"/>
+<connect gate="G$1" pin="VCC1" pad="30 30'"/>
+<connect gate="G$1" pin="VSS" pad="9 9'"/>
+<connect gate="G$1" pin="VSS1" pad="22 22'"/>
+<connect gate="G$1" pin="WE" pad="21 21'"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
