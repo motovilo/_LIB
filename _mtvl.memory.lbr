@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
@@ -201,6 +201,10 @@
 <rectangle x1="32.7533" y1="0.381" x2="33.2867" y2="2.159" layer="42" rot="R180"/>
 <rectangle x1="35.2933" y1="0.381" x2="35.8267" y2="2.159" layer="42" rot="R180"/>
 <rectangle x1="37.8333" y1="0.381" x2="38.3667" y2="2.159" layer="42" rot="R180"/>
+<circle x="-41.0718" y="10.16" radius="2.159" width="0.8128" layer="41"/>
+<circle x="-41.0718" y="10.16" radius="2.159" width="0.8128" layer="42"/>
+<circle x="41.0718" y="10.16" radius="2.159" width="0.8128" layer="41"/>
+<circle x="41.0718" y="10.16" radius="2.159" width="0.8128" layer="42"/>
 </package>
 <package name="SOJ32/4">
 <description>&lt;b&gt;Small Outline J-Bend&lt;/b&gt;</description>

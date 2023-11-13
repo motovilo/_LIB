@@ -14697,7 +14697,7 @@ https://datasheet.lcsc.com/lcsc/2002271742_XKB-Connectivity-DC-022B-2-0_C319097.
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X8" prefix="X" uservalue="yes">
+<deviceset name="PINHD-1X8" prefix="X">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD8" x="0" y="0"/>
