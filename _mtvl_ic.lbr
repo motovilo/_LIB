@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -699,6 +699,24 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <rectangle x1="-3.4201" y1="2" x2="-2.9299" y2="3.1001" layer="51"/>
 <rectangle x1="-4.6901" y1="2" x2="-4.1999" y2="3.1001" layer="51"/>
 <circle x="-4.445" y="-0.635" radius="0.3175" width="0" layer="21"/>
+<rectangle x1="-3.9878" y1="2.159" x2="-3.6322" y2="3.683" layer="41"/>
+<rectangle x1="-2.7178" y1="2.159" x2="-2.3622" y2="3.683" layer="41"/>
+<rectangle x1="-1.4478" y1="2.159" x2="-1.0922" y2="3.683" layer="41"/>
+<rectangle x1="-0.1778" y1="2.159" x2="0.1778" y2="3.683" layer="41"/>
+<rectangle x1="1.0922" y1="2.159" x2="1.4478" y2="3.683" layer="41"/>
+<rectangle x1="2.3622" y1="2.159" x2="2.7178" y2="3.683" layer="41"/>
+<rectangle x1="3.6322" y1="2.159" x2="3.9878" y2="3.683" layer="41"/>
+<rectangle x1="-3.9878" y1="-3.683" x2="-3.6322" y2="-2.159" layer="41"/>
+<rectangle x1="-2.7178" y1="-3.683" x2="-2.3622" y2="-2.159" layer="41"/>
+<rectangle x1="-1.4478" y1="-3.683" x2="-1.0922" y2="-2.159" layer="41"/>
+<rectangle x1="-0.1778" y1="-3.683" x2="0.1778" y2="-2.159" layer="41"/>
+<rectangle x1="1.0922" y1="-3.683" x2="1.4478" y2="-2.159" layer="41"/>
+<rectangle x1="2.3622" y1="-3.683" x2="2.7178" y2="-2.159" layer="41"/>
+<rectangle x1="3.6322" y1="-3.683" x2="3.9878" y2="-2.159" layer="41"/>
+<rectangle x1="-5.08" y1="2.159" x2="-4.9022" y2="3.683" layer="41"/>
+<rectangle x1="-5.08" y1="-3.683" x2="-4.9022" y2="-2.159" layer="41"/>
+<rectangle x1="4.9022" y1="2.159" x2="5.08" y2="3.683" layer="41"/>
+<rectangle x1="4.9022" y1="-3.683" x2="5.08" y2="-2.159" layer="41"/>
 </package>
 <package name="SOIC8">
 <description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
@@ -864,6 +882,22 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="4.5974" y1="4.0894" x2="4.5974" y2="-4.0894" width="0.0508" layer="39"/>
 <wire x1="4.5974" y1="-4.0894" x2="-4.5974" y2="-4.0894" width="0.0508" layer="39"/>
 <circle x="-3.81" y="-0.635" radius="0.381" width="0" layer="21"/>
+<rectangle x1="-3.3528" y1="2.159" x2="-2.9972" y2="3.683" layer="41"/>
+<rectangle x1="-2.0828" y1="2.159" x2="-1.7272" y2="3.683" layer="41"/>
+<rectangle x1="-0.8128" y1="2.159" x2="-0.4572" y2="3.683" layer="41"/>
+<rectangle x1="0.4572" y1="2.159" x2="0.8128" y2="3.683" layer="41"/>
+<rectangle x1="1.7272" y1="2.159" x2="2.0828" y2="3.683" layer="41"/>
+<rectangle x1="2.9972" y1="2.159" x2="3.3528" y2="3.683" layer="41"/>
+<rectangle x1="-3.3528" y1="-3.683" x2="-2.9972" y2="-2.159" layer="41" rot="R180"/>
+<rectangle x1="-2.0828" y1="-3.683" x2="-1.7272" y2="-2.159" layer="41" rot="R180"/>
+<rectangle x1="-0.8128" y1="-3.683" x2="-0.4572" y2="-2.159" layer="41" rot="R180"/>
+<rectangle x1="0.4572" y1="-3.683" x2="0.8128" y2="-2.159" layer="41" rot="R180"/>
+<rectangle x1="1.7272" y1="-3.683" x2="2.0828" y2="-2.159" layer="41" rot="R180"/>
+<rectangle x1="2.9972" y1="-3.683" x2="3.3528" y2="-2.159" layer="41" rot="R180"/>
+<rectangle x1="-4.445" y1="2.159" x2="-4.2672" y2="3.683" layer="41"/>
+<rectangle x1="-4.445" y1="-3.683" x2="-4.2672" y2="-2.159" layer="41"/>
+<rectangle x1="4.2672" y1="2.159" x2="4.445" y2="3.683" layer="41"/>
+<rectangle x1="4.2672" y1="-3.683" x2="4.445" y2="-2.159" layer="41"/>
 </package>
 <package name="SOIC127P600X175-14N">
 <circle x="-4.355" y="4.41" radius="0.1" width="0.2" layer="21"/>
