@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -161,7 +161,7 @@
 </layers>
 <library>
 <packages>
-<package name="DIL08">
+<package name="DIP8">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
 <wire x1="5.08" y1="2.921" x2="-5.08" y2="2.921" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-2.921" x2="5.08" y2="-2.921" width="0.1524" layer="21"/>
@@ -2620,6 +2620,46 @@ https://assets.nexperia.com/documents/package-information/SOT108-1.pdf</descript
 <wire x1="-11.7" y1="5.75" x2="-13.5" y2="5.75" width="0.254" layer="21" curve="180"/>
 <wire x1="-13.5" y1="5.75" x2="-13.5" y2="4.42" width="0.254" layer="21"/>
 </package>
+<package name="DMP8_NISSHINBO">
+<description>&lt;b&gt;DMP8&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<smd name="7" x="-0.635" y="3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<smd name="1" x="-1.905" y="-3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<smd name="3" x="0.635" y="-3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<smd name="4" x="1.905" y="-3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<smd name="8" x="-1.905" y="3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<smd name="6" x="0.635" y="3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<smd name="5" x="1.905" y="3.05" dx="0.72" dy="1.27" layer="1" roundness="20"/>
+<text x="-2.667" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="0" y="-0.3048" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-2.105" y1="2.5" x2="-1.705" y2="3.4" layer="51"/>
+<wire x1="-2.794" y1="-3.937" x2="-2.794" y2="3.937" width="0.0508" layer="39"/>
+<wire x1="-2.794" y1="3.937" x2="2.794" y2="3.937" width="0.0508" layer="39"/>
+<wire x1="2.794" y1="3.937" x2="2.794" y2="-3.937" width="0.0508" layer="39"/>
+<wire x1="2.794" y1="-3.937" x2="-2.794" y2="-3.937" width="0.0508" layer="39"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.2032" layer="21"/>
+<rectangle x1="-2.54" y1="2.415" x2="-2.348" y2="3.685" layer="41"/>
+<rectangle x1="-0.172" y1="2.415" x2="0.172" y2="3.685" layer="41"/>
+<rectangle x1="1.098" y1="2.415" x2="1.442" y2="3.685" layer="41"/>
+<rectangle x1="-1.442" y1="2.415" x2="-1.098" y2="3.685" layer="41"/>
+<rectangle x1="2.348" y1="2.415" x2="2.54" y2="3.685" layer="41"/>
+<rectangle x1="-1.442" y1="-3.685" x2="-1.098" y2="-2.415" layer="41"/>
+<rectangle x1="-0.172" y1="-3.685" x2="0.172" y2="-2.415" layer="41"/>
+<rectangle x1="1.098" y1="-3.685" x2="1.442" y2="-2.415" layer="41"/>
+<rectangle x1="2.368" y1="-3.685" x2="2.54" y2="-2.415" layer="41"/>
+<rectangle x1="-2.54" y1="-3.685" x2="-2.368" y2="-2.415" layer="41"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.2032" layer="51"/>
+<rectangle x1="-0.835" y1="2.5" x2="-0.435" y2="3.4" layer="51"/>
+<rectangle x1="0.435" y1="2.5" x2="0.835" y2="3.4" layer="51"/>
+<rectangle x1="1.705" y1="2.5" x2="2.105" y2="3.4" layer="51"/>
+<rectangle x1="-2.105" y1="-3.4" x2="-1.705" y2="-2.5" layer="51"/>
+<rectangle x1="-0.835" y1="-3.4" x2="-0.435" y2="-2.5" layer="51"/>
+<rectangle x1="0.435" y1="-3.4" x2="0.835" y2="-2.5" layer="51"/>
+<rectangle x1="1.705" y1="-3.4" x2="2.105" y2="-2.5" layer="51"/>
+<circle x="-1.905" y="-1.77" radius="0.16" width="0.32" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="137">
@@ -4383,7 +4423,7 @@ with Logic-Level Conversion&lt;/b&gt;</description>
 <gate name="A" symbol="137" x="0" y="0"/>
 </gates>
 <devices>
-<device name="'" package="DIL08">
+<device name="'" package="DIP8">
 <connects>
 <connect gate="A" pin="A" pad="2"/>
 <connect gate="A" pin="C" pad="3"/>
@@ -4781,7 +4821,7 @@ Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C1,C1010,C1603,P12
 <gate name="G$1" symbol="LT1021" x="0" y="0"/>
 </gates>
 <devices>
-<device name="N" package="DIL08">
+<device name="N" package="DIP8">
 <connects>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="IN" pad="2"/>
@@ -4945,7 +4985,7 @@ Source: avr.lbr</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="P" package="DIL08">
+<device name="P" package="DIP8">
 <connects>
 <connect gate="NE5534" pin="+IN" pad="3"/>
 <connect gate="NE5534" pin="-IN" pad="2"/>
@@ -5000,7 +5040,7 @@ Source: avr.lbr</description>
 <gate name="P" symbol="PWR+--1" x="15.24" y="10.16" addlevel="request"/>
 </gates>
 <devices>
-<device name="P" package="DIL08">
+<device name="P" package="DIP8">
 <connects>
 <connect gate="A" pin="+IN" pad="3"/>
 <connect gate="A" pin="-IN" pad="2"/>
@@ -5371,7 +5411,7 @@ Source: avr.lbr</description>
 <gate name="G$2" symbol="PWR" x="-20.32" y="0" addlevel="request"/>
 </gates>
 <devices>
-<device name="N" package="DIL08">
+<device name="N" package="DIP8">
 <connects>
 <connect gate="G$1" pin="W" pad="7"/>
 <connect gate="G$1" pin="X1" pad="1"/>
@@ -6145,7 +6185,7 @@ Source: http://cache.national.com/ds/LM/LM386.pdf</description>
 <gate name="G$1" symbol="AMP_GND_GAIN_BYP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="N" package="DIL08">
+<device name="N" package="DIP8">
 <connects>
 <connect gate="G$1" pin="+IN" pad="3"/>
 <connect gate="G$1" pin="-IN" pad="2"/>
@@ -6645,7 +6685,7 @@ http://www.ti.com/lit/ds/symlink/lm3886.pdf</description>
 <gate name="A" symbol="LM311" x="5.08" y="0"/>
 </gates>
 <devices>
-<device name="N" package="DIL08">
+<device name="N" package="DIP8">
 <connects>
 <connect gate="A" pin="+IN" pad="2"/>
 <connect gate="A" pin="-IN" pad="3"/>
@@ -6837,7 +6877,7 @@ https://static.chipdip.ru/lib/142/DOC000142703.pdf</description>
 <gate name="G$1" symbol="LM1881" x="0" y="0"/>
 </gates>
 <devices>
-<device name="N" package="DIL08">
+<device name="N" package="DIP8">
 <connects>
 <connect gate="G$1" pin="BURST" pad="5"/>
 <connect gate="G$1" pin="FIELD" pad="7"/>
@@ -7377,6 +7417,46 @@ https://static.chipdip.ru/lib/497/DOC011497710.pdf</description>
 <connect gate="G$1" pin="TEST1" pad="1"/>
 <connect gate="G$1" pin="TEST2" pad="2"/>
 <connect gate="G$1" pin="VDD" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NJM4580" prefix="IC">
+<description>&lt;b&gt;Dual Operational Amplifier&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="A" symbol="OPAMP" x="0" y="7.62" swaplevel="1"/>
+<gate name="B" symbol="OPAMP" x="0" y="-10.16" swaplevel="1"/>
+<gate name="P" symbol="PWR+--1" x="0" y="7.62" addlevel="request" swaplevel="1"/>
+</gates>
+<devices>
+<device name="M" package="DMP8_NISSHINBO">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="P" pin="V+" pad="8"/>
+<connect gate="P" pin="V-" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="D" package="DIP8">
+<connects>
+<connect gate="A" pin="+IN" pad="3"/>
+<connect gate="A" pin="-IN" pad="2"/>
+<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="B" pin="+IN" pad="5"/>
+<connect gate="B" pin="-IN" pad="6"/>
+<connect gate="B" pin="OUT" pad="7"/>
+<connect gate="P" pin="V+" pad="8"/>
+<connect gate="P" pin="V-" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
