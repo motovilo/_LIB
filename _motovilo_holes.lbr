@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1192,6 +1192,12 @@ https://www.buydisplay.com/arduino-character-1602-16x2-lcd-display-module-i2c-3-
 <circle x="0" y="0" radius="6.25" width="2.5" layer="29"/>
 <circle x="0" y="0" radius="6.25" width="2.5" layer="30"/>
 </package>
+<package name="3,2-PAD_AUTO">
+<circle x="0" y="0" radius="2.54" width="0.8128" layer="43"/>
+<pad name="B3,2" x="0" y="0" drill="3.2" thermals="no"/>
+<circle x="0" y="0" radius="2.54" width="0.8128" layer="39"/>
+<circle x="0" y="0" radius="2.54" width="0.8128" layer="40"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MOUNT-PAD">
@@ -1537,6 +1543,14 @@ https://www.buydisplay.com/arduino-character-1602-16x2-lcd-display-module-i2c-3-
 <device name="_OUT_GOLD_F" package="6,223-PAD_OUT_GOLD_F">
 <connects>
 <connect gate="G$1" pin="MOUNT" pad="B6,223"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-3,2_AUTO" package="3,2-PAD_AUTO">
+<connects>
+<connect gate="G$1" pin="MOUNT" pad="B3,2"/>
 </connects>
 <technologies>
 <technology name=""/>
