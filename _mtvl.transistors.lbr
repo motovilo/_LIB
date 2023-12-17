@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -850,6 +850,35 @@ grid 2.54mm</description>
 <wire x1="-1.3" y1="-2.71" x2="1.3" y2="-2.71" width="0.127" layer="21" curve="51"/>
 <text x="-2.54" y="3.81" size="1.27" layer="21">&gt;NAME</text>
 </package>
+<package name="SOT-89-3">
+<description>&lt;b&gt;SOT-89-3  Reflow soldering&lt;/b&gt;</description>
+<wire x1="2.2724" y1="1.6104" x2="2.2724" y2="-1.1104" width="0.1524" layer="51"/>
+<wire x1="2.2724" y1="-1.1104" x2="-2.2724" y2="-1.1104" width="0.1524" layer="51"/>
+<wire x1="-2.2724" y1="-1.1104" x2="-2.2724" y2="1.6104" width="0.1524" layer="51"/>
+<wire x1="-2.2724" y1="1.6104" x2="2.2724" y2="1.6104" width="0.1524" layer="51"/>
+<wire x1="-2.2724" y1="-1.1024" x2="-2.2724" y2="1.6104" width="0.1524" layer="21"/>
+<wire x1="-2.2724" y1="1.6104" x2="-1.2136" y2="1.6104" width="0.1524" layer="21"/>
+<wire x1="2.2724" y1="1.6104" x2="2.2724" y2="-1.1024" width="0.1524" layer="21"/>
+<wire x1="1.2636" y1="1.6104" x2="2.2724" y2="1.6104" width="0.1524" layer="21"/>
+<wire x1="-0.5776" y1="-1.1104" x2="-0.9364" y2="-1.1104" width="0.1524" layer="21"/>
+<wire x1="0.9224" y1="-1.1104" x2="0.5636" y2="-1.1104" width="0.1524" layer="21"/>
+<wire x1="-2.5146" y1="-2.5146" x2="2.5146" y2="-2.5146" width="0.0508" layer="39"/>
+<wire x1="2.5146" y1="-2.5146" x2="2.5146" y2="2.8321" width="0.0508" layer="39"/>
+<wire x1="2.5146" y1="2.8321" x2="-2.5146" y2="2.8321" width="0.0508" layer="39"/>
+<wire x1="-2.5146" y1="2.8321" x2="-2.5146" y2="-2.5146" width="0.0508" layer="39"/>
+<rectangle x1="-1.75" y1="-2.15" x2="-1.25" y2="-1.15" layer="51"/>
+<rectangle x1="-0.25" y1="-2.15" x2="0.25" y2="-1.15" layer="51"/>
+<rectangle x1="1.25" y1="-2.15" x2="1.75" y2="-1.15" layer="51"/>
+<rectangle x1="-0.85" y1="1.65" x2="0.85" y2="2.2" layer="51"/>
+<smd name="1" x="-1.5" y="-1.75" dx="0.8128" dy="1.1" layer="1" roundness="20" thermals="no"/>
+<smd name="2" x="0" y="-1.75" dx="0.8128" dy="1.1" layer="1" roundness="20" thermals="no"/>
+<smd name="3" x="1.5" y="-1.75" dx="0.8128" dy="1.1" layer="1" roundness="20" thermals="no"/>
+<smd name="4" x="0" y="0.9017" dx="2" dy="3.175" layer="1" roundness="20" thermals="no"/>
+<text x="-2.54" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="1.27" y="1.905" size="0.6096" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.9906" y1="-2.3" x2="-0.508" y2="-1.2" layer="41"/>
+<rectangle x1="0.508" y1="-2.3" x2="0.9906" y2="-1.2" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="PNP">
@@ -1328,6 +1357,25 @@ Switches electrical signals</description>
 <vertex x="1.524" y="1.397"/>
 <vertex x="1.016" y="2.413"/>
 </polygon>
+</symbol>
+<symbol name="PNP-3">
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<wire x1="2.086" y1="1.678" x2="1.578" y2="2.594" width="0.1524" layer="94"/>
+<wire x1="1.578" y1="2.594" x2="0.516" y2="1.478" width="0.1524" layer="94"/>
+<wire x1="0.516" y1="1.478" x2="2.086" y2="1.678" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="1.808" y2="2.124" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.508" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="1.778" x2="1.524" y2="2.413" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.413" x2="0.762" y2="1.651" width="0.254" layer="94"/>
+<wire x1="0.762" y1="1.651" x2="1.778" y2="1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="1.778" x2="1.524" y2="2.159" width="0.254" layer="94"/>
+<wire x1="1.524" y1="2.159" x2="1.143" y2="1.905" width="0.254" layer="94"/>
+<wire x1="1.143" y1="1.905" x2="1.524" y2="1.905" width="0.254" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2285,6 +2333,24 @@ https://static.chipdip.ru/lib/106/DOC001106322.pdf</description>
 <connect gate="G$1" pin="B" pad="B"/>
 <connect gate="G$1" pin="C" pad="C"/>
 <connect gate="G$1" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BCX51" prefix="Q">
+<description>&lt;b&gt;45 V, 1 A PNP medium power transistors&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="PNP-3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-89-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2 4"/>
+<connect gate="G$1" pin="E" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
