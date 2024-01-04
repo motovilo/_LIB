@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -70,6 +70,29 @@
 </layers>
 <library>
 <packages>
+<package name="SNP-40-10V">
+<description>&lt;b&gt;SNP-40-10V connector&lt;/b&gt;&lt;p&gt;</description>
+<pad name="1" x="0" y="-22.5" drill="1.6" rot="R90"/>
+<pad name="2" x="0" y="-17.5" drill="1.6" rot="R90"/>
+<pad name="3" x="0" y="-12.5" drill="1.6" rot="R90"/>
+<pad name="4" x="0" y="-7.5" drill="1.6" rot="R90"/>
+<pad name="5" x="0" y="-2.5" drill="1.6" rot="R90"/>
+<pad name="6" x="0" y="2.5" drill="1.6" rot="R90"/>
+<pad name="7" x="0" y="7.5" drill="1.6" rot="R90"/>
+<pad name="8" x="0" y="12.5" drill="1.6" rot="R90"/>
+<pad name="9" x="0" y="17.5" drill="1.6" rot="R90"/>
+<pad name="10" x="0" y="22.5" drill="1.6" rot="R90"/>
+<hole x="0" y="-27.5" drill="5"/>
+<wire x1="-2.5" y1="25" x2="2.5" y2="25" width="0.127" layer="21"/>
+<wire x1="2.5" y1="25" x2="2.5" y2="-25" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="25" x2="-2.5" y2="-25" width="0.127" layer="21"/>
+<text x="5" y="-22.5" size="2.5" layer="21" ratio="12" align="center">1</text>
+<text x="5" y="22.5" size="2.5" layer="21" align="center">10</text>
+<wire x1="-2.5" y1="-25" x2="-0.75" y2="-25" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-25" x2="0.75" y2="-25" width="0.127" layer="21"/>
+<text x="3.75" y="-27.5" size="2.5" layer="25" align="center-left">&gt;NAME</text>
+<text x="-5" y="-22.5" size="2.5" layer="27" rot="R90" align="center-left">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="X1_9">
@@ -93,8 +116,52 @@
 <circle x="-17.78" y="-15.24" radius="0.508" width="0" layer="94"/>
 <circle x="-17.78" y="-20.32" radius="0.508" width="0" layer="94"/>
 </symbol>
+<symbol name="SNP-40-10V">
+<description>&lt;b&gt;SNP-40-10 connector&lt;/b&gt;&lt;p&gt;</description>
+<pin name="1" x="5.08" y="-12.7" length="short" rot="R180"/>
+<pin name="2" x="5.08" y="-10.16" length="short" rot="R180"/>
+<pin name="3" x="5.08" y="-7.62" length="short" rot="R180"/>
+<pin name="4" x="5.08" y="-5.08" length="short" rot="R180"/>
+<pin name="5" x="5.08" y="-2.54" length="short" rot="R180"/>
+<pin name="6" x="5.08" y="0" length="short" rot="R180"/>
+<pin name="7" x="5.08" y="2.54" length="short" rot="R180"/>
+<pin name="8" x="5.08" y="5.08" length="short" rot="R180"/>
+<pin name="9" x="5.08" y="7.62" length="short" rot="R180"/>
+<pin name="10" x="5.08" y="10.16" length="short" rot="R180"/>
+<wire x1="2.54" y1="12.7" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="-2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="12.7" x2="2.54" y2="12.7" width="0.254" layer="94"/>
+<text x="-2.54" y="13.462" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
+<deviceset name="SNP-40-10V" prefix="X">
+<description>&lt;b&gt;SNP-40-10V connector&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="X1" symbol="SNP-40-10V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SNP-40-10V">
+<connects>
+<connect gate="X1" pin="1" pad="1"/>
+<connect gate="X1" pin="10" pad="10"/>
+<connect gate="X1" pin="2" pad="2"/>
+<connect gate="X1" pin="3" pad="3"/>
+<connect gate="X1" pin="4" pad="4"/>
+<connect gate="X1" pin="5" pad="5"/>
+<connect gate="X1" pin="6" pad="6"/>
+<connect gate="X1" pin="7" pad="7"/>
+<connect gate="X1" pin="8" pad="8"/>
+<connect gate="X1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
