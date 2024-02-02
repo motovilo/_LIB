@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1179,7 +1179,7 @@ grid 2.54mm</description>
 <pin name="E" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="C" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 </symbol>
-<symbol name="LABELED-NMOS">
+<symbol name="NMOS">
 <description>&lt;h3&gt; N-channel MOSFET transistor&lt;/h3&gt;
 Switches electronic signals</description>
 <pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
@@ -1207,8 +1207,6 @@ Switches electronic signals</description>
 <vertex x="2.54" y="0.5588"/>
 <vertex x="3.302" y="-0.7112"/>
 </polygon>
-<wire x1="3.302" y1="0.5588" x2="3.4798" y2="0.7366" width="0.1524" layer="94"/>
-<wire x1="1.6002" y1="0.381" x2="1.778" y2="0.5588" width="0.1524" layer="94"/>
 <polygon width="0.1524" layer="94">
 <vertex x="-1.9812" y="0"/>
 <vertex x="-1.2192" y="0.254"/>
@@ -1930,7 +1928,7 @@ Switches electrical signals</description>
 &lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11214”&gt;SparkFun MOSFET Power Controller&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="NMOS" symbol="LABELED-NMOS" x="0" y="0"/>
+<gate name="NMOS" symbol="NMOS" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-FDD8780" package="DPAK">
@@ -2061,8 +2059,8 @@ Switches electrical signals</description>
 &lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/9627”&gt;SparkFun Mini FET Shield&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
 <gates>
-<gate name="A" symbol="LABELED-NMOS" x="0" y="7.62"/>
-<gate name="B" symbol="LABELED-NMOS" x="0" y="-7.62"/>
+<gate name="A" symbol="NMOS" x="0" y="7.62"/>
+<gate name="B" symbol="NMOS" x="0" y="-7.62"/>
 </gates>
 <devices>
 <device name="-FDMA1024NZ" package="MICROFET_2X2">
@@ -2510,6 +2508,44 @@ https://static.chipdip.ru/lib/106/DOC001106322.pdf</description>
 <connect gate="VT" pin="B" pad="B"/>
 <connect gate="VT" pin="C" pad="C"/>
 <connect gate="VT" pin="E" pad="E"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N7000" prefix="Q" uservalue="yes">
+<description>&lt;b&gt;N-channel enhancement mode field-effect transistor&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NMOS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-" package="TO92-">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="TO-92W">
+<connects>
+<connect gate="G$1" pin="D" pad="1"/>
+<connect gate="G$1" pin="G" pad="2"/>
+<connect gate="G$1" pin="S" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
