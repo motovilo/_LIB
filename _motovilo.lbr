@@ -12704,8 +12704,8 @@ Source: coiltronics_dr_series.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="DC3-16P" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<deviceset name="IDC-16MS" prefix="X" uservalue="yes">
+<description>&lt;b&gt;BH-16 (DS1013-16S) (IDC-16MS)&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X8" x="0" y="0"/>
 </gates>
