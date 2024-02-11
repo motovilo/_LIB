@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1127,23 +1127,23 @@ type MLT-05, grid 15mm</description>
 <wire x1="-4.65" y1="-1.55" x2="-4.65" y2="1.55" width="0.127" layer="51" curve="-36.869898"/>
 <wire x1="-4.65" y1="-1.55" x2="4.65" y2="-1.55" width="0.127" layer="21" curve="143.130102"/>
 <wire x1="-4.65" y1="1.55" x2="4.65" y2="1.55" width="0.127" layer="21" curve="-143.130102"/>
-<smd name="++" x="3.81" y="0" dx="4.5" dy="2" layer="1" roundness="20"/>
-<smd name="--" x="-3.81" y="0" dx="4.5" dy="2" layer="1" roundness="20"/>
+<smd name="++" x="3.7" y="0" dx="4.3" dy="2" layer="1" roundness="20"/>
+<smd name="--" x="-3.7" y="0" dx="4.3" dy="2" layer="1" roundness="20"/>
 <text x="-5.334" y="-3.81" size="1.27" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="0" y="0" size="1.016" layer="27" rot="R270" align="center">&gt;VALUE</text>
 <pad name="-" x="-2.54" y="0" drill="0.889" diameter="1.778" shape="square"/>
 <pad name="+" x="2.54" y="0" drill="0.889" diameter="1.778" shape="square"/>
 <wire x1="-5.4356" y1="-5.4356" x2="5.4356" y2="-5.4356" width="0.0508" layer="39"/>
 <wire x1="5.4356" y1="-5.4356" x2="5.4356" y2="-1.27" width="0.0508" layer="39"/>
-<wire x1="5.4356" y1="-1.27" x2="6.2992" y2="-1.27" width="0.0508" layer="39"/>
-<wire x1="6.2992" y1="-1.27" x2="6.2992" y2="1.27" width="0.0508" layer="39"/>
-<wire x1="6.2992" y1="1.27" x2="5.4356" y2="1.27" width="0.0508" layer="39"/>
+<wire x1="5.4356" y1="-1.27" x2="6.223" y2="-1.27" width="0.0508" layer="39"/>
+<wire x1="6.223" y1="-1.27" x2="6.223" y2="1.27" width="0.0508" layer="39"/>
+<wire x1="6.223" y1="1.27" x2="5.4356" y2="1.27" width="0.0508" layer="39"/>
 <wire x1="5.4356" y1="1.27" x2="5.4356" y2="5.4356" width="0.0508" layer="39"/>
 <wire x1="5.4356" y1="5.4356" x2="-5.4356" y2="5.4356" width="0.0508" layer="39"/>
 <wire x1="-5.4356" y1="5.4356" x2="-5.4356" y2="1.27" width="0.0508" layer="39"/>
-<wire x1="-5.4356" y1="1.27" x2="-6.2992" y2="1.27" width="0.0508" layer="39"/>
-<wire x1="-6.2992" y1="1.27" x2="-6.2992" y2="-1.27" width="0.0508" layer="39"/>
-<wire x1="-6.2992" y1="-1.27" x2="-5.4356" y2="-1.27" width="0.0508" layer="39"/>
+<wire x1="-5.4356" y1="1.27" x2="-6.223" y2="1.27" width="0.0508" layer="39"/>
+<wire x1="-6.223" y1="1.27" x2="-6.223" y2="-1.27" width="0.0508" layer="39"/>
+<wire x1="-6.223" y1="-1.27" x2="-5.4356" y2="-1.27" width="0.0508" layer="39"/>
 <wire x1="-5.4356" y1="-1.27" x2="-5.4356" y2="-5.4356" width="0.0508" layer="39"/>
 </package>
 <package name="0505_COMBO">
