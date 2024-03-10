@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -712,6 +712,59 @@ http://www.ferriwo.com/UpLoad/NewPro/DIP%20BOBBIN/EF/FWB2004-J.pdf</description>
 <circle x="17.5" y="0" radius="3" width="0" layer="41"/>
 <rectangle x1="-22.5" y1="-21" x2="22.5" y2="21" layer="39"/>
 </package>
+<package name="EFD30">
+<pad name="3" x="-2.5" y="-13.75" drill="1" diameter="2.54"/>
+<pad name="4" x="2.5" y="-13.75" drill="1" diameter="2.54"/>
+<pad name="2" x="-7.5" y="-13.75" drill="1" diameter="2.54"/>
+<pad name="5" x="7.5" y="-13.75" drill="1" diameter="2.54"/>
+<pad name="1" x="-12.5" y="-13.75" drill="1" diameter="2.54"/>
+<pad name="6" x="12.5" y="-13.75" drill="1" diameter="2.54"/>
+<wire x1="-15" y1="-15" x2="15" y2="-15" width="0.127" layer="21"/>
+<wire x1="15" y1="-15" x2="15" y2="15" width="0.127" layer="21"/>
+<wire x1="15" y1="15" x2="-15" y2="15" width="0.127" layer="21"/>
+<wire x1="-15" y1="15" x2="-15" y2="-15" width="0.127" layer="21"/>
+<pad name="7" x="12.5" y="13.75" drill="1" diameter="2.54"/>
+<pad name="8" x="7.5" y="13.75" drill="1" diameter="2.54"/>
+<pad name="9" x="2.5" y="13.75" drill="1" diameter="2.54"/>
+<pad name="10" x="-2.5" y="13.75" drill="1" diameter="2.54"/>
+<pad name="11" x="-7.5" y="13.75" drill="1" diameter="2.54"/>
+<pad name="12" x="-12.5" y="13.75" drill="1" diameter="2.54"/>
+<wire x1="-12.5" y1="10" x2="-10" y2="10" width="0.127" layer="21"/>
+<wire x1="-10" y1="10" x2="10" y2="10" width="0.127" layer="21"/>
+<wire x1="10" y1="10" x2="12.5" y2="10" width="0.127" layer="21"/>
+<wire x1="12.5" y1="10" x2="12.5" y2="-10" width="0.127" layer="21"/>
+<wire x1="12.5" y1="-10" x2="10" y2="-10" width="0.127" layer="21"/>
+<wire x1="10" y1="-10" x2="-10" y2="-10" width="0.127" layer="21"/>
+<wire x1="-10" y1="-10" x2="-12.5" y2="-10" width="0.127" layer="21"/>
+<wire x1="-12.5" y1="-10" x2="-12.5" y2="10" width="0.127" layer="21"/>
+<wire x1="-10" y1="10" x2="-10" y2="-10" width="0.127" layer="21"/>
+<wire x1="10" y1="10" x2="10" y2="-10" width="0.127" layer="21"/>
+<text x="-14.5" y="-12.5" size="1.016" layer="21" font="vector" ratio="15">1</text>
+<text x="-7.5" y="7.5" size="1.016" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-7.5" y="5" size="1.016" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
+<package name="BV20">
+<wire x1="-11.3" y1="-10.85" x2="-11.3" y2="-7.5" width="0.2032" layer="21"/>
+<wire x1="-11.3" y1="-7.5" x2="-11.3" y2="7.5" width="0.2032" layer="21"/>
+<wire x1="-11.3" y1="7.5" x2="-11.3" y2="10.85" width="0.2032" layer="21"/>
+<wire x1="-11.3" y1="10.85" x2="11.3" y2="10.85" width="0.2032" layer="21"/>
+<wire x1="11.3" y1="10.85" x2="11.3" y2="7.5" width="0.2032" layer="21"/>
+<wire x1="11.3" y1="7.5" x2="11.3" y2="-7.5" width="0.2032" layer="21"/>
+<wire x1="11.3" y1="-7.5" x2="11.3" y2="-10.85" width="0.2032" layer="21"/>
+<wire x1="11.3" y1="-10.85" x2="-11.3" y2="-10.85" width="0.2032" layer="21"/>
+<wire x1="-11.3" y1="7.5" x2="11.3" y2="7.5" width="0.127" layer="51"/>
+<wire x1="-11.3" y1="-7.5" x2="11.3" y2="-7.5" width="0.127" layer="51"/>
+<pad name="1" x="-7.5" y="-7.5" drill="0.6" shape="long"/>
+<pad name="2" x="-7.5" y="-2.5" drill="0.6" shape="long"/>
+<pad name="3" x="-7.5" y="2.5" drill="0.6" shape="long"/>
+<pad name="4" x="-7.5" y="7.5" drill="0.6" shape="long"/>
+<pad name="5" x="7.5" y="7.5" drill="0.6" shape="long"/>
+<pad name="6" x="7.5" y="2.5" drill="0.6" shape="long"/>
+<pad name="7" x="7.5" y="-2.5" drill="0.6" shape="long"/>
+<pad name="8" x="7.5" y="-7.5" drill="0.6" shape="long"/>
+<text x="-11.43" y="11.43" size="1.27" layer="25">&gt;NAME</text>
+<text x="-11.43" y="-12.7" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TRANSFORMER">
@@ -916,6 +969,70 @@ http://www.ferriwo.com/UpLoad/NewPro/DIP%20BOBBIN/EF/FWB2004-J.pdf</description>
 <circle x="3.81" y="2.54" radius="0.381" width="0" layer="94"/>
 <rectangle x1="0.635" y1="-7.6962" x2="2.54" y2="-1.1938" layer="94"/>
 <rectangle x1="0.635" y1="1.1938" x2="2.54" y2="7.6962" layer="94"/>
+</symbol>
+<symbol name="PRI1_PRI2_SEC1_SEC2">
+<pin name="PRI1A" x="-7.62" y="5.08" visible="off" length="middle"/>
+<pin name="PRI1B" x="-7.62" y="-2.54" visible="off" length="middle"/>
+<pin name="SEC1A" x="7.62" y="5.08" visible="off" length="middle" rot="R180"/>
+<pin name="SEC1B" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="5.08" x2="0" y2="-12.7" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="7.62" size="1.778" layer="96">&gt;VALUE</text>
+<circle x="-2.54" y="3.81" radius="0.127" width="0.254" layer="94"/>
+<circle x="2.54" y="3.81" radius="0.127" width="0.254" layer="94"/>
+<pin name="PRI2A" x="-7.62" y="-5.08" visible="off" length="middle"/>
+<pin name="PRI2B" x="-7.62" y="-12.7" visible="off" length="middle"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="-12.7" width="0.254" layer="94" curve="-180"/>
+<circle x="-2.54" y="-6.35" radius="0.127" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-12.7" x2="2.54" y2="-10.16" width="0.254" layer="94" curve="-180"/>
+<circle x="2.54" y="-6.35" radius="0.127" width="0.254" layer="94"/>
+<pin name="SEC2A" x="7.62" y="-5.08" visible="off" length="middle" rot="R180"/>
+<pin name="SEC2B" x="7.62" y="-12.7" visible="off" length="middle" rot="R180"/>
+</symbol>
+<symbol name="TR_1P1S">
+<wire x1="1.27" y1="5.207" x2="1.27" y2="-7.747" width="0.254" layer="94"/>
+<circle x="-2.921" y="-8.636" radius="0.127" width="0.3048" layer="94"/>
+<circle x="5.461" y="-5.842" radius="0.127" width="0.3048" layer="94"/>
+<text x="-2.54" y="7.366" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.795" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="94" rot="R90">PRI</text>
+<text x="6.985" y="-2.54" size="1.27" layer="94" rot="R90">SEC</text>
+<rectangle x1="-2.286" y1="-7.62" x2="0.254" y2="5.08" layer="94"/>
+<rectangle x1="2.286" y1="-5.08" x2="4.826" y2="2.54" layer="94"/>
+<pin name="P1" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="P2" x="-5.08" y="-7.62" visible="pad" length="middle" direction="pas" swaplevel="1"/>
+<pin name="S3" x="7.62" y="-5.08" visible="pad" length="middle" direction="pas" swaplevel="2" rot="R180"/>
+<pin name="S4" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="2" rot="R180"/>
+</symbol>
+<symbol name="TR_1P2S">
+<wire x1="1.27" y1="5.715" x2="1.27" y2="-8.255" width="0.254" layer="94"/>
+<circle x="-2.032" y="-8.128" radius="0.127" width="0.3048" layer="94"/>
+<circle x="4.699" y="-8.128" radius="0.127" width="0.3048" layer="94"/>
+<circle x="4.699" y="-0.508" radius="0.127" width="0.3048" layer="94"/>
+<text x="-2.54" y="7.366" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-10.795" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-3.175" y="-2.54" size="1.27" layer="94" rot="R90">PRI</text>
+<text x="6.477" y="-6.223" size="1.27" layer="94" rot="R90">S1</text>
+<text x="6.477" y="1.397" size="1.27" layer="94" rot="R90">S2</text>
+<rectangle x1="-2.286" y1="-7.62" x2="0.254" y2="5.08" layer="94"/>
+<rectangle x1="2.286" y1="0" x2="4.826" y2="5.08" layer="94"/>
+<rectangle x1="2.286" y1="-7.62" x2="4.826" y2="-2.54" layer="94"/>
+<pin name="1" x="-5.08" y="5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="-5.08" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="3" x="7.62" y="-7.62" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="4" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="5" x="7.62" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="6" x="7.62" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1156,6 +1273,66 @@ www.pulseeng.com</description>
 <connect gate="G$1" pin="P2" pad="5"/>
 <connect gate="G$1" pin="S1" pad="7"/>
 <connect gate="G$1" pin="S2" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EFD30_PRI1_PRI2_SEC1_SEC2">
+<gates>
+<gate name="G$1" symbol="PRI1_PRI2_SEC1_SEC2" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="EFD30">
+<connects>
+<connect gate="G$1" pin="PRI1A" pad="1"/>
+<connect gate="G$1" pin="PRI1B" pad="12"/>
+<connect gate="G$1" pin="PRI2A" pad="2"/>
+<connect gate="G$1" pin="PRI2B" pad="11"/>
+<connect gate="G$1" pin="SEC1A" pad="6"/>
+<connect gate="G$1" pin="SEC1B" pad="7"/>
+<connect gate="G$1" pin="SEC2A" pad="5"/>
+<connect gate="G$1" pin="SEC2B" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BV20_1P1S" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TR_1P1S" x="5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="BV20">
+<connects>
+<connect gate="G$1" pin="P1" pad="1"/>
+<connect gate="G$1" pin="P2" pad="4"/>
+<connect gate="G$1" pin="S3" pad="7"/>
+<connect gate="G$1" pin="S4" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BV20_1P2S">
+<gates>
+<gate name="G$1" symbol="TR_1P2S" x="5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="BV20">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="4"/>
+<connect gate="G$1" pin="3" pad="6"/>
+<connect gate="G$1" pin="4" pad="5"/>
+<connect gate="G$1" pin="5" pad="8"/>
+<connect gate="G$1" pin="6" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
