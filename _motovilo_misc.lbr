@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -36,24 +36,24 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -88,6 +88,423 @@
 <wire x1="-10" y1="0.6" x2="-10" y2="-0.6" width="0" layer="20" curve="180"/>
 <wire x1="10" y1="-0.6" x2="10" y2="0.6" width="0" layer="20" curve="180"/>
 </package>
+<package name="SPEAKER_90X50">
+<wire x1="25" y1="-42" x2="25" y2="42" width="0.127" layer="22"/>
+<wire x1="25" y1="42" x2="22" y2="45" width="0.127" layer="22" curve="90"/>
+<wire x1="22" y1="45" x2="-22" y2="45" width="0.127" layer="22"/>
+<wire x1="-22" y1="45" x2="-25" y2="42" width="0.127" layer="22" curve="90"/>
+<wire x1="-25" y1="42" x2="-25" y2="-42" width="0.127" layer="22"/>
+<wire x1="-25" y1="-42" x2="-22" y2="-45" width="0.127" layer="22" curve="90"/>
+<wire x1="-22" y1="-45" x2="22" y2="-45" width="0.127" layer="22"/>
+<wire x1="22" y1="-45" x2="25" y2="-42" width="0.127" layer="22" curve="90"/>
+<wire x1="-21.5" y1="20" x2="-21.5" y2="-20" width="0.127" layer="22"/>
+<wire x1="-21.5" y1="-20" x2="21.5" y2="-20" width="0.127" layer="22" curve="180"/>
+<wire x1="21.5" y1="-20" x2="21.5" y2="20" width="0.127" layer="22"/>
+<wire x1="21.5" y1="20" x2="-21.5" y2="20" width="0.127" layer="22" curve="180"/>
+<hole x="0" y="0" drill="2.8"/>
+<hole x="-4" y="0" drill="2.8"/>
+<hole x="4" y="0" drill="2.8"/>
+<hole x="8" y="0" drill="2.8"/>
+<hole x="12" y="0" drill="2.8"/>
+<hole x="-8" y="0" drill="2.8"/>
+<hole x="-12" y="0" drill="2.8"/>
+<hole x="-16" y="0" drill="2.8"/>
+<hole x="-20" y="0" drill="2.8"/>
+<hole x="16" y="0" drill="2.8"/>
+<hole x="20" y="0" drill="2.8"/>
+<hole x="-18" y="3" drill="2.8"/>
+<hole x="-14" y="3" drill="2.8"/>
+<hole x="-10" y="3" drill="2.8"/>
+<hole x="-6" y="3" drill="2.8"/>
+<hole x="-2" y="3" drill="2.8"/>
+<hole x="2" y="3" drill="2.8"/>
+<hole x="6" y="3" drill="2.8"/>
+<hole x="10" y="3" drill="2.8"/>
+<hole x="14" y="3" drill="2.8"/>
+<hole x="18" y="3" drill="2.8"/>
+<hole x="0" y="6" drill="2.8"/>
+<hole x="-4" y="6" drill="2.8"/>
+<hole x="4" y="6" drill="2.8"/>
+<hole x="8" y="6" drill="2.8"/>
+<hole x="12" y="6" drill="2.8"/>
+<hole x="-8" y="6" drill="2.8"/>
+<hole x="-12" y="6" drill="2.8"/>
+<hole x="-16" y="6" drill="2.8"/>
+<hole x="-20" y="6" drill="2.8"/>
+<hole x="16" y="6" drill="2.8"/>
+<hole x="-18" y="9" drill="2.8"/>
+<hole x="-14" y="9" drill="2.8"/>
+<hole x="-10" y="9" drill="2.8"/>
+<hole x="-6" y="9" drill="2.8"/>
+<hole x="-2" y="9" drill="2.8"/>
+<hole x="2" y="9" drill="2.8"/>
+<hole x="6" y="9" drill="2.8"/>
+<hole x="10" y="9" drill="2.8"/>
+<hole x="14" y="9" drill="2.8"/>
+<hole x="18" y="9" drill="2.8"/>
+<hole x="20" y="6" drill="2.8"/>
+<hole x="0" y="12" drill="2.8"/>
+<hole x="-4" y="12" drill="2.8"/>
+<hole x="4" y="12" drill="2.8"/>
+<hole x="8" y="12" drill="2.8"/>
+<hole x="12" y="12" drill="2.8"/>
+<hole x="-8" y="12" drill="2.8"/>
+<hole x="-12" y="12" drill="2.8"/>
+<hole x="-16" y="12" drill="2.8"/>
+<hole x="-20" y="12" drill="2.8"/>
+<hole x="16" y="12" drill="2.8"/>
+<hole x="20" y="12" drill="2.8"/>
+<hole x="-18" y="15" drill="2.8"/>
+<hole x="-14" y="15" drill="2.8"/>
+<hole x="-10" y="15" drill="2.8"/>
+<hole x="-6" y="15" drill="2.8"/>
+<hole x="-2" y="15" drill="2.8"/>
+<hole x="2" y="15" drill="2.8"/>
+<hole x="6" y="15" drill="2.8"/>
+<hole x="10" y="15" drill="2.8"/>
+<hole x="14" y="15" drill="2.8"/>
+<hole x="18" y="15" drill="2.8"/>
+<hole x="0" y="18" drill="2.8"/>
+<hole x="-4" y="18" drill="2.8"/>
+<hole x="4" y="18" drill="2.8"/>
+<hole x="8" y="18" drill="2.8"/>
+<hole x="12" y="18" drill="2.8"/>
+<hole x="-8" y="18" drill="2.8"/>
+<hole x="-12" y="18" drill="2.8"/>
+<hole x="-16" y="18" drill="2.8"/>
+<hole x="-20" y="18" drill="2.8"/>
+<hole x="16" y="18" drill="2.8"/>
+<hole x="-18" y="21" drill="2.8"/>
+<hole x="-14" y="21" drill="2.8"/>
+<hole x="-10" y="21" drill="2.8"/>
+<hole x="-6" y="21" drill="2.8"/>
+<hole x="-2" y="21" drill="2.8"/>
+<hole x="2" y="21" drill="2.8"/>
+<hole x="6" y="21" drill="2.8"/>
+<hole x="10" y="21" drill="2.8"/>
+<hole x="14" y="21" drill="2.8"/>
+<hole x="18" y="21" drill="2.8"/>
+<hole x="20" y="18" drill="2.8"/>
+<hole x="0" y="-18" drill="2.8"/>
+<hole x="-4" y="-18" drill="2.8"/>
+<hole x="4" y="-18" drill="2.8"/>
+<hole x="8" y="-18" drill="2.8"/>
+<hole x="12" y="-18" drill="2.8"/>
+<hole x="-8" y="-18" drill="2.8"/>
+<hole x="-12" y="-18" drill="2.8"/>
+<hole x="-16" y="-18" drill="2.8"/>
+<hole x="-20" y="-18" drill="2.8"/>
+<hole x="16" y="-18" drill="2.8"/>
+<hole x="20" y="-18" drill="2.8"/>
+<hole x="-18" y="-15" drill="2.8"/>
+<hole x="-14" y="-15" drill="2.8"/>
+<hole x="-10" y="-15" drill="2.8"/>
+<hole x="-6" y="-15" drill="2.8"/>
+<hole x="-2" y="-15" drill="2.8"/>
+<hole x="2" y="-15" drill="2.8"/>
+<hole x="6" y="-15" drill="2.8"/>
+<hole x="10" y="-15" drill="2.8"/>
+<hole x="14" y="-15" drill="2.8"/>
+<hole x="18" y="-15" drill="2.8"/>
+<hole x="0" y="-12" drill="2.8"/>
+<hole x="-4" y="-12" drill="2.8"/>
+<hole x="4" y="-12" drill="2.8"/>
+<hole x="8" y="-12" drill="2.8"/>
+<hole x="12" y="-12" drill="2.8"/>
+<hole x="-8" y="-12" drill="2.8"/>
+<hole x="-12" y="-12" drill="2.8"/>
+<hole x="-16" y="-12" drill="2.8"/>
+<hole x="-20" y="-12" drill="2.8"/>
+<hole x="16" y="-12" drill="2.8"/>
+<hole x="-18" y="-9" drill="2.8"/>
+<hole x="-14" y="-9" drill="2.8"/>
+<hole x="-10" y="-9" drill="2.8"/>
+<hole x="-6" y="-9" drill="2.8"/>
+<hole x="-2" y="-9" drill="2.8"/>
+<hole x="2" y="-9" drill="2.8"/>
+<hole x="6" y="-9" drill="2.8"/>
+<hole x="10" y="-9" drill="2.8"/>
+<hole x="14" y="-9" drill="2.8"/>
+<hole x="18" y="-9" drill="2.8"/>
+<hole x="20" y="-12" drill="2.8"/>
+<hole x="0" y="-6" drill="2.8"/>
+<hole x="-4" y="-6" drill="2.8"/>
+<hole x="4" y="-6" drill="2.8"/>
+<hole x="8" y="-6" drill="2.8"/>
+<hole x="12" y="-6" drill="2.8"/>
+<hole x="-8" y="-6" drill="2.8"/>
+<hole x="-12" y="-6" drill="2.8"/>
+<hole x="-16" y="-6" drill="2.8"/>
+<hole x="-20" y="-6" drill="2.8"/>
+<hole x="16" y="-6" drill="2.8"/>
+<hole x="20" y="-6" drill="2.8"/>
+<hole x="-18" y="-3" drill="2.8"/>
+<hole x="-14" y="-3" drill="2.8"/>
+<hole x="-10" y="-3" drill="2.8"/>
+<hole x="-6" y="-3" drill="2.8"/>
+<hole x="-2" y="-3" drill="2.8"/>
+<hole x="2" y="-3" drill="2.8"/>
+<hole x="6" y="-3" drill="2.8"/>
+<hole x="10" y="-3" drill="2.8"/>
+<hole x="14" y="-3" drill="2.8"/>
+<hole x="18" y="-3" drill="2.8"/>
+<hole x="0" y="24" drill="2.8"/>
+<hole x="-4" y="24" drill="2.8"/>
+<hole x="4" y="24" drill="2.8"/>
+<hole x="8" y="24" drill="2.8"/>
+<hole x="12" y="24" drill="2.8"/>
+<hole x="-8" y="24" drill="2.8"/>
+<hole x="-12" y="24" drill="2.8"/>
+<hole x="-16" y="24" drill="2.8"/>
+<hole x="16" y="24" drill="2.8"/>
+<hole x="-18" y="27" drill="2.8"/>
+<hole x="-14" y="27" drill="2.8"/>
+<hole x="-10" y="27" drill="2.8"/>
+<hole x="-6" y="27" drill="2.8"/>
+<hole x="-2" y="27" drill="2.8"/>
+<hole x="2" y="27" drill="2.8"/>
+<hole x="6" y="27" drill="2.8"/>
+<hole x="10" y="27" drill="2.8"/>
+<hole x="14" y="27" drill="2.8"/>
+<hole x="18" y="27" drill="2.8"/>
+<hole x="0" y="30" drill="2.8"/>
+<hole x="-4" y="30" drill="2.8"/>
+<hole x="4" y="30" drill="2.8"/>
+<hole x="8" y="30" drill="2.8"/>
+<hole x="12" y="30" drill="2.8"/>
+<hole x="-8" y="30" drill="2.8"/>
+<hole x="-12" y="30" drill="2.8"/>
+<hole x="-16" y="30" drill="2.8"/>
+<hole x="16" y="30" drill="2.8"/>
+<hole x="-14" y="33" drill="2.8"/>
+<hole x="-10" y="33" drill="2.8"/>
+<hole x="-6" y="33" drill="2.8"/>
+<hole x="-2" y="33" drill="2.8"/>
+<hole x="2" y="33" drill="2.8"/>
+<hole x="6" y="33" drill="2.8"/>
+<hole x="10" y="33" drill="2.8"/>
+<hole x="14" y="33" drill="2.8"/>
+<hole x="0" y="36" drill="2.8"/>
+<hole x="-4" y="36" drill="2.8"/>
+<hole x="4" y="36" drill="2.8"/>
+<hole x="8" y="36" drill="2.8"/>
+<hole x="12" y="36" drill="2.8"/>
+<hole x="-8" y="36" drill="2.8"/>
+<hole x="-12" y="36" drill="2.8"/>
+<hole x="-6" y="-39" drill="2.8"/>
+<hole x="-2" y="-39" drill="2.8"/>
+<hole x="2" y="-39" drill="2.8"/>
+<hole x="6" y="-39" drill="2.8"/>
+<hole x="0" y="-36" drill="2.8"/>
+<hole x="-4" y="-36" drill="2.8"/>
+<hole x="4" y="-36" drill="2.8"/>
+<hole x="8" y="-36" drill="2.8"/>
+<hole x="12" y="-36" drill="2.8"/>
+<hole x="-8" y="-36" drill="2.8"/>
+<hole x="-12" y="-36" drill="2.8"/>
+<hole x="-14" y="-33" drill="2.8"/>
+<hole x="-10" y="-33" drill="2.8"/>
+<hole x="-6" y="-33" drill="2.8"/>
+<hole x="-2" y="-33" drill="2.8"/>
+<hole x="2" y="-33" drill="2.8"/>
+<hole x="6" y="-33" drill="2.8"/>
+<hole x="10" y="-33" drill="2.8"/>
+<hole x="14" y="-33" drill="2.8"/>
+<hole x="0" y="-30" drill="2.8"/>
+<hole x="-4" y="-30" drill="2.8"/>
+<hole x="4" y="-30" drill="2.8"/>
+<hole x="8" y="-30" drill="2.8"/>
+<hole x="12" y="-30" drill="2.8"/>
+<hole x="-8" y="-30" drill="2.8"/>
+<hole x="-12" y="-30" drill="2.8"/>
+<hole x="-16" y="-30" drill="2.8"/>
+<hole x="16" y="-30" drill="2.8"/>
+<hole x="-18" y="-27" drill="2.8"/>
+<hole x="-14" y="-27" drill="2.8"/>
+<hole x="-10" y="-27" drill="2.8"/>
+<hole x="-6" y="-27" drill="2.8"/>
+<hole x="-2" y="-27" drill="2.8"/>
+<hole x="2" y="-27" drill="2.8"/>
+<hole x="6" y="-27" drill="2.8"/>
+<hole x="10" y="-27" drill="2.8"/>
+<hole x="14" y="-27" drill="2.8"/>
+<hole x="18" y="-27" drill="2.8"/>
+<hole x="0" y="-24" drill="2.8"/>
+<hole x="-4" y="-24" drill="2.8"/>
+<hole x="4" y="-24" drill="2.8"/>
+<hole x="8" y="-24" drill="2.8"/>
+<hole x="12" y="-24" drill="2.8"/>
+<hole x="-8" y="-24" drill="2.8"/>
+<hole x="-12" y="-24" drill="2.8"/>
+<hole x="-16" y="-24" drill="2.8"/>
+<hole x="16" y="-24" drill="2.8"/>
+<hole x="-18" y="-21" drill="2.8"/>
+<hole x="-14" y="-21" drill="2.8"/>
+<hole x="-10" y="-21" drill="2.8"/>
+<hole x="-6" y="-21" drill="2.8"/>
+<hole x="-2" y="-21" drill="2.8"/>
+<hole x="2" y="-21" drill="2.8"/>
+<hole x="6" y="-21" drill="2.8"/>
+<hole x="10" y="-21" drill="2.8"/>
+<hole x="14" y="-21" drill="2.8"/>
+<hole x="18" y="-21" drill="2.8"/>
+<hole x="-6" y="39" drill="2.8"/>
+<hole x="-2" y="39" drill="2.8"/>
+<hole x="2" y="39" drill="2.8"/>
+<hole x="6" y="39" drill="2.8"/>
+<hole x="-20" y="37.5" drill="2.8"/>
+<hole x="20" y="37.5" drill="3.2"/>
+<hole x="-20" y="-37.5" drill="3.2"/>
+<hole x="20" y="-37.5" drill="3.2"/>
+<hole x="-20" y="-24" drill="2.8"/>
+<hole x="20" y="-24" drill="2.8"/>
+<hole x="-20" y="24" drill="2.8"/>
+<hole x="20" y="24" drill="2.8"/>
+</package>
+<package name="SPEAKER_90X50M">
+<wire x1="25" y1="-42" x2="25" y2="42" width="0.127" layer="22"/>
+<wire x1="25" y1="42" x2="22" y2="45" width="0.127" layer="22" curve="90"/>
+<wire x1="22" y1="45" x2="-22" y2="45" width="0.127" layer="22"/>
+<wire x1="-22" y1="45" x2="-25" y2="42" width="0.127" layer="22" curve="90"/>
+<wire x1="-25" y1="42" x2="-25" y2="-42" width="0.127" layer="22"/>
+<wire x1="-25" y1="-42" x2="-22" y2="-45" width="0.127" layer="22" curve="90"/>
+<wire x1="-22" y1="-45" x2="22" y2="-45" width="0.127" layer="22"/>
+<wire x1="22" y1="-45" x2="25" y2="-42" width="0.127" layer="22" curve="90"/>
+<wire x1="-21.5" y1="20" x2="-21.5" y2="-20" width="0.127" layer="22"/>
+<wire x1="-21.5" y1="-20" x2="21.5" y2="-20" width="0.127" layer="22" curve="180"/>
+<wire x1="21.5" y1="-20" x2="21.5" y2="20" width="0.127" layer="22"/>
+<wire x1="21.5" y1="20" x2="-21.5" y2="20" width="0.127" layer="22" curve="180"/>
+<pad name="MNT1" x="-20" y="-37.5" drill="3.2"/>
+<pad name="MNT2" x="20" y="-37.5" drill="3.2"/>
+<pad name="MNT3" x="20" y="37.5" drill="3.2"/>
+<pad name="MNT4" x="-20" y="37.5" drill="3.2"/>
+<pad name="OP1" x="-20" y="0" drill="2.8"/>
+<pad name="OP2" x="-15" y="0" drill="2.8"/>
+<pad name="OP3" x="-10" y="0" drill="2.8"/>
+<pad name="OP4" x="-5" y="0" drill="2.8"/>
+<pad name="OP5" x="0" y="0" drill="2.8"/>
+<pad name="OP6" x="5" y="0" drill="2.8"/>
+<pad name="OP7" x="10" y="0" drill="2.8"/>
+<pad name="OP8" x="15" y="0" drill="2.8"/>
+<pad name="OP9" x="20" y="0" drill="2.8"/>
+<pad name="OP10" x="-17.5" y="5" drill="2.8"/>
+<pad name="OP11" x="-12.5" y="5" drill="2.8"/>
+<pad name="OP12" x="-7.5" y="5" drill="2.8"/>
+<pad name="OP13" x="-2.5" y="5" drill="2.8"/>
+<pad name="OP14" x="2.5" y="5" drill="2.8"/>
+<pad name="OP15" x="7.5" y="5" drill="2.8"/>
+<pad name="OP16" x="12.5" y="5" drill="2.8"/>
+<pad name="OP17" x="17.5" y="5" drill="2.8"/>
+<pad name="OP18" x="-20" y="10" drill="2.8"/>
+<pad name="OP19" x="-15" y="10" drill="2.8"/>
+<pad name="OP20" x="-10" y="10" drill="2.8"/>
+<pad name="OP21" x="-5" y="10" drill="2.8"/>
+<pad name="OP22" x="0" y="10" drill="2.8"/>
+<pad name="OP23" x="5" y="10" drill="2.8"/>
+<pad name="OP24" x="10" y="10" drill="2.8"/>
+<pad name="OP25" x="15" y="10" drill="2.8"/>
+<pad name="OP26" x="20" y="10" drill="2.8"/>
+<pad name="OP27" x="-17.5" y="15" drill="2.8"/>
+<pad name="OP28" x="-12.5" y="15" drill="2.8"/>
+<pad name="OP29" x="-7.5" y="15" drill="2.8"/>
+<pad name="OP30" x="-2.5" y="15" drill="2.8"/>
+<pad name="OP31" x="2.5" y="15" drill="2.8"/>
+<pad name="OP32" x="7.5" y="15" drill="2.8"/>
+<pad name="OP33" x="12.5" y="15" drill="2.8"/>
+<pad name="OP34" x="17.5" y="15" drill="2.8"/>
+<pad name="OP35" x="-20" y="-20" drill="2.8"/>
+<pad name="OP36" x="-15" y="-20" drill="2.8"/>
+<pad name="OP37" x="-10" y="-20" drill="2.8"/>
+<pad name="OP38" x="-5" y="-20" drill="2.8"/>
+<pad name="OP39" x="0" y="-20" drill="2.8"/>
+<pad name="OP40" x="5" y="-20" drill="2.8"/>
+<pad name="OP41" x="10" y="-20" drill="2.8"/>
+<pad name="OP42" x="15" y="-20" drill="2.8"/>
+<pad name="OP43" x="20" y="-20" drill="2.8"/>
+<pad name="OP44" x="-17.5" y="-15" drill="2.8"/>
+<pad name="OP45" x="-12.5" y="-15" drill="2.8"/>
+<pad name="OP46" x="-7.5" y="-15" drill="2.8"/>
+<pad name="OP47" x="-2.5" y="-15" drill="2.8"/>
+<pad name="OP48" x="2.5" y="-15" drill="2.8"/>
+<pad name="OP49" x="7.5" y="-15" drill="2.8"/>
+<pad name="OP50" x="12.5" y="-15" drill="2.8"/>
+<pad name="OP51" x="17.5" y="-15" drill="2.8"/>
+<pad name="OP52" x="-20" y="-10" drill="2.8"/>
+<pad name="OP53" x="-15" y="-10" drill="2.8"/>
+<pad name="OP54" x="-10" y="-10" drill="2.8"/>
+<pad name="OP55" x="-5" y="-10" drill="2.8"/>
+<pad name="OP56" x="0" y="-10" drill="2.8"/>
+<pad name="OP57" x="5" y="-10" drill="2.8"/>
+<pad name="OP58" x="10" y="-10" drill="2.8"/>
+<pad name="OP59" x="15" y="-10" drill="2.8"/>
+<pad name="OP60" x="20" y="-10" drill="2.8"/>
+<pad name="OP61" x="-17.5" y="-5" drill="2.8"/>
+<pad name="OP62" x="-12.5" y="-5" drill="2.8"/>
+<pad name="OP63" x="-7.5" y="-5" drill="2.8"/>
+<pad name="OP64" x="-2.5" y="-5" drill="2.8"/>
+<pad name="OP65" x="2.5" y="-5" drill="2.8"/>
+<pad name="OP66" x="7.5" y="-5" drill="2.8"/>
+<pad name="OP67" x="12.5" y="-5" drill="2.8"/>
+<pad name="OP68" x="17.5" y="-5" drill="2.8"/>
+<pad name="OP70" x="-15" y="-30" drill="2.8"/>
+<pad name="OP71" x="-10" y="-30" drill="2.8"/>
+<pad name="OP72" x="-5" y="-30" drill="2.8"/>
+<pad name="OP73" x="0" y="-30" drill="2.8"/>
+<pad name="OP74" x="5" y="-30" drill="2.8"/>
+<pad name="OP75" x="10" y="-30" drill="2.8"/>
+<pad name="OP76" x="15" y="-30" drill="2.8"/>
+<pad name="OP78" x="-17.5" y="-25" drill="2.8"/>
+<pad name="OP79" x="-12.5" y="-25" drill="2.8"/>
+<pad name="OP80" x="-7.5" y="-25" drill="2.8"/>
+<pad name="OP81" x="-2.5" y="-25" drill="2.8"/>
+<pad name="OP82" x="2.5" y="-25" drill="2.8"/>
+<pad name="OP83" x="7.5" y="-25" drill="2.8"/>
+<pad name="OP84" x="12.5" y="-25" drill="2.8"/>
+<pad name="OP85" x="17.5" y="-25" drill="2.8"/>
+<pad name="OP86" x="-20" y="20" drill="2.8"/>
+<pad name="OP87" x="-15" y="20" drill="2.8"/>
+<pad name="OP88" x="-10" y="20" drill="2.8"/>
+<pad name="OP89" x="-5" y="20" drill="2.8"/>
+<pad name="OP90" x="0" y="20" drill="2.8"/>
+<pad name="OP91" x="5" y="20" drill="2.8"/>
+<pad name="OP92" x="10" y="20" drill="2.8"/>
+<pad name="OP93" x="15" y="20" drill="2.8"/>
+<pad name="OP94" x="20" y="20" drill="2.8"/>
+<pad name="OP95" x="-17.5" y="25" drill="2.8"/>
+<pad name="OP96" x="-12.5" y="25" drill="2.8"/>
+<pad name="OP97" x="-7.5" y="25" drill="2.8"/>
+<pad name="OP98" x="-2.5" y="25" drill="2.8"/>
+<pad name="OP99" x="2.5" y="25" drill="2.8"/>
+<pad name="OP100" x="7.5" y="25" drill="2.8"/>
+<pad name="OP101" x="12.5" y="25" drill="2.8"/>
+<pad name="OP102" x="17.5" y="25" drill="2.8"/>
+<pad name="OP103" x="-12.5" y="-35" drill="2.8"/>
+<pad name="OP104" x="-7.5" y="-35" drill="2.8"/>
+<pad name="OP105" x="-2.5" y="-35" drill="2.8"/>
+<pad name="OP106" x="2.5" y="-35" drill="2.8"/>
+<pad name="OP107" x="7.5" y="-35" drill="2.8"/>
+<pad name="OP108" x="12.5" y="-35" drill="2.8"/>
+<pad name="OP109" x="-7.5" y="-40" drill="2.8"/>
+<pad name="OP110" x="-2.5" y="-40" drill="2.8"/>
+<pad name="OP111" x="2.5" y="-40" drill="2.8"/>
+<pad name="OP112" x="7.5" y="-40" drill="2.8"/>
+<pad name="OP69" x="-15" y="30" drill="2.8"/>
+<pad name="OP77" x="-10" y="30" drill="2.8"/>
+<pad name="OP113" x="-5" y="30" drill="2.8"/>
+<pad name="OP114" x="0" y="30" drill="2.8"/>
+<pad name="OP115" x="5" y="30" drill="2.8"/>
+<pad name="OP116" x="10" y="30" drill="2.8"/>
+<pad name="OP117" x="15" y="30" drill="2.8"/>
+<pad name="OP118" x="-12.5" y="35" drill="2.8"/>
+<pad name="OP119" x="-7.5" y="35" drill="2.8"/>
+<pad name="OP120" x="-2.5" y="35" drill="2.8"/>
+<pad name="OP121" x="2.5" y="35" drill="2.8"/>
+<pad name="OP122" x="7.5" y="35" drill="2.8"/>
+<pad name="OP123" x="12.5" y="35" drill="2.8"/>
+<pad name="OP124" x="-5" y="40" drill="2.8"/>
+<pad name="OP125" x="0" y="40" drill="2.8"/>
+<pad name="OP126" x="5" y="40" drill="2.8"/>
+</package>
 </packages>
 <symbols>
 <symbol name="QD803A">
@@ -110,6 +527,18 @@ https://www.alibaba.com/product-detail/New-QD803-ic-chip_60571949392.html</descr
 <text x="-5.08" y="27.94" size="1.778" layer="95">&gt;NAME</text>
 <text x="-5.08" y="-27.94" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SPEAKER">
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="QD803A" prefix="IC">
@@ -130,6 +559,21 @@ https://www.alibaba.com/product-detail/New-QD803-ic-chip_60571949392.html</descr
 <connect gate="G$1" pin="SEL" pad="2"/>
 <connect gate="G$1" pin="SYNC" pad="9"/>
 <connect gate="G$1" pin="VDD" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPEAKER" prefix="SP">
+<gates>
+<gate name="G$1" symbol="SPEAKER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPEAKER_90X50M">
+<connects>
+<connect gate="G$1" pin="1" pad="MNT1 MNT2 MNT3 MNT4 OP1 OP2 OP3 OP4 OP5 OP6 OP7 OP8 OP9 OP10 OP11 OP12 OP13 OP14 OP15 OP16 OP17 OP18 OP19 OP20 OP21 OP22 OP23 OP24 OP25 OP26 OP27 OP28 OP29 OP30 OP31 OP32 OP33 OP34 OP35 OP36 OP37 OP38 OP39 OP40 OP41 OP42 OP43 OP44 OP45 OP46 OP47 OP48 OP49 OP50 OP51 OP52 OP53 OP54 OP55 OP56 OP57 OP58 OP59 OP60 OP61 OP62 OP63 OP64 OP65 OP66 OP67 OP68 OP69 OP70 OP71 OP72 OP73 OP74 OP75 OP76 OP77 OP78 OP79 OP80 OP81 OP82 OP83 OP84 OP85 OP86 OP87 OP88 OP89 OP90 OP91 OP92 OP93 OP94 OP95 OP96 OP97 OP98 OP99 OP100 OP101 OP102 OP103 OP104 OP105 OP106 OP107 OP108 OP109 OP110 OP111 OP112 OP113 OP114 OP115 OP116 OP117 OP118 OP119 OP120 OP121 OP122 OP123 OP124 OP125 OP126"/>
 </connects>
 <technologies>
 <technology name=""/>
