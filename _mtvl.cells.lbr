@@ -577,6 +577,62 @@
 <wire x1="6.35" y1="15.24" x2="6.35" y2="-15.24" width="0.127" layer="21"/>
 <wire x1="6.35" y1="-15.24" x2="8.89" y2="-15.24" width="0.127" layer="21"/>
 </package>
+<package name="WEACT_STM32G431COREBOARD">
+<pad name="24" x="-10.16" y="-16.51" drill="0.9" shape="octagon"/>
+<pad name="23" x="-12.7" y="-16.51" drill="0.9" shape="octagon"/>
+<pad name="47" x="10.16" y="-16.51" drill="0.9" shape="octagon"/>
+<pad name="48" x="12.7" y="-16.51" drill="0.9" shape="octagon"/>
+<pad name="22" x="-10.16" y="-13.97" drill="0.9" shape="octagon"/>
+<pad name="21" x="-12.7" y="-13.97" drill="0.9" shape="octagon"/>
+<pad name="45" x="10.16" y="-13.97" drill="0.9" shape="octagon"/>
+<pad name="46" x="12.7" y="-13.97" drill="0.9" shape="octagon"/>
+<pad name="20" x="-10.16" y="-11.43" drill="0.9" shape="octagon"/>
+<pad name="19" x="-12.7" y="-11.43" drill="0.9" shape="octagon"/>
+<pad name="43" x="10.16" y="-11.43" drill="0.9" shape="octagon"/>
+<pad name="44" x="12.7" y="-11.43" drill="0.9" shape="octagon"/>
+<pad name="18" x="-10.16" y="-8.89" drill="0.9" shape="octagon"/>
+<pad name="17" x="-12.7" y="-8.89" drill="0.9" shape="octagon"/>
+<pad name="41" x="10.16" y="-8.89" drill="0.9" shape="octagon"/>
+<pad name="42" x="12.7" y="-8.89" drill="0.9" shape="octagon"/>
+<pad name="16" x="-10.16" y="-6.35" drill="0.9" shape="octagon"/>
+<pad name="15" x="-12.7" y="-6.35" drill="0.9" shape="octagon"/>
+<pad name="39" x="10.16" y="-6.35" drill="0.9" shape="octagon"/>
+<pad name="40" x="12.7" y="-6.35" drill="0.9" shape="octagon"/>
+<pad name="14" x="-10.16" y="-3.81" drill="0.9" shape="octagon"/>
+<pad name="13" x="-12.7" y="-3.81" drill="0.9" shape="octagon"/>
+<pad name="37" x="10.16" y="-3.81" drill="0.9" shape="octagon"/>
+<pad name="38" x="12.7" y="-3.81" drill="0.9" shape="octagon"/>
+<pad name="12" x="-10.16" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="11" x="-12.7" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="35" x="10.16" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="36" x="12.7" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="10" x="-10.16" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="9" x="-12.7" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="33" x="10.16" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="34" x="12.7" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="8" x="-10.16" y="3.81" drill="0.9" shape="octagon"/>
+<pad name="7" x="-12.7" y="3.81" drill="0.9" shape="octagon"/>
+<pad name="31" x="10.16" y="3.81" drill="0.9" shape="octagon"/>
+<pad name="32" x="12.7" y="3.81" drill="0.9" shape="octagon"/>
+<pad name="6" x="-10.16" y="6.35" drill="0.9" shape="octagon"/>
+<pad name="5" x="-12.7" y="6.35" drill="0.9" shape="octagon"/>
+<pad name="29" x="10.16" y="6.35" drill="0.9" shape="octagon"/>
+<pad name="30" x="12.7" y="6.35" drill="0.9" shape="octagon"/>
+<pad name="4" x="-10.16" y="8.89" drill="0.9" shape="octagon"/>
+<pad name="3" x="-12.7" y="8.89" drill="0.9" shape="octagon"/>
+<pad name="27" x="10.16" y="8.89" drill="0.9" shape="octagon"/>
+<pad name="28" x="12.7" y="8.89" drill="0.9" shape="octagon"/>
+<pad name="2" x="-10.16" y="11.43" drill="0.9" shape="octagon"/>
+<pad name="1" x="-12.7" y="11.43" drill="0.9" shape="octagon"/>
+<pad name="25" x="10.16" y="11.43" drill="0.9" shape="octagon"/>
+<pad name="26" x="12.7" y="11.43" drill="0.9" shape="octagon"/>
+<wire x1="-14.07" y1="-17.88" x2="14.07" y2="-17.88" width="0.254" layer="21"/>
+<wire x1="14.07" y1="-17.88" x2="14.07" y2="16.4" width="0.254" layer="21"/>
+<wire x1="14.07" y1="16.4" x2="12.07" y2="18.4" width="0.254" layer="21" curve="90"/>
+<wire x1="12.07" y1="18.4" x2="-12.07" y2="18.4" width="0.254" layer="21"/>
+<wire x1="-12.07" y1="18.4" x2="-14.07" y2="16.4" width="0.254" layer="21" curve="90"/>
+<wire x1="-14.07" y1="16.4" x2="-14.07" y2="-17.88" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="SD-10">
@@ -838,6 +894,71 @@ Overcurrent &amp; undervoltage protection with foldback</description>
 <wire x1="12.7" y1="15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
 <text x="-11.43" y="19.05" size="1.778" layer="95">&gt;NAME</text>
 <text x="-13.97" y="16.51" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="WEACT_STM32G431COREBOARD">
+<description>&lt;b&gt;WeActStudio.STM32G431CoreBoard&lt;/b&gt;&lt;p&gt;
+
+https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard</description>
+<pin name="VCC" x="-38.1" y="27.94" length="short" direction="pwr"/>
+<pin name="GND" x="-38.1" y="22.86" length="short" direction="pwr"/>
+<pin name="B12" x="-38.1" y="17.78" length="short"/>
+<pin name="B14" x="-38.1" y="12.7" length="short"/>
+<pin name="C6" x="-38.1" y="7.62" length="short"/>
+<pin name="A9" x="-38.1" y="2.54" length="short"/>
+<pin name="A11" x="-38.1" y="-2.54" length="short"/>
+<pin name="A15" x="-38.1" y="-7.62" length="short"/>
+<pin name="C11" x="-38.1" y="-12.7" length="short"/>
+<pin name="B4" x="-38.1" y="-17.78" length="short"/>
+<pin name="B6" x="-38.1" y="-22.86" length="short"/>
+<pin name="B8" x="-38.1" y="-27.94" length="short"/>
+<pin name="B9" x="-12.7" y="-27.94" length="short" rot="R180"/>
+<pin name="B7" x="-12.7" y="-22.86" length="short" rot="R180"/>
+<pin name="B5" x="-12.7" y="-17.78" length="short" rot="R180"/>
+<pin name="B3" x="-12.7" y="-12.7" length="short" rot="R180"/>
+<pin name="C10" x="-12.7" y="-7.62" length="short" rot="R180"/>
+<pin name="A12" x="-12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="A10" x="-12.7" y="2.54" length="short" rot="R180"/>
+<pin name="A8" x="-12.7" y="7.62" length="short" rot="R180"/>
+<pin name="B15" x="-12.7" y="12.7" length="short" rot="R180"/>
+<pin name="B13" x="-12.7" y="17.78" length="short" rot="R180"/>
+<pin name="GND1" x="-12.7" y="22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="VCC1" x="-12.7" y="27.94" length="short" direction="pwr" rot="R180"/>
+<wire x1="-35.56" y1="30.48" x2="-35.56" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-30.48" x2="-15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-30.48" x2="-15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="30.48" x2="-35.56" y2="30.48" width="0.254" layer="94"/>
+<pin name="3V3" x="12.7" y="27.94" length="short" direction="sup"/>
+<pin name="GND2" x="12.7" y="22.86" length="short" direction="pwr"/>
+<pin name="B10" x="12.7" y="17.78" length="short"/>
+<pin name="B2" x="12.7" y="12.7" length="short"/>
+<pin name="B0" x="12.7" y="7.62" length="short"/>
+<pin name="A7" x="12.7" y="2.54" length="short"/>
+<pin name="A5" x="12.7" y="-2.54" length="short"/>
+<pin name="A3" x="12.7" y="-7.62" length="short"/>
+<pin name="A1" x="12.7" y="-12.7" length="short"/>
+<pin name="NRST" x="12.7" y="-17.78" length="short"/>
+<pin name="C14" x="12.7" y="-22.86" length="short"/>
+<pin name="VB" x="12.7" y="-27.94" length="short" direction="sup"/>
+<pin name="C13" x="38.1" y="-27.94" length="short" rot="R180"/>
+<pin name="C15" x="38.1" y="-22.86" length="short" rot="R180"/>
+<pin name="A0" x="38.1" y="-17.78" length="short" rot="R180"/>
+<pin name="A2" x="38.1" y="-12.7" length="short" rot="R180"/>
+<pin name="A4" x="38.1" y="-7.62" length="short" rot="R180"/>
+<pin name="A6" x="38.1" y="-2.54" length="short" rot="R180"/>
+<pin name="C4" x="38.1" y="2.54" length="short" rot="R180"/>
+<pin name="B1" x="38.1" y="7.62" length="short" rot="R180"/>
+<pin name="V+" x="38.1" y="12.7" length="short" direction="sup" rot="R180"/>
+<pin name="B11" x="38.1" y="17.78" length="short" rot="R180"/>
+<pin name="GND3" x="38.1" y="22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="3V3_2" x="38.1" y="27.94" length="short" direction="sup" rot="R180"/>
+<wire x1="15.24" y1="30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-30.48" x2="35.56" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-30.48" x2="35.56" y2="30.48" width="0.254" layer="94"/>
+<wire x1="35.56" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
+<text x="-35.56" y="31.242" size="1.778" layer="95">&gt;NAME</text>
+<text x="-35.56" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-15.24" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1146,6 +1267,71 @@ Overcurrent &amp; undervoltage foldback  protectrion</description>
 <connect gate="U1" pin="GND2" pad="GND2"/>
 <connect gate="U1" pin="GND3" pad="GND3"/>
 <connect gate="U1" pin="RST" pad="RST"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WEACT_STM32G431COREBOARD" prefix="BOARD">
+<description>&lt;b&gt;WeActStudio.STM32G431CoreBoard&lt;/b&gt;&lt;p&gt;
+
+https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard</description>
+<gates>
+<gate name="G$1" symbol="WEACT_STM32G431COREBOARD" x="-27.94" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="WEACT_STM32G431COREBOARD">
+<connects>
+<connect gate="G$1" pin="3V3" pad="25"/>
+<connect gate="G$1" pin="3V3_2" pad="26"/>
+<connect gate="G$1" pin="A0" pad="44"/>
+<connect gate="G$1" pin="A1" pad="41"/>
+<connect gate="G$1" pin="A10" pad="12"/>
+<connect gate="G$1" pin="A11" pad="13"/>
+<connect gate="G$1" pin="A12" pad="14"/>
+<connect gate="G$1" pin="A15" pad="15"/>
+<connect gate="G$1" pin="A2" pad="42"/>
+<connect gate="G$1" pin="A3" pad="39"/>
+<connect gate="G$1" pin="A4" pad="40"/>
+<connect gate="G$1" pin="A5" pad="37"/>
+<connect gate="G$1" pin="A6" pad="38"/>
+<connect gate="G$1" pin="A7" pad="35"/>
+<connect gate="G$1" pin="A8" pad="10"/>
+<connect gate="G$1" pin="A9" pad="11"/>
+<connect gate="G$1" pin="B0" pad="33"/>
+<connect gate="G$1" pin="B1" pad="34"/>
+<connect gate="G$1" pin="B10" pad="29"/>
+<connect gate="G$1" pin="B11" pad="30"/>
+<connect gate="G$1" pin="B12" pad="5"/>
+<connect gate="G$1" pin="B13" pad="6"/>
+<connect gate="G$1" pin="B14" pad="7"/>
+<connect gate="G$1" pin="B15" pad="8"/>
+<connect gate="G$1" pin="B2" pad="31"/>
+<connect gate="G$1" pin="B3" pad="18"/>
+<connect gate="G$1" pin="B4" pad="19"/>
+<connect gate="G$1" pin="B5" pad="20"/>
+<connect gate="G$1" pin="B6" pad="21"/>
+<connect gate="G$1" pin="B7" pad="22"/>
+<connect gate="G$1" pin="B8" pad="23"/>
+<connect gate="G$1" pin="B9" pad="24"/>
+<connect gate="G$1" pin="C10" pad="16"/>
+<connect gate="G$1" pin="C11" pad="17"/>
+<connect gate="G$1" pin="C13" pad="48"/>
+<connect gate="G$1" pin="C14" pad="45"/>
+<connect gate="G$1" pin="C15" pad="46"/>
+<connect gate="G$1" pin="C4" pad="36"/>
+<connect gate="G$1" pin="C6" pad="9"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="GND1" pad="4"/>
+<connect gate="G$1" pin="GND2" pad="27"/>
+<connect gate="G$1" pin="GND3" pad="28"/>
+<connect gate="G$1" pin="NRST" pad="43"/>
+<connect gate="G$1" pin="V+" pad="32"/>
+<connect gate="G$1" pin="VB" pad="47"/>
+<connect gate="G$1" pin="VCC" pad="1"/>
+<connect gate="G$1" pin="VCC1" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
