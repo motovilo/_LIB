@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4714,6 +4714,29 @@ with Logic-Level Conversion&lt;/b&gt;</description>
 <text x="-20.066" y="69.342" size="1.778" layer="95">&gt;NAME</text>
 <text x="0" y="-71.12" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="AN240P">
+<description>&lt;b&gt;TV Sound IF Amplifier, FM Detector circuit&lt;/b&gt;&lt;p&gt;</description>
+<pin name="IF_IN" x="-12.7" y="15.24" length="short" direction="in"/>
+<pin name="IF_BIAS" x="-12.7" y="10.16" length="short" direction="in"/>
+<pin name="GND" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="GND1" x="-12.7" y="0" length="short" direction="pwr"/>
+<pin name="VCC" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="CV" x="-12.7" y="-10.16" length="short" direction="in"/>
+<pin name="EMPH" x="-12.7" y="-15.24" length="short"/>
+<pin name="VCA" x="12.7" y="-15.24" length="short" direction="out" rot="R180"/>
+<pin name="IF_OUT" x="12.7" y="-10.16" length="short" direction="out" rot="R180"/>
+<pin name="DEMOD" x="12.7" y="-5.08" length="short" direction="out" rot="R180"/>
+<pin name="NC1" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="AOUT" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
+<pin name="NC2" x="12.7" y="10.16" length="short" rot="R180"/>
+<pin name="AIN" x="12.7" y="15.24" length="short" direction="in" rot="R180"/>
+<wire x1="-10.16" y1="17.78" x2="-10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-17.78" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="10.16" y2="17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="17.78" x2="-10.16" y2="17.78" width="0.254" layer="94"/>
+<text x="-10.16" y="18.542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="6N137" prefix="IC">
@@ -8072,6 +8095,35 @@ https://static.chipdip.ru/lib/497/DOC011497710.pdf</description>
 <connect gate="IC" pin="VIF_IN2" pad="9"/>
 <connect gate="IC" pin="VOLUME_CONTROL" pad="11"/>
 <connect gate="IC" pin="VRAMP_GEN" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AN240P" prefix="IC">
+<description>&lt;b&gt;TV Sound IF Amplifier, FM Detector circuit&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="AN240P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIL14_">
+<connects>
+<connect gate="G$1" pin="AIN" pad="14"/>
+<connect gate="G$1" pin="AOUT" pad="12"/>
+<connect gate="G$1" pin="CV" pad="6"/>
+<connect gate="G$1" pin="DEMOD" pad="10"/>
+<connect gate="G$1" pin="EMPH" pad="7"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="GND1" pad="4"/>
+<connect gate="G$1" pin="IF_BIAS" pad="2"/>
+<connect gate="G$1" pin="IF_IN" pad="1"/>
+<connect gate="G$1" pin="IF_OUT" pad="9"/>
+<connect gate="G$1" pin="NC1" pad="11"/>
+<connect gate="G$1" pin="NC2" pad="13"/>
+<connect gate="G$1" pin="VCA" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
