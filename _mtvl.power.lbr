@@ -1824,6 +1824,52 @@ https://static.chipdip.ru/lib/904/DOC002904350.pdf</description>
 <wire x1="0.8" y1="-1.425" x2="0.8" y2="-1.565" width="0.127" layer="21"/>
 <wire x1="0.8" y1="1.565" x2="0.8" y2="1.425" width="0.127" layer="21"/>
 </package>
+<package name="SWPA6045S">
+<description>&lt;b&gt;Wire Wound SMD Power Inductors – SWPA Series&lt;/b&gt;&lt;p&gt;</description>
+<smd name="1" x="-2.4" y="0" dx="2" dy="5.7" layer="1" roundness="20" thermals="no"/>
+<text x="-3.2012" y="3.503" size="1.016" layer="25">&gt;NAME</text>
+<smd name="2" x="2.4" y="0" dx="2" dy="5.7" layer="1" roundness="20" thermals="no"/>
+<wire x1="1.2" y1="3" x2="-1.2" y2="3" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="-3" x2="1.2" y2="-3" width="0.254" layer="21"/>
+<wire x1="-3.65" y1="3.2" x2="-3.65" y2="-3.2" width="0.0508" layer="39"/>
+<wire x1="3.65" y1="3.2" x2="3.65" y2="-3.2" width="0.0508" layer="39"/>
+<wire x1="-3.65" y1="3.2" x2="3.65" y2="3.2" width="0.0508" layer="39"/>
+<wire x1="-3.65" y1="-3.2" x2="3.65" y2="-3.2" width="0.0508" layer="39"/>
+<text x="-0.003" y="-0.2012" size="1.016" layer="25" rot="R90" align="center">&gt;VALUE</text>
+</package>
+<package name="MWSA0503S">
+<description>&lt;b&gt;Molded SMD Power Inductors - MWSA-S Series - Sunlord&lt;/b&gt;&lt;p&gt;
+
+&lt;a href="https://www.lcsc.com/datasheet/lcsc_datasheet_2310251550_Sunlord-MWSA0503S-4R7MT_C408410.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<smd name="1" x="-2.1" y="0" dx="2" dy="2.5" layer="1" roundness="20" thermals="no"/>
+<text x="-3.2012" y="2.868" size="1.016" layer="25">&gt;NAME</text>
+<smd name="2" x="2.1" y="0" dx="1.9" dy="2.5" layer="1" roundness="20" thermals="no"/>
+<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="-2.7" y1="2.7" x2="-2.7" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="-2.7" y1="1.45" x2="-3.3" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="-3.3" y1="1.45" x2="-3.3" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-3.3" y1="-1.45" x2="-2.7" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="-2.7" y1="-1.45" x2="-2.7" y2="-2.7" width="0.0508" layer="39"/>
+<wire x1="2.7" y1="2.7" x2="2.7" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="2.7" y1="1.45" x2="3.3" y2="1.45" width="0.0508" layer="39"/>
+<wire x1="3.3" y1="1.45" x2="3.3" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="3.3" y1="-1.45" x2="2.7" y2="-1.45" width="0.0508" layer="39"/>
+<wire x1="2.7" y1="-1.45" x2="2.7" y2="-2.7" width="0.0508" layer="39"/>
+<wire x1="-2.7" y1="2.7" x2="2.7" y2="2.7" width="0.0508" layer="39"/>
+<wire x1="-2.7" y1="-2.7" x2="2.7" y2="-2.7" width="0.0508" layer="39"/>
+<text x="-0.003" y="-0.2012" size="0.8128" layer="25" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="1.55" x2="-0.8" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="-0.8" y1="1.55" x2="-0.8" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="-0.8" y1="-1.55" x2="-2.5" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="1.55" x2="0.9" y2="1.55" width="0.2032" layer="21"/>
+<wire x1="0.9" y1="1.55" x2="0.9" y2="-1.55" width="0.2032" layer="21"/>
+<wire x1="0.9" y1="-1.55" x2="2.5" y2="-1.55" width="0.2032" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS5430DDAR_">
@@ -2663,6 +2709,21 @@ https://datasheet.lcsc.com/lcsc/1810010350_BPS-Bright-Power-Semicon-BP1808_C8565
 <text x="-7.62" y="10.922" size="1.778" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="0" y="-12.7" size="1.778" layer="96" ratio="10" rot="SR0" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="JW5361">
+<description>&lt;b&gt;Sync. Step-Down Converter&lt;/b&gt;&lt;p&gt;</description>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<pin name="SW" x="10.16" y="0" length="short" direction="out" rot="R180"/>
+<pin name="VIN" x="-10.16" y="5.08" length="short" direction="pwr"/>
+<pin name="FB" x="10.16" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="EN" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="BST" x="10.16" y="5.08" length="short" direction="in" rot="R180"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="0" y="-10.16" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TPS5430DDAR" prefix="IC">
@@ -3174,7 +3235,7 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PWR_INDUCTOR" prefix="L" uservalue="yes">
+<deviceset name="PWR_INDUCTOR_" prefix="L" uservalue="yes">
 <description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;</description>
 <gates>
 <gate name="G$1" symbol="DRK" x="0" y="0"/>
@@ -3217,6 +3278,24 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </technologies>
 </device>
 <device name="CDRH8D43" package="CDRH8D43">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SWPA6045S" package="SWPA6045S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MWSA0503S" package="MWSA0503S">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3964,6 +4043,29 @@ https://datasheet.lcsc.com/lcsc/1810010350_BPS-Bright-Power-Semicon-BP1808_C8565
 <connect gate="G$1" pin="PH" pad="8"/>
 <connect gate="G$1" pin="VIN" pad="7"/>
 <connect gate="G$1" pin="VS" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JW5361FM" prefix="IC">
+<description>&lt;b&gt;Sync. Step-Down Converter - JoulWatt Tech&lt;/b&gt;&lt;p&gt;
+
+&lt;a href=" https://www.lcsc.com/datasheet/lcsc_datasheet_2209140930_JoulWatt-Tech-JW5361FMSOTB-TR_C5121635.pdf"&gt;&lt;b&gt;Datasheet&lt;/b&gt;&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="JW5361" x="27.94" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="BST" pad="6"/>
+<connect gate="G$1" pin="EN" pad="5"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SW" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
