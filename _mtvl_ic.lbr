@@ -8144,6 +8144,27 @@ https://static.chipdip.ru/lib/497/DOC011497710.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="TP1961" prefix="IC">
+<description>&lt;b&gt;7ns, 1/2/4, Ultra-High-Speed, +3V/+5V, Beyond-the-Rails Comparators&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="COMPARATOR-PP" x="0" y="0"/>
+<gate name="P" symbol="PWR" x="0" y="0" addlevel="request"/>
+</gates>
+<devices>
+<device name="" package="SOT23-5">
+<connects>
+<connect gate="G$1" pin="+IN" pad="3"/>
+<connect gate="G$1" pin="-IN" pad="4"/>
+<connect gate="G$1" pin="OUT" pad="1"/>
+<connect gate="P" pin="V+" pad="5"/>
+<connect gate="P" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
