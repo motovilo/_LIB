@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4750,6 +4750,24 @@ with Logic-Level Conversion&lt;/b&gt;</description>
 <pin name="+IN" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
 </symbol>
+<symbol name="MCP4921">
+<description>&lt;b&gt;12-Bit Voltage Output SPI DAC
+with external VREF&lt;/b&gt;&lt;p&gt;</description>
+<wire x1="-10.16" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<pin name="/CS" x="-15.24" y="7.62" length="middle" direction="in" function="dot"/>
+<pin name="VSS" x="15.24" y="-7.62" length="middle" direction="sup" rot="R180"/>
+<pin name="/LDAC" x="-15.24" y="-7.62" length="middle" direction="in" function="dot"/>
+<pin name="OUTA" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="SCK" x="-15.24" y="2.54" length="middle" direction="in" function="clk"/>
+<pin name="SDI" x="-15.24" y="-2.54" length="middle" direction="in"/>
+<pin name="VDD" x="15.24" y="7.62" length="middle" direction="sup" rot="R180"/>
+<text x="0" y="-12.7" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="-10.16" y="10.922" size="1.778" layer="95">&gt;NAME</text>
+<pin name="VREF" x="15.24" y="-2.54" length="middle" direction="in" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="6N137" prefix="IC">
@@ -8158,6 +8176,45 @@ https://static.chipdip.ru/lib/497/DOC011497710.pdf</description>
 <connect gate="G$1" pin="OUT" pad="1"/>
 <connect gate="P" pin="V+" pad="5"/>
 <connect gate="P" pin="V-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCP4921" prefix="IC">
+<description>&lt;b&gt;12-Bit Voltage Output SPI DAC
+with external VREF&lt;/b&gt;&lt;p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MCP4921" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-E/SN" package="SO8">
+<connects>
+<connect gate="G$1" pin="/CS" pad="2"/>
+<connect gate="G$1" pin="/LDAC" pad="5"/>
+<connect gate="G$1" pin="OUTA" pad="8"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="SDI" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VREF" pad="6"/>
+<connect gate="G$1" pin="VSS" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-E/P" package="DIL08_">
+<connects>
+<connect gate="G$1" pin="/CS" pad="2"/>
+<connect gate="G$1" pin="/LDAC" pad="5"/>
+<connect gate="G$1" pin="OUTA" pad="8"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="SDI" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VREF" pad="6"/>
+<connect gate="G$1" pin="VSS" pad="7"/>
 </connects>
 <technologies>
 <technology name=""/>
