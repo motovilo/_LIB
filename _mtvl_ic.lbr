@@ -2807,6 +2807,69 @@ https://assets.nexperia.com/documents/package-information/SOT108-1.pdf</descript
 <text x="-17.78" y="-6.35" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0" y="0" size="1.778" layer="27" ratio="10" align="center">&gt;VALUE</text>
 </package>
+<package name="SOP-16">
+<circle x="-2.25" y="4.445" radius="0.125" width="0.25" layer="21"/>
+<wire x1="-2.8" y1="5.25" x2="2.8" y2="5.25" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="-5.25" x2="-1.8" y2="-5.25" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-5.25" x2="2.8" y2="-5.25" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="5.25" x2="-2.8" y2="-5.25" width="0.127" layer="21"/>
+<wire x1="2.8" y1="5.25" x2="2.8" y2="-5.25" width="0.127" layer="21"/>
+<wire x1="-4.7" y1="5.5" x2="4.7" y2="5.5" width="0.05" layer="39"/>
+<wire x1="-4.7" y1="-5.5" x2="4.7" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="-4.7" y1="5.5" x2="-4.7" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="4.7" y1="5.5" x2="4.7" y2="-5.5" width="0.05" layer="39"/>
+<text x="-4.77" y="-5.427" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-4.77" y="5.427" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-3.81" y="4.445" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="2" x="-3.81" y="3.175" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="3" x="-3.81" y="1.905" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="4" x="-3.81" y="0.635" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="5" x="-3.81" y="-0.635" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="6" x="-3.81" y="-1.905" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="7" x="-3.81" y="-3.175" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="8" x="-3.81" y="-4.445" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="9" x="3.81" y="-4.445" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="10" x="3.81" y="-3.175" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="11" x="3.81" y="-1.905" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="12" x="3.81" y="-0.635" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="13" x="3.81" y="0.635" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="14" x="3.81" y="1.905" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="15" x="3.81" y="3.175" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<smd name="16" x="3.81" y="4.445" dx="1.27" dy="0.76" layer="1" roundness="20"/>
+<wire x1="-1.8" y1="5.25" x2="-1.8" y2="-5.25" width="0.127" layer="21"/>
+</package>
+<package name="SOP-16_">
+<circle x="-5.435" y="5.055" radius="0.1" width="0.2" layer="21"/>
+<circle x="-5.435" y="5.055" radius="0.1" width="0.2" layer="51"/>
+<wire x1="-2.8" y1="5.25" x2="2.8" y2="5.25" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-5.25" x2="2.8" y2="-5.25" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="5.25" x2="2.8" y2="5.25" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="-5.25" x2="2.8" y2="-5.25" width="0.127" layer="21"/>
+<wire x1="-2.8" y1="5.25" x2="-2.8" y2="-5.25" width="0.127" layer="51"/>
+<wire x1="2.8" y1="5.25" x2="2.8" y2="-5.25" width="0.127" layer="51"/>
+<wire x1="-4.7" y1="5.5" x2="4.7" y2="5.5" width="0.05" layer="39"/>
+<wire x1="-4.7" y1="-5.5" x2="4.7" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="-4.7" y1="5.5" x2="-4.7" y2="-5.5" width="0.05" layer="39"/>
+<wire x1="4.7" y1="5.5" x2="4.7" y2="-5.5" width="0.05" layer="39"/>
+<text x="-4.77" y="-5.427" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<text x="-4.77" y="5.427" size="1.27" layer="25">&gt;NAME</text>
+<smd name="1" x="-3.465" y="4.445" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="2" x="-3.465" y="3.175" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="3" x="-3.465" y="1.905" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="4" x="-3.465" y="0.635" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="5" x="-3.465" y="-0.635" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="6" x="-3.465" y="-1.905" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="7" x="-3.465" y="-3.175" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="8" x="-3.465" y="-4.445" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="9" x="3.465" y="-4.445" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="10" x="3.465" y="-3.175" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="11" x="3.465" y="-1.905" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="12" x="3.465" y="-0.635" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="13" x="3.465" y="0.635" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="14" x="3.465" y="1.905" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="15" x="3.465" y="3.175" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+<smd name="16" x="3.465" y="4.445" dx="1.97" dy="0.61" layer="1" roundness="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="137">
@@ -5143,6 +5206,29 @@ UART</description>
 </technologies>
 </device>
 <device name="MX" package="SO16_">
+<connects>
+<connect gate="A" pin="IN_N" pad="4"/>
+<connect gate="A" pin="IN_P" pad="3"/>
+<connect gate="A" pin="I_BIAS" pad="1"/>
+<connect gate="A" pin="I_DIODE" pad="2"/>
+<connect gate="A" pin="OUT" pad="5"/>
+<connect gate="A-BUF" pin="B" pad="7"/>
+<connect gate="A-BUF" pin="E" pad="8"/>
+<connect gate="B" pin="IN_N" pad="13"/>
+<connect gate="B" pin="IN_P" pad="14"/>
+<connect gate="B" pin="I_BIAS" pad="16"/>
+<connect gate="B" pin="I_DIODE" pad="15"/>
+<connect gate="B" pin="OUT" pad="12"/>
+<connect gate="B-BUF" pin="B" pad="10"/>
+<connect gate="B-BUF" pin="E" pad="9"/>
+<connect gate="SUPPLY" pin="V+" pad="11"/>
+<connect gate="SUPPLY" pin="V-" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="M_HGSEMI_SOP-16" package="SOP-16">
 <connects>
 <connect gate="A" pin="IN_N" pad="4"/>
 <connect gate="A" pin="IN_P" pad="3"/>
