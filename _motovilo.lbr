@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -7426,8 +7426,8 @@ TS-003</description>
 </package>
 <package name="SMA-NT">
 <description>&lt;b&gt;SMA  (no thermal gaps) &lt;/b&gt;&lt;p&gt;</description>
-<smd name="A" x="-2.159" y="0" dx="1.27" dy="1.778" layer="1" roundness="20" rot="R180" thermals="no"/>
-<smd name="C" x="2.159" y="0" dx="1.27" dy="1.778" layer="1" roundness="20" thermals="no"/>
+<smd name="A" x="-2.159" y="0" dx="1.27" dy="1.778" layer="1" roundness="20" rot="R180"/>
+<smd name="C" x="2.159" y="0" dx="1.27" dy="1.778" layer="1" roundness="20"/>
 <wire x1="-2.3" y1="1" x2="-2.3" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="-2.3" y1="1.27" x2="2.3" y2="1.27" width="0.2032" layer="21"/>
 <wire x1="2.3" y1="1.27" x2="2.3" y2="1" width="0.2032" layer="21"/>
@@ -11605,19 +11605,17 @@ https://www.analog.com/en/products/adau1701.html</description>
 <wire x1="-2.54" y1="-0.508" x2="-3.048" y2="-1.524" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="-0.508" x2="-2.032" y2="-1.524" width="0.1524" layer="94"/>
 <wire x1="-2.1597" y1="1.2939" x2="-1.7018" y2="2.2352" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94" style="shortdash"/>
-<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.556" width="0.254" layer="94" style="shortdash"/>
-<wire x1="2.54" y1="-3.556" x2="-2.54" y2="-3.556" width="0.254" layer="94" style="shortdash"/>
-<wire x1="-2.54" y1="-3.556" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="5.08" x2="-2.54" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="-3.556" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="-3.556" x2="-2.54" y2="-3.556" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="-2.54" y1="-3.556" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
 <pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
 <pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="SHIELD" x="-7.62" y="-5.08" visible="pad" length="short"/>
 <text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
 <text x="2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="MNT" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas"/>
 </symbol>
 <symbol name="FIDUCIAL">
 <description>&lt;h3&gt;Fiducial&lt;/h3&gt;
@@ -14683,7 +14681,7 @@ DIN A4, landscape with location and doc. field</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="SHIELD" pad="4 5"/>
+<connect gate="G$1" pin="MNT" pad="4 5"/>
 </connects>
 <technologies>
 <technology name=""/>

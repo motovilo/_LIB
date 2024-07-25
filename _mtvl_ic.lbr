@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1153,6 +1153,12 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <wire x1="-2.794" y1="3.937" x2="2.794" y2="3.937" width="0.0508" layer="39"/>
 <wire x1="2.794" y1="3.937" x2="2.794" y2="-3.937" width="0.0508" layer="39"/>
 <wire x1="2.794" y1="-3.937" x2="-2.794" y2="-3.937" width="0.0508" layer="39"/>
+<rectangle x1="-1.4986" y1="1.584" x2="-1.0414" y2="3.616" layer="41"/>
+<rectangle x1="-0.2286" y1="1.584" x2="0.2286" y2="3.616" layer="41"/>
+<rectangle x1="1.0414" y1="1.584" x2="1.4986" y2="3.616" layer="41"/>
+<rectangle x1="-1.4986" y1="-3.616" x2="-1.0414" y2="-1.584" layer="41"/>
+<rectangle x1="-0.2286" y1="-3.616" x2="0.2286" y2="-1.584" layer="41"/>
+<rectangle x1="1.0414" y1="-3.616" x2="1.4986" y2="-1.584" layer="41"/>
 </package>
 <package name="MLF32">
 <description>&lt;b&gt;32M1-A&lt;/b&gt; Micro Lead Frame package (MLF)</description>
