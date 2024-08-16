@@ -1541,44 +1541,48 @@ Source: coiltronics_dr_series.pdf</description>
 <hole x="5.1" y="3.64" drill="3"/>
 </package>
 <package name="NMJ6HC-S">
-<wire x1="10.35" y1="9.1" x2="-10.25" y2="9.1" width="0.254" layer="21"/>
-<wire x1="-10.25" y1="9.1" x2="-10.25" y2="-9.1" width="0.254" layer="21"/>
-<wire x1="-10.25" y1="-9.1" x2="10.35" y2="-9.1" width="0.254" layer="21"/>
-<wire x1="10.35" y1="-9.1" x2="10.35" y2="-5.7" width="0.254" layer="21"/>
+<description>&lt;b&gt;WQP-PJ6100 6.35mm Audio Jack, right angle.&lt;/b&gt;&lt;p&gt;
+
+Datasheet: &lt;a href="http://www.qingpu-electronics.com/en/products/WQP-PJ6100-373.html"&gt;WQP-PJ6100&lt;/a)&lt;br)</description>
+<wire x1="10.35" y1="9.76" x2="-10.25" y2="9.76" width="0.254" layer="21"/>
+<wire x1="-10.25" y1="9.76" x2="-10.25" y2="-9.76" width="0.254" layer="21"/>
+<wire x1="-10.25" y1="-9.76" x2="10.35" y2="-9.76" width="0.254" layer="21"/>
+<wire x1="10.35" y1="-9.76" x2="10.35" y2="-5.7" width="0.254" layer="21"/>
 <wire x1="10.35" y1="-5.7" x2="10.35" y2="5.7" width="0.254" layer="21"/>
-<wire x1="10.35" y1="5.7" x2="10.35" y2="9.1" width="0.254" layer="21"/>
-<wire x1="10.35" y1="5.7" x2="13.3" y2="5.7" width="0.254" layer="21"/>
-<wire x1="13.3" y1="5.7" x2="13.3" y2="-5.7" width="0.254" layer="21"/>
-<wire x1="13.3" y1="-5.7" x2="10.35" y2="-5.7" width="0.254" layer="21"/>
-<wire x1="13.755" y1="3.81" x2="-3.175" y2="3.81" width="0.254" layer="51"/>
+<wire x1="10.35" y1="5.7" x2="10.35" y2="9.76" width="0.254" layer="21"/>
+<wire x1="10.35" y1="5.7" x2="15.25" y2="5.7" width="0.254" layer="21"/>
+<wire x1="15.25" y1="5.7" x2="15.25" y2="-5.7" width="0.254" layer="21"/>
+<wire x1="15.25" y1="-5.7" x2="10.35" y2="-5.7" width="0.254" layer="21"/>
+<wire x1="15.25" y1="3.81" x2="-3.175" y2="3.81" width="0.254" layer="51"/>
 <wire x1="-3.175" y1="3.81" x2="-4.445" y2="2.54" width="0.254" layer="51"/>
 <wire x1="-4.445" y1="2.54" x2="-5.715" y2="3.81" width="0.254" layer="51"/>
 <wire x1="-5.715" y1="3.81" x2="-9.525" y2="0" width="0.254" layer="51"/>
 <wire x1="-9.525" y1="0" x2="-5.715" y2="-3.81" width="0.254" layer="51"/>
 <wire x1="-5.715" y1="-3.81" x2="-4.445" y2="-2.54" width="0.254" layer="51"/>
 <wire x1="-4.445" y1="-2.54" x2="-3.175" y2="-3.81" width="0.254" layer="51"/>
-<wire x1="-3.175" y1="-3.81" x2="13.755" y2="-3.81" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="-3.81" x2="15.25" y2="-3.81" width="0.254" layer="51"/>
 <rectangle x1="-2.54" y1="-3.81" x2="-1.27" y2="3.81" layer="51"/>
 <rectangle x1="2.54" y1="-3.81" x2="3.81" y2="3.81" layer="51"/>
-<pad name="R" x="0" y="8.115" drill="1.4" shape="long"/>
-<pad name="RN" x="0" y="-8.115" drill="1.4" shape="long"/>
-<pad name="S" x="6.35" y="8.115" drill="1.4" shape="long"/>
-<pad name="SN" x="6.35" y="-8.115" drill="1.4" shape="long"/>
-<pad name="T" x="-6.35" y="8.115" drill="1.4" shape="long"/>
-<pad name="TN" x="-6.35" y="-8.115" drill="1.4" shape="long"/>
-<text x="-6.985" y="5.715" size="1.27" layer="21" font="vector" ratio="12">T</text>
-<text x="-0.635" y="5.715" size="1.27" layer="21" font="vector" ratio="12">R</text>
-<text x="5.715" y="5.715" size="1.27" layer="21" font="vector" ratio="12">S</text>
-<text x="-7.62" y="-6.985" size="1.27" layer="21" font="vector" ratio="12">TN</text>
-<text x="-1.27" y="-6.985" size="1.27" layer="21" font="vector" ratio="12">RN</text>
-<text x="5.08" y="-6.985" size="1.27" layer="21" font="vector" ratio="12">SN</text>
-<text x="7.62" y="0" size="1.27" layer="25" ratio="12" rot="R90" align="center">&gt;NAME</text>
+<pad name="R" x="0" y="8.115" drill="1.5" shape="long"/>
+<pad name="RN" x="0" y="-8.115" drill="1.5" shape="long"/>
+<pad name="S" x="6.35" y="8.115" drill="1.5" shape="long"/>
+<pad name="SN" x="6.35" y="-8.115" drill="1.5" shape="long"/>
+<pad name="T" x="-6.35" y="8.115" drill="1.5" shape="long"/>
+<pad name="TN" x="-6.35" y="-8.115" drill="1.5" shape="long"/>
+<text x="-6.985" y="5.08" size="1.27" layer="21" font="vector" ratio="12">T</text>
+<text x="-0.635" y="5.08" size="1.27" layer="21" font="vector" ratio="12">R</text>
+<text x="5.715" y="5.08" size="1.27" layer="21" font="vector" ratio="12">S</text>
+<text x="-7.62" y="-6.35" size="1.27" layer="21" font="vector" ratio="12">TN</text>
+<text x="-1.27" y="-6.35" size="1.27" layer="21" font="vector" ratio="12">RN</text>
+<text x="5.08" y="-6.35" size="1.27" layer="21" font="vector" ratio="12">SN</text>
+<text x="-11.43" y="-7.62" size="1.27" layer="25" ratio="12" rot="R90" align="center">&gt;NAME</text>
 <text x="-11.43" y="0" size="1.27" layer="27" ratio="12" rot="R90" align="center">&gt;VALUE</text>
 <wire x1="-10.414" y1="4.445" x2="-12.7" y2="4.445" width="0.254" layer="21"/>
 <wire x1="-10.414" y1="-4.445" x2="-12.7" y2="-4.445" width="0.254" layer="21"/>
 <wire x1="-14.2875" y1="1.27" x2="-14.2875" y2="-1.27" width="0.254" layer="21"/>
 <wire x1="-12.7" y1="4.445" x2="-14.2875" y2="1.27" width="0.254" layer="21"/>
 <wire x1="-12.7" y1="-4.445" x2="-14.2875" y2="-1.27" width="0.254" layer="21"/>
+<rectangle x1="-10.5" y1="-10" x2="10.5" y2="10" layer="39"/>
 </package>
 <package name="SO08">
 <wire x1="2.159" y1="1.9558" x2="-2.159" y2="1.9558" width="0.1524" layer="21"/>
@@ -12159,7 +12163,7 @@ general purpose rectifier, 1 A</description>
 <gate name="1" symbol="D" x="0" y="0"/>
 </gates>
 <devices>
-<device name="&quot;" package="DO41-7.6">
+<device name="-DO-41-76" package="DO41-7.6">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -12168,7 +12172,7 @@ general purpose rectifier, 1 A</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="'" package="DO41-10">
+<device name="-DO-41-10" package="DO41-10">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
@@ -12177,7 +12181,7 @@ general purpose rectifier, 1 A</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="" package="SMA-NT">
+<device name="-SMA-NT" package="SMA-NT">
 <connects>
 <connect gate="1" pin="A" pad="A"/>
 <connect gate="1" pin="C" pad="C"/>
