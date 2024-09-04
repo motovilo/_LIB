@@ -7647,10 +7647,10 @@ TS-003</description>
 <circle x="4.5" y="4.5" radius="0.3" width="0.7" layer="21"/>
 <circle x="4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
 <circle x="-4.5" y="-4.5" radius="0.3" width="0.7" layer="21"/>
-<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159"/>
-<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159"/>
-<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159"/>
+<pad name="4" x="-6.25" y="2.5" drill="1.2" diameter="2.159" shape="octagon"/>
+<pad name="2" x="-6.25" y="-2.5" drill="1.2" diameter="2.159" shape="octagon"/>
+<pad name="1" x="6.25" y="-2.5" drill="1.2" diameter="2.159" shape="octagon"/>
+<pad name="3" x="6.25" y="2.5" drill="1.2" diameter="2.159" shape="octagon"/>
 </package>
 <package name="TACTILE-SWITCH-1101NE">
 <description>Sparkfun SKU# COM-08229</description>
