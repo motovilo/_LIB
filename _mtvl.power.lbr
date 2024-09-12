@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -629,10 +629,10 @@ manufacturer Siemens</description>
 <vertex x="2.5654" y="4.5482"/>
 <vertex x="2.5654" y="3.837"/>
 </polygon>
-<wire x1="-3.683" y1="-6.096" x2="3.683" y2="-6.096" width="0.0508" layer="39"/>
-<wire x1="3.683" y1="-6.096" x2="3.683" y2="6.223" width="0.0508" layer="39"/>
+<wire x1="-3.683" y1="-5.969" x2="3.683" y2="-5.969" width="0.0508" layer="39"/>
+<wire x1="3.683" y1="-5.969" x2="3.683" y2="6.223" width="0.0508" layer="39"/>
 <wire x1="3.683" y1="6.223" x2="-3.683" y2="6.223" width="0.0508" layer="39"/>
-<wire x1="-3.683" y1="6.223" x2="-3.683" y2="-6.096" width="0.0508" layer="39"/>
+<wire x1="-3.683" y1="6.223" x2="-3.683" y2="-5.969" width="0.0508" layer="39"/>
 </package>
 <package name="SOT-89-3">
 <description>&lt;b&gt;SOT-89-3  Reflow soldering&lt;/b&gt;</description>
