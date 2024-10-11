@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="2.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -1201,6 +1201,17 @@ https://www.buydisplay.com/arduino-character-1602-16x2-lcd-display-module-i2c-3-
 <package name="3.1-PAD_L">
 <pad name="B3,2" x="0" y="0" drill="3.1" diameter="3.75" shape="long" thermals="no"/>
 <wire x1="-1.375" y1="0" x2="1.375" y2="0" width="3.1" layer="46"/>
+</package>
+<package name="POT_7.2">
+<hole x="0" y="0" drill="7.2"/>
+<circle x="0" y="0" radius="4.6" width="2.1" layer="29"/>
+<circle x="0" y="0" radius="4.6" width="2.1" layer="30"/>
+</package>
+<package name="LED_HIDDEN_3MM_ROUND">
+<circle x="0" y="0" radius="0.75" width="1.5" layer="41"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="42"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="29"/>
+<circle x="0" y="0" radius="0.75" width="1.5" layer="30"/>
 </package>
 </packages>
 <symbols>
