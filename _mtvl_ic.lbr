@@ -1040,9 +1040,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </package>
 <package name="SO08">
 <description>&lt;b&gt;Small Outline Package 8&lt;/b&gt;&lt;br&gt;</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
 <smd name="2" x="-0.635" y="-2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
 <smd name="7" x="-0.635" y="2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
 <smd name="1" x="-1.905" y="-2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
@@ -1061,12 +1061,12 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
 <wire x1="-2.667" y1="3.937" x2="2.667" y2="3.937" width="0.0508" layer="39"/>
 <wire x1="2.667" y1="3.937" x2="2.667" y2="-3.937" width="0.0508" layer="39"/>
 <wire x1="2.667" y1="-3.937" x2="-2.667" y2="-3.937" width="0.0508" layer="39"/>
 <wire x1="-2.667" y1="-3.937" x2="-2.667" y2="3.937" width="0.0508" layer="39"/>
-<wire x1="-1.905" y1="-1.27" x2="-1.905" y2="1.27" width="0.3048" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="-1.905" y2="1.27" width="0.3048" layer="21"/>
 <rectangle x1="-1.4605" y1="2.159" x2="-1.0795" y2="3.683" layer="41"/>
 <rectangle x1="-0.1905" y1="2.159" x2="0.1905" y2="3.683" layer="41"/>
 <rectangle x1="1.0795" y1="2.159" x2="1.4605" y2="3.683" layer="41"/>
