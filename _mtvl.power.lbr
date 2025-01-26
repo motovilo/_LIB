@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1876,6 +1876,70 @@ https://static.chipdip.ru/lib/904/DOC002904350.pdf</description>
 <wire x1="0.9" y1="1.55" x2="0.9" y2="-1.55" width="0.2032" layer="21"/>
 <wire x1="0.9" y1="-1.55" x2="2.5" y2="-1.55" width="0.2032" layer="21"/>
 </package>
+<package name="MWSA0603S">
+<description>&lt;b&gt;Molded SMD Power Inductors – MWSA-S Series&lt;/b&gt;&lt;p&gt;
+&lt;a href="https://data.electronshik.ru/z/Datasheet/M/MWSA-S.pdf"&gt;https://data.electronshik.ru/z/Datasheet/M/MWSA-S.pdf&lt;/a&gt;</description>
+<smd name="1" x="-3.025" y="0" dx="2.35" dy="3.5" layer="1" roundness="20" thermals="no"/>
+<text x="-3.5" y="3.5" size="1.016" layer="25">&gt;NAME</text>
+<smd name="2" x="3.025" y="0" dx="2.35" dy="3.5" layer="1" roundness="20" thermals="no"/>
+<wire x1="3.5" y1="3.3" x2="-3.5" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-3.3" x2="3.5" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="3.5" x2="-3.7" y2="2" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="2" x2="-4.5" y2="2" width="0.0508" layer="39"/>
+<wire x1="-4.5" y1="2" x2="-4.5" y2="-2" width="0.0508" layer="39"/>
+<wire x1="-4.5" y1="-2" x2="-3.7" y2="-2" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="-2" x2="-3.7" y2="-3.5" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="3.5" x2="3.7" y2="2" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="2" x2="4.5" y2="2" width="0.0508" layer="39"/>
+<wire x1="4.5" y1="2" x2="4.5" y2="-2" width="0.0508" layer="39"/>
+<wire x1="4.5" y1="-2" x2="3.7" y2="-2" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="-2" x2="3.7" y2="-3.5" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="3.5" x2="3.7" y2="3.5" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="-3.5" x2="3.7" y2="-3.5" width="0.0508" layer="39"/>
+<text x="-0.003" y="-0.2012" size="0.8128" layer="25" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="-3.5" y1="-3.3" x2="-3.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-3.3" x2="3.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="3.3" x2="-3.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="3.3" x2="3.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="2" x2="-1.5" y2="2" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-2" x2="-3.5" y2="-2" width="0.2032" layer="51"/>
+<wire x1="3.5" y1="2" x2="1.5" y2="2" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-2" x2="3.5" y2="-2" width="0.2032" layer="51"/>
+</package>
+<package name="MWSA1004S">
+<description>&lt;b&gt;Molded SMD Power Inductors – MWSA-S Series&lt;/b&gt;&lt;p&gt;
+&lt;a href="https://data.electronshik.ru/z/Datasheet/M/MWSA-S.pdf"&gt;https://data.electronshik.ru/z/Datasheet/M/MWSA-S.pdf&lt;/a&gt;</description>
+<smd name="1" x="-3.025" y="0" dx="2.35" dy="3.5" layer="1" roundness="20" thermals="no"/>
+<text x="-3.5" y="3.5" size="1.016" layer="25">&gt;NAME</text>
+<smd name="2" x="3.025" y="0" dx="2.35" dy="3.5" layer="1" roundness="20" thermals="no"/>
+<wire x1="3.5" y1="3.3" x2="-3.5" y2="3.3" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-3.3" x2="3.5" y2="-3.3" width="0.2032" layer="21"/>
+<wire x1="-3.7" y1="3.5" x2="-3.7" y2="2" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="2" x2="-4.5" y2="2" width="0.0508" layer="39"/>
+<wire x1="-4.5" y1="2" x2="-4.5" y2="-2" width="0.0508" layer="39"/>
+<wire x1="-4.5" y1="-2" x2="-3.7" y2="-2" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="-2" x2="-3.7" y2="-3.5" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="3.5" x2="3.7" y2="2" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="2" x2="4.5" y2="2" width="0.0508" layer="39"/>
+<wire x1="4.5" y1="2" x2="4.5" y2="-2" width="0.0508" layer="39"/>
+<wire x1="4.5" y1="-2" x2="3.7" y2="-2" width="0.0508" layer="39"/>
+<wire x1="3.7" y1="-2" x2="3.7" y2="-3.5" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="3.5" x2="3.7" y2="3.5" width="0.0508" layer="39"/>
+<wire x1="-3.7" y1="-3.5" x2="3.7" y2="-3.5" width="0.0508" layer="39"/>
+<text x="-0.003" y="-0.2012" size="0.8128" layer="25" rot="R90" align="center">&gt;VALUE</text>
+<wire x1="-3.5" y1="-3.3" x2="-3.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-3.3" x2="3.5" y2="-2" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="3.3" x2="-3.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="3.3" x2="3.5" y2="2" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="2" x2="-1.5" y2="2" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="2" x2="-1.5" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-1.5" y1="-2" x2="-3.5" y2="-2" width="0.2032" layer="51"/>
+<wire x1="3.5" y1="2" x2="1.5" y2="2" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.2032" layer="51"/>
+<wire x1="1.5" y1="-2" x2="3.5" y2="-2" width="0.2032" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TPS5430DDAR_">
@@ -2200,13 +2264,13 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 <pin name="SW" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
 <pin name="FB" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
 </symbol>
-<symbol name="DRK">
+<symbol name="PWR_INDUCTOR">
 <wire x1="-3.81" y1="1.651" x2="3.81" y2="1.651" width="0.254" layer="94"/>
 <text x="-3.81" y="2.286" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.937" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
 <rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
-<pin name="2" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="DB">
 <wire x1="-1.905" y1="-3.175" x2="-4.064" y2="-2.794" width="0.254" layer="94"/>
@@ -3263,13 +3327,13 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 <deviceset name="PWR_INDUCTOR_" prefix="L" uservalue="yes">
 <description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;</description>
 <gates>
-<gate name="G$1" symbol="DRK" x="0" y="0"/>
+<gate name="1" symbol="PWR_INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="127-C" package="DR127-C">
 <connects>
-<connect gate="G$1" pin="1" pad="1 1A"/>
-<connect gate="G$1" pin="2" pad="2 2A"/>
+<connect gate="1" pin="1" pad="1 1A"/>
+<connect gate="1" pin="2" pad="2 2A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3277,8 +3341,8 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </device>
 <device name="74-C" package="DR74-COMBO">
 <connects>
-<connect gate="G$1" pin="1" pad="1 1A"/>
-<connect gate="G$1" pin="2" pad="2 2A"/>
+<connect gate="1" pin="1" pad="1 1A"/>
+<connect gate="1" pin="2" pad="2 2A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3286,8 +3350,8 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </device>
 <device name="1040" package="SMMS1040">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3295,8 +3359,8 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </device>
 <device name="1040_H" package="SMMS1040_H">
 <connects>
-<connect gate="G$1" pin="1" pad="1 1A"/>
-<connect gate="G$1" pin="2" pad="2 2A"/>
+<connect gate="1" pin="1" pad="1 1A"/>
+<connect gate="1" pin="2" pad="2 2A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3304,8 +3368,8 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </device>
 <device name="CDRH8D43" package="CDRH8D43">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3313,8 +3377,8 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </device>
 <device name="SWPA6045S" package="SWPA6045S">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -3322,8 +3386,17 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </device>
 <device name="MWSA0503S" package="MWSA0503S">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MWSA0603S" package="MWSA0603S">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
