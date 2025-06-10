@@ -737,6 +737,29 @@ Datasheet: &lt;br&gt;
 <wire x1="3.048" y1="-1.4224" x2="-3.048" y2="-1.4224" width="0.0508" layer="39"/>
 <wire x1="-3.048" y1="-1.4224" x2="-3.048" y2="1.4224" width="0.0508" layer="39"/>
 </package>
+<package name="DB-1S">
+<wire x1="4.249590625" y1="-3.17441875" x2="4.249590625" y2="3.17558125" width="0.127" layer="21"/>
+<wire x1="-4.250409375" y1="3.17558125" x2="-4.250409375" y2="-3.17441875" width="0.127" layer="21"/>
+<wire x1="4.249590625" y1="3.17558125" x2="3.5" y2="3.17558125" width="0.127" layer="21"/>
+<text x="-6.272590625" y="3.82861875" size="0.81321875" layer="25">&gt;NAME</text>
+<text x="0" y="0" size="0.8143375" layer="27" align="center">&gt;VALUE</text>
+<smd name="-" x="-2.550409375" y="4.12558125" dx="1.2" dy="1.9" layer="1" roundness="20"/>
+<smd name="+" x="2.549590625" y="4.12558125" dx="1.2" dy="1.9" layer="1" roundness="20"/>
+<smd name="~." x="-2.550409375" y="-4.12441875" dx="1.2" dy="1.9" layer="1" roundness="20"/>
+<smd name="~" x="2.549590625" y="-4.12441875" dx="1.2" dy="1.9" layer="1" roundness="20"/>
+<wire x1="-3.485" y1="3.17558125" x2="-4.250409375" y2="3.17558125" width="0.127" layer="21"/>
+<wire x1="1.6764" y1="3.17558125" x2="-1.6764" y2="3.17558125" width="0.127" layer="21"/>
+<wire x1="-4.250409375" y1="-3.17441875" x2="-3.370409375" y2="-3.17441875" width="0.127" layer="21"/>
+<wire x1="-1.6764" y1="-3.17441875" x2="1.6764" y2="-3.17441875" width="0.127" layer="21"/>
+<wire x1="4.249590625" y1="-3.17441875" x2="3.5" y2="-3.17441875" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.2225" y2="-1.905" width="0.127" layer="21" curve="180"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.8575" y2="-1.905" width="0.127" layer="21" curve="180"/>
+<wire x1="2.54" y1="-1.905" x2="2.8575" y2="-1.905" width="0.127" layer="21" curve="180"/>
+<wire x1="2.54" y1="-1.905" x2="2.2225" y2="-1.905" width="0.127" layer="21" curve="180"/>
+<wire x1="-2.8575" y1="2.2225" x2="-2.2225" y2="2.2225" width="0.127" layer="21"/>
+<wire x1="2.2225" y1="2.2225" x2="2.8575" y2="2.2225" width="0.127" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="2.54" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ZD">
@@ -912,6 +935,25 @@ Barrier Diodes&lt;/b&gt;&lt;p&gt;</description>
 <pin name="C" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="A" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="AC" x="0" y="0" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DIODE_BRIDGE">
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="1.905" y1="0" x2="3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-3.175" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.627" y="5.0905" size="1.27088125" layer="95">&gt;NAME</text>
+<text x="-7.6377" y="-7.651" size="1.27221875" layer="96">&gt;VALUE</text>
+<pin name="~" x="0" y="7.62" length="short" direction="in" rot="R270"/>
+<pin name="~." x="0" y="-7.62" length="short" direction="in" rot="R90"/>
+<pin name="+" x="7.62" y="0" length="short" direction="out" rot="R180"/>
+<pin name="-" x="-7.62" y="0" length="short" direction="out"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1395,6 +1437,33 @@ Source: Fairchild .. BAT54.pdf</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DB107S" prefix="DB">
+<description> &lt;a href="https://pricing.snapeda.com/parts/DB107S/Rectron/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE_BRIDGE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DB-1S">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="~" pad="~"/>
+<connect gate="G$1" pin="~." pad="~."/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="In stock"/>
+<attribute name="CHECK_PRICES" value="https://www.chipdip.ru/product0/8435426280"/>
+<attribute name="DESCRIPTION" value="                                                      Bridge Rectifier Single Phase Standard 1 kV Surface Mount DB-S                                              "/>
+<attribute name="MF" value="
+KLS electronic co ltd"/>
+<attribute name="MP" value="DB107S"/>
+<attribute name="PACKAGE" value="DB-1S"/>
+</technology>
 </technologies>
 </device>
 </devices>
