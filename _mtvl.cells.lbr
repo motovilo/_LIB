@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -66,6 +66,8 @@
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -93,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="no"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -633,6 +638,54 @@
 <wire x1="-12.07" y1="18.4" x2="-14.07" y2="16.4" width="0.254" layer="21" curve="90"/>
 <wire x1="-14.07" y1="16.4" x2="-14.07" y2="-17.88" width="0.254" layer="21"/>
 </package>
+<package name="BA283">
+<smd name="A" x="-34" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="B" x="-30" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="C" x="-26" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="D" x="-22" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="E" x="-18" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="F" x="-14" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="H" x="-10" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="J" x="-6" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="K" x="-2" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="L" x="2" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="M" x="6" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="N" x="10" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="P" x="14" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="R" x="18" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="S" x="22" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="T" x="26" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="U" x="30" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<smd name="V" x="34" y="5" dx="9.1" dy="2.5" layer="16" rot="R90" thermals="no"/>
+<wire x1="-36.5" y1="0" x2="36.5" y2="0" width="0" layer="20"/>
+<wire x1="37.5" y1="10" x2="37.5" y2="1" width="0" layer="20"/>
+<wire x1="-36.5" y1="0" x2="-37.5" y2="1" width="0" layer="20" curve="-90"/>
+<wire x1="37.5" y1="1" x2="36.5" y2="0" width="0" layer="20" curve="-90"/>
+<wire x1="45" y1="58" x2="-45" y2="58" width="0" layer="20"/>
+<wire x1="-45" y1="58" x2="-45" y2="10" width="0" layer="20"/>
+<wire x1="45" y1="58" x2="45" y2="10" width="0" layer="20"/>
+<wire x1="45" y1="10" x2="37.5" y2="10" width="0" layer="20"/>
+<wire x1="-37.5" y1="1" x2="-37.5" y2="10" width="0" layer="20"/>
+<wire x1="-37.5" y1="10" x2="-45" y2="10" width="0" layer="20"/>
+<text x="-34" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">A</text>
+<text x="-30" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">B</text>
+<text x="-26" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">C</text>
+<text x="-22" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">D</text>
+<text x="-18" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">E</text>
+<text x="-14" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">F</text>
+<text x="-10" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">H</text>
+<text x="-6" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">J</text>
+<text x="-2" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">K</text>
+<text x="2" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">L</text>
+<text x="6" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">M</text>
+<text x="10" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">N</text>
+<text x="14" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">P</text>
+<text x="18" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">R</text>
+<text x="22" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">S</text>
+<text x="26" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">T</text>
+<text x="30" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">U</text>
+<text x="34" y="10" size="1.27" layer="21" font="vector" ratio="12" align="bottom-center">V</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SD-10">
@@ -959,6 +1012,33 @@ https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard</description>
 <text x="-35.56" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="-15.24" y1="30.48" x2="15.24" y2="30.48" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-30.48" x2="15.24" y2="-30.48" width="0.254" layer="94"/>
+</symbol>
+<symbol name="BA283">
+<description>&lt;B&gt;BA283 Board&lt;/b&gt;</description>
+<pin name="V" x="12.7" y="-22.86" length="middle" rot="R180"/>
+<pin name="U" x="12.7" y="-20.32" length="middle" rot="R180"/>
+<pin name="T" x="12.7" y="-17.78" length="middle" rot="R180"/>
+<pin name="S" x="12.7" y="-15.24" length="middle" rot="R180"/>
+<pin name="R" x="12.7" y="-12.7" length="middle" rot="R180"/>
+<pin name="P" x="12.7" y="-10.16" length="middle" rot="R180"/>
+<pin name="N" x="12.7" y="-7.62" length="middle" rot="R180"/>
+<pin name="M" x="12.7" y="-5.08" length="middle" rot="R180"/>
+<pin name="L" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="K" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="J" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="H" x="12.7" y="5.08" length="middle" rot="R180"/>
+<pin name="F" x="12.7" y="7.62" length="middle" rot="R180"/>
+<pin name="E" x="12.7" y="10.16" length="middle" rot="R180"/>
+<pin name="D" x="12.7" y="12.7" length="middle" rot="R180"/>
+<pin name="C" x="12.7" y="15.24" length="middle" rot="R180"/>
+<pin name="B" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="A" x="12.7" y="20.32" length="middle" rot="R180"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-25.4" x2="-7.62" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-25.4" x2="-7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
+<text x="-7.62" y="23.622" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-27.94" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1332,6 +1412,39 @@ https://github.com/WeActStudio/WeActStudio.STM32G431CoreBoard</description>
 <connect gate="G$1" pin="VB" pad="47"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
 <connect gate="G$1" pin="VCC1" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BA283">
+<description>&lt;b&gt;BA283 Board&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="BA283" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="BA283">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="D" pad="D"/>
+<connect gate="G$1" pin="E" pad="E"/>
+<connect gate="G$1" pin="F" pad="F"/>
+<connect gate="G$1" pin="H" pad="H"/>
+<connect gate="G$1" pin="J" pad="J"/>
+<connect gate="G$1" pin="K" pad="K"/>
+<connect gate="G$1" pin="L" pad="L"/>
+<connect gate="G$1" pin="M" pad="M"/>
+<connect gate="G$1" pin="N" pad="N"/>
+<connect gate="G$1" pin="P" pad="P"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="S" pad="S"/>
+<connect gate="G$1" pin="T" pad="T"/>
+<connect gate="G$1" pin="U" pad="U"/>
+<connect gate="G$1" pin="V" pad="V"/>
 </connects>
 <technologies>
 <technology name=""/>
