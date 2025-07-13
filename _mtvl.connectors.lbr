@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -11680,6 +11680,99 @@ https://datasheet.lcsc.com/lcsc/2002271742_XKB-Connectivity-DC-022B-2-0_C319097.
 <wire x1="-0.75" y1="-4" x2="-1.75" y2="-4" width="0.127" layer="51"/>
 <wire x1="-1.75" y1="4" x2="-1.75" y2="-4" width="0.127" layer="51"/>
 </package>
+<package name="2X07F">
+<description>&lt;b&gt; PDB-14</description>
+<wire x1="-8.89" y1="-2.5" x2="-8.89" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-2.5" x2="-7.62" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.5" x2="8.89" y2="-2.5" width="0.1524" layer="21"/>
+<pad name="1" x="-7.62" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="2" x="-7.62" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="3" x="-5.08" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="4" x="-5.08" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="5" x="-2.54" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="6" x="-2.54" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="7" x="0" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="8" x="0" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="9" x="2.54" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="10" x="2.54" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="11" x="5.08" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="12" x="5.08" y="1.27" drill="0.8" shape="octagon"/>
+<pad name="13" x="7.62" y="-1.27" drill="0.8" shape="octagon"/>
+<pad name="14" x="7.62" y="1.27" drill="0.8" shape="octagon"/>
+<text x="-8.89" y="3.175" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-8.255" y1="-3.175" x2="-7.62" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.5" x2="-6.985" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="-2.5" x2="8.89" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="2.5" x2="8.89" y2="2.5" width="0.1524" layer="21"/>
+</package>
+<package name="2X07_REVERSED">
+<description>&lt;b&gt; PIN HEADER For bottom placement (reversed pins)&lt;\b&gt;&lt;p&gt;</description>
+<wire x1="-8.89" y1="-1.905" x2="-8.255" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="-2.54" x2="-6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="-1.905" x2="-5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="-2.54" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-1.905" x2="4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-2.54" x2="6.35" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="-1.905" x2="-8.89" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-8.89" y1="1.905" x2="-8.255" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="2.54" x2="-6.985" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-6.985" y1="2.54" x2="-6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="1.905" x2="-5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="2.54" x2="-4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-4.445" y1="2.54" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="4.445" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="2.54" x2="5.715" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="2.54" x2="6.35" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="4.445" y1="-2.54" x2="5.715" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-5.715" y1="-2.54" x2="-4.445" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-8.255" y1="-2.54" x2="-7.62" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-2.54" x2="-6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="-1.905" x2="6.985" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="-2.54" x2="8.89" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="6.35" y1="1.905" x2="6.985" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="2.54" x2="8.255" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="2.54" x2="8.89" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="1.905" x2="8.89" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="6.985" y1="-2.54" x2="8.255" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-7.62" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="2" x="-7.62" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="3" x="-5.08" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="4" x="-5.08" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="5" x="-2.54" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="6" x="-2.54" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="7" x="0" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="8" x="0" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="9" x="2.54" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="10" x="2.54" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="11" x="5.08" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="12" x="5.08" y="-1.27" drill="0.9" shape="octagon"/>
+<pad name="13" x="7.62" y="1.27" drill="0.9" shape="octagon"/>
+<pad name="14" x="7.62" y="-1.27" drill="0.9" shape="octagon"/>
+<text x="-8.89" y="3.175" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-3.81" size="1.016" layer="27">&gt;VALUE</text>
+<wire x1="-8.255" y1="3.175" x2="-7.62" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="2.54" x2="-6.985" y2="3.175" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="JACK-1">
@@ -15782,7 +15875,7 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X7" prefix="JP" uservalue="yes">
+<deviceset name="PINHD-2X7" prefix="X" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X7" x="0" y="0"/>
@@ -15810,6 +15903,48 @@ This is the reduced ISP connector for AVR programming. Common on Arduino. This f
 </technologies>
 </device>
 <device name="/90" package="2X07/90">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="10" pad="10"/>
+<connect gate="A" pin="11" pad="11"/>
+<connect gate="A" pin="12" pad="12"/>
+<connect gate="A" pin="13" pad="13"/>
+<connect gate="A" pin="14" pad="14"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+<connect gate="A" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F" package="2X07F">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="10" pad="10"/>
+<connect gate="A" pin="11" pad="11"/>
+<connect gate="A" pin="12" pad="12"/>
+<connect gate="A" pin="13" pad="13"/>
+<connect gate="A" pin="14" pad="14"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="A" pin="4" pad="4"/>
+<connect gate="A" pin="5" pad="5"/>
+<connect gate="A" pin="6" pad="6"/>
+<connect gate="A" pin="7" pad="7"/>
+<connect gate="A" pin="8" pad="8"/>
+<connect gate="A" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="REVERSED" package="2X07_REVERSED">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="10" pad="10"/>
