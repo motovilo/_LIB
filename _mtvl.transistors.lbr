@@ -870,10 +870,10 @@ grid 2.54mm</description>
 <rectangle x1="-0.25" y1="-2.15" x2="0.25" y2="-1.15" layer="51"/>
 <rectangle x1="1.25" y1="-2.15" x2="1.75" y2="-1.15" layer="51"/>
 <rectangle x1="-0.85" y1="1.65" x2="0.85" y2="2.2" layer="51"/>
-<smd name="1" x="-1.5" y="-1.75" dx="0.8128" dy="1.1" layer="1" roundness="20" thermals="no"/>
-<smd name="2" x="0" y="-1.75" dx="0.8128" dy="1.1" layer="1" roundness="20" thermals="no"/>
-<smd name="3" x="1.5" y="-1.75" dx="0.8128" dy="1.1" layer="1" roundness="20" thermals="no"/>
-<smd name="4" x="0" y="0.9017" dx="2" dy="3.175" layer="1" roundness="20" thermals="no"/>
+<smd name="1" x="-1.5" y="-1.78" dx="0.8" dy="1.4" layer="1" roundness="20" thermals="no"/>
+<smd name="2" x="0" y="-1.78" dx="0.8" dy="1.4" layer="1" roundness="20" thermals="no"/>
+<smd name="3" x="1.5" y="-1.78" dx="0.8" dy="1.4" layer="1" roundness="20" thermals="no"/>
+<smd name="4" x="0" y="0.92" dx="2" dy="3.175" layer="1" roundness="30" thermals="no"/>
 <text x="-2.54" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 <text x="1.27" y="1.905" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.9906" y1="-2.3" x2="-0.508" y2="-1.2" layer="41"/>
