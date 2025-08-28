@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -618,11 +618,11 @@
 <text x="0" y="-7.62" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="VBAT" x="-20.32" y="15.24" length="short" direction="sup"/>
 <pin name="PC13" x="-20.32" y="12.7" length="short"/>
-<pin name="PC14-OSC32_IN" x="-20.32" y="10.16" length="short" direction="in"/>
-<pin name="PC15-OSC32_OUT" x="-20.32" y="7.62" length="short" direction="out"/>
-<pin name="PF0-OSC_IN" x="-20.32" y="5.08" length="short" direction="in"/>
-<pin name="PF1-OSC_OUT" x="-20.32" y="2.54" length="short" direction="out"/>
-<pin name="PG10-NRST" x="-20.32" y="0" length="short" direction="in"/>
+<pin name="PC14-OSC32_IN" x="-20.32" y="10.16" length="short"/>
+<pin name="PC15-OSC32_OUT" x="-20.32" y="7.62" length="short"/>
+<pin name="PF0-OSC_IN" x="-20.32" y="5.08" length="short"/>
+<pin name="PF1-OSC_OUT" x="-20.32" y="2.54" length="short"/>
+<pin name="PG10-NRST" x="-20.32" y="0" length="short"/>
 <pin name="PA0" x="-20.32" y="-2.54" length="short"/>
 <pin name="PA1" x="-20.32" y="-5.08" length="short"/>
 <pin name="PA2" x="-20.32" y="-7.62" length="short"/>
