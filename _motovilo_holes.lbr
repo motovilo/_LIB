@@ -1206,8 +1206,8 @@ https://www.buydisplay.com/arduino-character-1602-16x2-lcd-display-module-i2c-3-
 <package name="LED_HIDDEN_5MM_ROUND">
 <circle x="0" y="0" radius="1.25" width="2.5" layer="41"/>
 <circle x="0" y="0" radius="1.25" width="2.5" layer="42"/>
-<circle x="0" y="0" radius="1.25" width="2.5" layer="29"/>
-<circle x="0" y="0" radius="1.25" width="2.5" layer="30"/>
+<circle x="0" y="0" radius="1.3" width="2.6" layer="29"/>
+<circle x="0" y="0" radius="1.3" width="2.6" layer="30"/>
 </package>
 <package name="JACK_6.3_BIG">
 <hole x="0" y="0" drill="11.43"/>
