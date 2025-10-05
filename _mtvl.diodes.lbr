@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -440,21 +440,21 @@ Source: www.rsonline.de .. SMBJ12/C/15/C/24/C/30/C/5.0/C/7.5/C Voltage Suppresso
 </package>
 <package name="SMBJ">
 <description>&lt;b&gt;DO-214AA Modified J_BEND&lt;/b&gt;&lt;p&gt;</description>
-<wire x1="2.24" y1="-1.92" x2="-2.24" y2="-1.92" width="0.1524" layer="21"/>
 <wire x1="-2.24" y1="1.92" x2="2.24" y2="1.92" width="0.1524" layer="21"/>
-<smd name="C" x="-2.1082" y="0" dx="1.6256" dy="2.1844" layer="1" roundness="20"/>
-<smd name="A" x="2.1082" y="0" dx="1.6256" dy="2.1844" layer="1" roundness="20" rot="R180"/>
-<text x="-1.905" y="2.2225" size="1.016" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.016" layer="27">&gt;VALUE</text>
-<wire x1="-2.24" y1="-1.92" x2="-2.24" y2="-1.3462" width="0.1524" layer="21"/>
+<wire x1="2.24" y1="-1.92" x2="-2.24" y2="-1.92" width="0.1524" layer="21"/>
+<smd name="C" x="2.1082" y="0" dx="1.6256" dy="2.1844" layer="1" roundness="20" rot="R180"/>
+<smd name="A" x="-2.1082" y="0" dx="1.6256" dy="2.1844" layer="1" roundness="20"/>
+<text x="-2.54" y="2.2225" size="1.016" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.016" layer="27">&gt;VALUE</text>
 <wire x1="2.24" y1="1.92" x2="2.24" y2="1.3462" width="0.1524" layer="21"/>
-<wire x1="-2.24" y1="1.3462" x2="-2.24" y2="1.92" width="0.1524" layer="21"/>
+<wire x1="-2.24" y1="-1.92" x2="-2.24" y2="-1.3462" width="0.1524" layer="21"/>
 <wire x1="2.24" y1="-1.3462" x2="2.24" y2="-1.92" width="0.1524" layer="21"/>
-<wire x1="-0.92075" y1="1.8288" x2="-0.92075" y2="-1.8288" width="0.3048" layer="21"/>
-<wire x1="-3.1496" y1="-2.159" x2="3.1496" y2="-2.159" width="0.0508" layer="39"/>
-<wire x1="3.1496" y1="-2.159" x2="3.1496" y2="2.159" width="0.0508" layer="39"/>
+<wire x1="-2.24" y1="1.3462" x2="-2.24" y2="1.92" width="0.1524" layer="21"/>
+<wire x1="0.92075" y1="-1.8288" x2="0.92075" y2="1.8288" width="0.3048" layer="21"/>
 <wire x1="3.1496" y1="2.159" x2="-3.1496" y2="2.159" width="0.0508" layer="39"/>
 <wire x1="-3.1496" y1="2.159" x2="-3.1496" y2="-2.159" width="0.0508" layer="39"/>
+<wire x1="-3.1496" y1="-2.159" x2="3.1496" y2="-2.159" width="0.0508" layer="39"/>
+<wire x1="3.1496" y1="-2.159" x2="3.1496" y2="2.159" width="0.0508" layer="39"/>
 </package>
 <package name="C1702-15">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
