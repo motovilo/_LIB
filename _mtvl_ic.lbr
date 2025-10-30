@@ -1092,8 +1092,9 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <pad name="12" x="-2.54" y="3.81" drill="0.8128" shape="octagon" rot="R90"/>
 <pad name="13" x="-5.08" y="3.81" drill="0.8128" shape="octagon" rot="R90"/>
 <pad name="14" x="-7.62" y="3.81" drill="0.8128" shape="octagon" rot="R90"/>
-<text x="-9.271" y="-3.048" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="-6.731" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-9.271" y="-3.048" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
+<rectangle x1="-9.525" y1="-5.08" x2="9.525" y2="5.08" layer="39"/>
 </package>
 <package name="DIL-08">
 <description>&lt;b&gt;Dual In Line Package&lt;/b&gt;</description>
