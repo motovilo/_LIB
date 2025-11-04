@@ -179,6 +179,7 @@
 <pad name="5" x="3.81" y="3.81" drill="0.8128" diameter="1.27" shape="octagon" rot="R90"/>
 <text x="-5.334" y="-2.921" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="-3.556" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-5.715" y1="-5.08" x2="5.715" y2="5.08" layer="39"/>
 </package>
 <package name="DIL08_">
 <description>&lt;B&gt;Dual In Line&lt;/B&gt;&lt;p&gt;
