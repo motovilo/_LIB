@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -248,7 +248,7 @@ Source: http://www.fairchildsemi.com/pf/4N/4N35-M.html</description>
 <pad name="5" x="3.81" y="3.81" drill="0.8128" shape="octagon" rot="R90"/>
 <text x="-5.334" y="-2.921" size="0.8128" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="0" y="0" size="0.8128" layer="27" ratio="10" align="center">&gt;VALUE</text>
-<rectangle x1="-5.715" y1="-5.08" x2="5.715" y2="5.08" layer="39"/>
+<rectangle x1="-5.3975" y1="-4.7625" x2="5.3975" y2="4.7625" layer="39"/>
 </package>
 <package name="DIL08_">
 <description>&lt;B&gt;Dual In Line&lt;/B&gt;&lt;p&gt;

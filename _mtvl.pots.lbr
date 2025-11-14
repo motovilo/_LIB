@@ -236,6 +236,7 @@ Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
 <wire x1="4.75" y1="-4.85" x2="-4.75" y2="-4.85" width="0.127" layer="21"/>
 <rectangle x1="-1.5875" y1="3.81" x2="1.5875" y2="5.08" layer="39"/>
 <rectangle x1="-1.5875" y1="3.81" x2="1.5875" y2="5.08" layer="43"/>
+<rectangle x1="-5.08" y1="-8.89" x2="5.08" y2="5.08" layer="39"/>
 </package>
 <package name="ALPS_POT_VERTICAL">
 <circle x="0" y="0" radius="2.54" width="0.2032" layer="21"/>
