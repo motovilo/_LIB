@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -444,7 +444,6 @@
 <text x="6.6675" y="6.985" size="1.27" layer="21" font="vector" ratio="12" rot="R180">SN</text>
 <text x="0" y="-12.7" size="1.27" layer="25" ratio="12" align="bottom-center">&gt;NAME</text>
 <rectangle x1="-10" y1="-11" x2="10" y2="11" layer="39"/>
-<rectangle x1="-5" y1="-14" x2="5" y2="-11" layer="39"/>
 </package>
 <package name="PJ-301-M12">
 <description>&lt;b&gt;Jack 3.5mm vertica&lt;b&gt;&lt;p&gt;</description>
