@@ -224,8 +224,8 @@ type 0204, grid 7.5 mm</description>
 <wire x1="1.6764" y1="0.9398" x2="1.6764" y2="-0.9398" width="0.0508" layer="39"/>
 <wire x1="1.6764" y1="-0.9398" x2="-1.6764" y2="-0.9398" width="0.0508" layer="39"/>
 <wire x1="-1.6764" y1="-0.9398" x2="-1.6764" y2="0.9398" width="0.0508" layer="39"/>
-<smd name="1" x="-0.95" y="0" dx="1.016" dy="1.4732" layer="1" roundness="20"/>
-<smd name="2" x="0.95" y="0" dx="1.016" dy="1.4732" layer="1" roundness="20"/>
+<smd name="1" x="-0.9525" y="0" dx="1.016" dy="1.4732" layer="1" roundness="20"/>
+<smd name="2" x="0.9525" y="0" dx="1.016" dy="1.4732" layer="1" roundness="20"/>
 <text x="-1.905" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="2.667" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
@@ -386,10 +386,10 @@ grid 5 mm, diameter 10.5 mm, height 13.5 mm</description>
 <wire x1="2.3" y1="-1.1176" x2="-2.3" y2="-1.1176" width="0.0508" layer="39"/>
 <wire x1="-2.3" y1="-1.1176" x2="-2.3" y2="1.1176" width="0.0508" layer="39"/>
 <wire x1="2.3" y1="1.1176" x2="2.3" y2="-1.1176" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.45" y="0" dx="1.15" dy="1.8" layer="1" roundness="20"/>
-<smd name="2" x="1.45" y="0" dx="1.15" dy="1.8" layer="1" roundness="20"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.127" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.127" layer="51"/>
+<smd name="1" x="-1.4478" y="0" dx="1.1684" dy="1.8288" layer="1" roundness="20"/>
+<smd name="2" x="1.4478" y="0" dx="1.1684" dy="1.8288" layer="1" roundness="20"/>
 <text x="-2.286" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
 <text x="3.048" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
 <rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
@@ -2445,6 +2445,53 @@ Source: coiltronics_dr_series.pdf</description>
 <rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
 </package>
+<package name="R0805_ISOLATED">
+<wire x1="-0.41" y1="0.635" x2="0.41" y2="0.635" width="0.1524" layer="51"/>
+<wire x1="-0.41" y1="-0.635" x2="0.41" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.6764" y1="0.9398" x2="1.6764" y2="0.9398" width="0.0508" layer="39"/>
+<wire x1="1.6764" y1="0.9398" x2="1.6764" y2="-0.9398" width="0.0508" layer="39"/>
+<wire x1="1.6764" y1="-0.9398" x2="-1.6764" y2="-0.9398" width="0.0508" layer="39"/>
+<wire x1="-1.6764" y1="-0.9398" x2="-1.6764" y2="0.9398" width="0.0508" layer="39"/>
+<smd name="1" x="-0.95" y="0" dx="1.016" dy="1.4732" layer="1" roundness="20"/>
+<smd name="2" x="0.95" y="0" dx="1.016" dy="1.4732" layer="1" roundness="20"/>
+<text x="-1.905" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="2.667" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="0.4064" y1="-0.6985" x2="1.0564" y2="0.7015" layer="51"/>
+<rectangle x1="-1.0668" y1="-0.6985" x2="-0.4168" y2="0.7015" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.5001" x2="0.1999" y2="0.5001" layer="35"/>
+<rectangle x1="-0.4318" y1="-0.7366" x2="0.4318" y2="0.7366" layer="41"/>
+</package>
+<package name="C1206_ISOLATED">
+<wire x1="-2.3" y1="1.1176" x2="2.3" y2="1.1176" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="-1.1176" x2="-2.3" y2="-1.1176" width="0.0508" layer="39"/>
+<wire x1="-2.3" y1="-1.1176" x2="-2.3" y2="1.1176" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="1.1176" x2="2.3" y2="-1.1176" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.127" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.127" layer="51"/>
+<smd name="1" x="-1.4478" y="0" dx="1.143" dy="1.778" layer="1" roundness="20"/>
+<smd name="2" x="1.4478" y="0" dx="1.143" dy="1.778" layer="1" roundness="20"/>
+<text x="-2.286" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<rectangle x1="-0.8382" y1="-0.9144" x2="0.8382" y2="0.9144" layer="41"/>
+</package>
+<package name="R1206_ISOLATED">
+<wire x1="0.9525" y1="-0.8128" x2="-0.9652" y2="-0.8128" width="0.1524" layer="51"/>
+<wire x1="0.9525" y1="0.8128" x2="-0.9652" y2="0.8128" width="0.1524" layer="51"/>
+<wire x1="-2.3" y1="1.143" x2="2.3" y2="1.143" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="1.143" x2="2.3" y2="-1.143" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="-1.143" x2="-2.3" y2="-1.143" width="0.0508" layer="39"/>
+<wire x1="-2.3" y1="-1.143" x2="-2.3" y2="1.143" width="0.0508" layer="39"/>
+<smd name="2" x="1.4478" y="0" dx="1.143" dy="1.778" layer="1" roundness="20"/>
+<smd name="1" x="-1.4478" y="0" dx="1.143" dy="1.778" layer="1" roundness="20"/>
+<text x="-2.286" y="0" size="0.8128" layer="25" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.175" y="0" size="0.8128" layer="27" rot="R90" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.6891" y1="-0.8763" x2="-0.9525" y2="0.8763" layer="51"/>
+<rectangle x1="0.9525" y1="-0.8763" x2="1.6891" y2="0.8763" layer="51"/>
+<rectangle x1="-0.3" y1="-0.7" x2="0.3" y2="0.7" layer="35"/>
+<rectangle x1="-0.8382" y1="-0.9144" x2="0.8382" y2="0.9144" layer="41"/>
+</package>
 </packages>
 <symbols>
 <symbol name="R">
@@ -2747,6 +2794,24 @@ Source: coiltronics_dr_series.pdf</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="0805_ISOLATED" package="R0805_ISOLATED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206_ISOLATED" package="R1206_ISOLATED">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="FBEAD" prefix="L" uservalue="yes">
@@ -3011,7 +3076,7 @@ Source: https://www.bourns.com/pdfs/CATCAY.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="C-" prefix="C" uservalue="yes">
+<deviceset name="C_" prefix="C" uservalue="yes">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;&lt;p&gt;
 for alternative placement&lt;p&gt;
 naming: default grid - extended grid/package width</description>
@@ -3073,7 +3138,7 @@ naming: default grid - extended grid/package width</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMD0402" package="C0402">
+<device name="0402" package="C0402">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3082,7 +3147,7 @@ naming: default grid - extended grid/package width</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMD0603" package="C0603">
+<device name="0603" package="C0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3091,7 +3156,7 @@ naming: default grid - extended grid/package width</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMD0805" package="C0805">
+<device name="0805" package="C0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3100,7 +3165,7 @@ naming: default grid - extended grid/package width</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMD1206" package="C1206">
+<device name="1206" package="C1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3109,7 +3174,7 @@ naming: default grid - extended grid/package width</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="SMD1210" package="C1210">
+<device name="1210" package="C1210">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3137,6 +3202,15 @@ naming: default grid - extended grid/package width</description>
 </technologies>
 </device>
 <device name="075-Y5V" package="C075-Y5V-4X9">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1206_ISOLATED" package="C1206_ISOLATED">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
