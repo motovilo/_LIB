@@ -335,8 +335,8 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="0.254" y1="1" x2="-0.762" y2="0" width="0.2032" layer="21"/>
 <wire x1="-0.762" y1="0" x2="0.254" y2="-1" width="0.2032" layer="21"/>
 <wire x1="0.254" y1="-1" x2="0.254" y2="1" width="0.2032" layer="21"/>
-<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1" roundness="20"/>
-<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1" roundness="20"/>
+<smd name="C" x="-2.2" y="0" dx="2.4" dy="2.4" layer="1" roundness="20" thermals="no"/>
+<smd name="A" x="2.2" y="0" dx="2.4" dy="2.4" layer="1" roundness="20" thermals="no"/>
 <text x="-2.159" y="2.159" size="1.016" layer="25">&gt;NAME</text>
 <text x="-2.159" y="-3.429" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-2.794" y1="-1.0922" x2="-2.2606" y2="1.0922" layer="51"/>
