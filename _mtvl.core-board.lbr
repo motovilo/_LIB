@@ -6,23 +6,23 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -411,6 +411,100 @@
 <rectangle x1="5.715" y1="-18.415" x2="9.525" y2="20.955" layer="39"/>
 <text x="-4.1275" y="-17.78" size="1.27" layer="21" align="center-right">1</text>
 </package>
+<package name="NANO_WITH_ISP">
+<pad name="TX0" x="7.62" y="-17.78" drill="0.8" shape="octagon"/>
+<pad name="RX1" x="7.62" y="-15.24" drill="0.8" shape="octagon"/>
+<pad name="RST1" x="7.62" y="-12.7" drill="0.8" shape="octagon"/>
+<pad name="GND1" x="7.62" y="-10.16" drill="0.8" shape="octagon"/>
+<pad name="PD2" x="7.62" y="-7.62" drill="0.8" shape="octagon"/>
+<pad name="D3" x="7.62" y="-5.08" drill="0.8" shape="octagon"/>
+<pad name="PD4" x="7.62" y="-2.54" drill="0.8" shape="octagon"/>
+<pad name="PD5" x="7.62" y="0" drill="0.8" shape="octagon"/>
+<pad name="PD6" x="7.62" y="2.54" drill="0.8" shape="octagon"/>
+<pad name="PD7" x="7.62" y="5.08" drill="0.8" shape="octagon"/>
+<pad name="PD8" x="7.62" y="7.62" drill="0.8" shape="octagon"/>
+<pad name="PD9" x="7.62" y="10.16" drill="0.8" shape="octagon"/>
+<pad name="+VIN" x="-7.62" y="-17.78" drill="0.8" shape="octagon"/>
+<pad name="GND" x="-7.62" y="-15.24" drill="0.8" shape="octagon"/>
+<pad name="RST" x="-7.62" y="-12.7" drill="0.8" shape="octagon"/>
+<pad name="A3" x="-7.62" y="2.54" drill="0.8" shape="octagon"/>
+<pad name="A2" x="-7.62" y="5.08" drill="0.8" shape="octagon"/>
+<pad name="A1" x="-7.62" y="7.62" drill="0.8" shape="octagon"/>
+<pad name="A0" x="-7.62" y="10.16" drill="0.8" shape="octagon"/>
+<pad name="D13" x="-7.62" y="17.78" drill="0.8" shape="octagon"/>
+<pad name="PD12" x="7.62" y="17.78" drill="0.8" shape="octagon"/>
+<pad name="PD11" x="7.62" y="15.24" drill="0.8" shape="octagon"/>
+<pad name="PD10" x="7.62" y="12.7" drill="0.8" shape="octagon"/>
+<pad name="+3V3" x="-7.62" y="15.24" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="AREF" x="-7.62" y="12.7" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="+5V" x="-7.62" y="-10.16" drill="0.8" shape="octagon"/>
+<pad name="ISP_RST" x="-2.54" y="-16.51" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="ISP_SCK" x="0" y="-16.51" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="ISP_MISO" x="2.54" y="-16.51" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="A4" x="-7.62" y="0" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="A5" x="-7.62" y="-2.54" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="A6" x="-7.62" y="-5.08" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="A7" x="-7.62" y="-7.62" drill="0.8" shape="octagon" rot="R180"/>
+<pad name="ISP_GND" x="-2.54" y="-19.05" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="ISP_MOSI" x="0" y="-19.05" drill="0.8" shape="octagon" rot="R90"/>
+<pad name="ISP_+5V" x="2.54" y="-19.05" drill="0.8" shape="octagon" rot="R90"/>
+<wire x1="-8.89" y1="20.32" x2="-8.89" y2="19.05" width="0.254" layer="21"/>
+<wire x1="-8.89" y1="19.05" x2="-8.89" y2="-19.05" width="0.254" layer="21"/>
+<wire x1="-8.89" y1="-19.05" x2="-8.89" y2="-22.86" width="0.254" layer="21"/>
+<wire x1="-8.89" y1="-22.86" x2="8.89" y2="-22.86" width="0.254" layer="21"/>
+<wire x1="8.89" y1="-22.86" x2="8.89" y2="-19.05" width="0.254" layer="21"/>
+<wire x1="8.89" y1="-19.05" x2="8.89" y2="19.05" width="0.254" layer="21"/>
+<wire x1="8.89" y1="19.05" x2="8.89" y2="20.32" width="0.254" layer="21"/>
+<wire x1="8.89" y1="20.32" x2="-8.89" y2="20.32" width="0.254" layer="21"/>
+<wire x1="-8.89" y1="19.05" x2="-6.35" y2="19.05" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="19.05" x2="-6.35" y2="-19.05" width="0.254" layer="21"/>
+<wire x1="-6.35" y1="-19.05" x2="-8.89" y2="-19.05" width="0.254" layer="21"/>
+<wire x1="8.89" y1="19.05" x2="6.35" y2="19.05" width="0.254" layer="21"/>
+<wire x1="6.35" y1="19.05" x2="6.35" y2="-19.05" width="0.254" layer="21"/>
+<wire x1="6.35" y1="-19.05" x2="8.89" y2="-19.05" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-15.24" x2="3.81" y2="-15.24" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-15.24" x2="3.81" y2="-20.32" width="0.254" layer="21"/>
+<wire x1="3.81" y1="-20.32" x2="-3.81" y2="-20.32" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="-20.32" x2="-3.81" y2="-15.24" width="0.254" layer="21"/>
+<text x="-9.525" y="17.78" size="1.27" layer="21" align="center-right">PB5</text>
+<text x="-9.525" y="15.24" size="1.27" layer="21" align="center-right">+3V3</text>
+<text x="-9.525" y="12.7" size="1.27" layer="21" align="center-right">AREF</text>
+<text x="-9.525" y="10.16" size="1.27" layer="21" align="center-right">A0</text>
+<text x="-9.525" y="7.62" size="1.27" layer="21" align="center-right">A1</text>
+<text x="-9.525" y="5.08" size="1.27" layer="21" align="center-right">A2</text>
+<text x="-9.525" y="2.54" size="1.27" layer="21" align="center-right">A3</text>
+<text x="-9.525" y="0" size="1.27" layer="21" align="center-right">A4</text>
+<text x="-9.525" y="-2.54" size="1.27" layer="21" align="center-right">A5</text>
+<text x="-9.525" y="-5.08" size="1.27" layer="21" align="center-right">A6</text>
+<text x="-9.525" y="-7.62" size="1.27" layer="21" align="center-right">A7</text>
+<text x="-9.525" y="-10.16" size="1.27" layer="21" align="center-right">+5V</text>
+<text x="-9.525" y="-12.7" size="1.27" layer="21" align="center-right">RST</text>
+<text x="-9.525" y="-15.24" size="1.27" layer="21" align="center-right">GND</text>
+<text x="-9.525" y="-17.78" size="1.27" layer="21" align="center-right">+VIN</text>
+<text x="9.525" y="-17.78" size="1.27" layer="21" align="center-left">TX0</text>
+<text x="9.525" y="-15.24" size="1.27" layer="21" align="center-left">RX1</text>
+<text x="9.525" y="-12.7" size="1.27" layer="21" align="center-left">RST1</text>
+<text x="9.525" y="-10.16" size="1.27" layer="21" align="center-left">GND</text>
+<text x="9.525" y="-7.62" size="1.27" layer="21" align="center-left">PD2</text>
+<text x="9.525" y="-5.08" size="1.27" layer="21" align="center-left">PD3</text>
+<text x="9.525" y="-2.54" size="1.27" layer="21" align="center-left">PD4</text>
+<text x="9.525" y="0" size="1.27" layer="21" align="center-left">PD5</text>
+<text x="9.525" y="2.54" size="1.27" layer="21" align="center-left">PD6</text>
+<text x="9.525" y="7.62" size="1.27" layer="21" align="center-left">PD8</text>
+<text x="9.525" y="5.08" size="1.27" layer="21" align="center-left">PD7</text>
+<text x="9.525" y="10.16" size="1.27" layer="21" align="center-left">PD9</text>
+<text x="9.525" y="12.7" size="1.27" layer="21" align="center-left">PD10</text>
+<text x="9.525" y="15.24" size="1.27" layer="21" align="center-left">PD11</text>
+<text x="9.525" y="17.78" size="1.27" layer="21" align="center-left">PD12</text>
+<text x="0" y="-1.27" size="1.27" layer="21" font="vector" ratio="12" rot="R90" align="center">ARDUINO NANO</text>
+<wire x1="-3.81" y1="21.59" x2="-3.81" y2="13.97" width="0.254" layer="21"/>
+<wire x1="-3.81" y1="13.97" x2="3.81" y2="13.97" width="0.254" layer="21"/>
+<wire x1="3.81" y1="13.97" x2="3.81" y2="21.59" width="0.254" layer="21"/>
+<wire x1="3.81" y1="21.59" x2="-3.81" y2="21.59" width="0.254" layer="21"/>
+<rectangle x1="-9.525" y1="-19.685" x2="-5.715" y2="19.685" layer="39"/>
+<rectangle x1="5.715" y1="-19.685" x2="9.525" y2="19.685" layer="39"/>
+<text x="-4.1275" y="-19.05" size="1.27" layer="21" align="center-right">1</text>
+</package>
 </packages>
 <symbols>
 <symbol name="WEACTSTUDIO.STM32G431COREBOARD">
@@ -612,12 +706,6 @@
 <connect gate="BRD" pin="D13" pad="D13"/>
 <connect gate="BRD" pin="GND" pad="GND"/>
 <connect gate="BRD" pin="GND1" pad="GND1"/>
-<connect gate="BRD" pin="ICSP1" pad="ISP_GND"/>
-<connect gate="BRD" pin="ICSP2" pad="ISP_RST"/>
-<connect gate="BRD" pin="ICSP3" pad="ISP_MOSI"/>
-<connect gate="BRD" pin="ICSP4" pad="ISP_SCK"/>
-<connect gate="BRD" pin="ICSP5" pad="ISP_+5V"/>
-<connect gate="BRD" pin="ICSP6" pad="ISP_MISO"/>
 <connect gate="BRD" pin="PD10" pad="PD10"/>
 <connect gate="BRD" pin="PD11" pad="PD11"/>
 <connect gate="BRD" pin="PD12" pad="PD12"/>
