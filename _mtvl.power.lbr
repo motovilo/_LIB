@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -24,7 +24,7 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
@@ -947,9 +947,9 @@ AMSR1-78Z series by AIMTEC</description>
 </package>
 <package name="SMMS1040">
 <description>&lt;b&gt;SMMS1040 Series Molding Power Inductors&lt;/b&gt;&lt;p&gt;</description>
-<smd name="1" x="0" y="4.45" dx="3.3" dy="2" layer="1" roundness="20"/>
-<smd name="2" x="0" y="-4.45" dx="3.3" dy="2" layer="1" roundness="20"/>
-<text x="-5.1712" y="5.503" size="1.016" layer="25">&gt;NAME</text>
+<smd name="1" x="0" y="4.45" dx="3.81" dy="2.54" layer="1" roundness="20" thermals="no"/>
+<smd name="2" x="0" y="-4.45" dx="3.81" dy="2.54" layer="1" roundness="20"/>
+<text x="-5.1712" y="6.203" size="1.016" layer="25">&gt;NAME</text>
 <text x="0" y="0" size="1.016" layer="27" align="center">&gt;VALUE</text>
 <wire x1="4.5" y1="-5.25" x2="5.1" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="5.1" y1="-5.25" x2="5.1" y2="5.25" width="0.127" layer="21"/>
@@ -957,13 +957,9 @@ AMSR1-78Z series by AIMTEC</description>
 <wire x1="-5.1" y1="5.25" x2="-5.1" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-5.1" y1="-5.25" x2="-4.5" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-5.1" y1="5.25" x2="-4.5" y2="5.25" width="0.127" layer="21"/>
-<wire x1="1.85" y1="5.25" x2="2.25" y2="5.25" width="0.127" layer="21"/>
 <wire x1="2.25" y1="5.25" x2="4.5" y2="5.25" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="5.25" x2="-2.25" y2="5.25" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="5.25" x2="-1.85" y2="5.25" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="-5.25" x2="-2.25" y2="-5.25" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="-5.25" x2="-1.85" y2="-5.25" width="0.127" layer="21"/>
-<wire x1="1.85" y1="-5.25" x2="2.25" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="2.25" y1="-5.25" x2="4.5" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="5.25" x2="-2.25" y2="2.75" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="2.75" x2="2.25" y2="2.75" width="0.127" layer="21"/>
@@ -973,24 +969,18 @@ AMSR1-78Z series by AIMTEC</description>
 <wire x1="-2.25" y1="-2.75" x2="-2.25" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="5.25" x2="-4.5" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="4.5" y1="5.25" x2="4.5" y2="-5.25" width="0.127" layer="21"/>
-<wire x1="-5.25" y1="-5.4" x2="-2" y2="-5.4" width="0.0508" layer="39"/>
-<wire x1="-2" y1="-5.4" x2="-2" y2="-6" width="0.0508" layer="39"/>
-<wire x1="-2" y1="-6" x2="2" y2="-6" width="0.0508" layer="39"/>
-<wire x1="2" y1="-6" x2="2" y2="-5.4" width="0.0508" layer="39"/>
-<wire x1="2" y1="-5.4" x2="5.25" y2="-5.4" width="0.0508" layer="39"/>
-<wire x1="5.25" y1="-5.4" x2="5.25" y2="5.4" width="0.0508" layer="39"/>
-<wire x1="5.25" y1="5.4" x2="2" y2="5.4" width="0.0508" layer="39"/>
-<wire x1="2" y1="5.4" x2="2" y2="6" width="0.0508" layer="39"/>
-<wire x1="2" y1="6" x2="-2" y2="6" width="0.0508" layer="39"/>
-<wire x1="-2" y1="6" x2="-2" y2="5.4" width="0.0508" layer="39"/>
-<wire x1="-2" y1="5.4" x2="-5.25" y2="5.4" width="0.0508" layer="39"/>
-<wire x1="-5.25" y1="5.4" x2="-5.25" y2="-5.4" width="0.0508" layer="39"/>
-<wire x1="-2" y1="5.4" x2="-2" y2="3" width="0.0508" layer="39"/>
-<wire x1="-2" y1="3" x2="2" y2="3" width="0.0508" layer="39"/>
-<wire x1="2" y1="3" x2="2" y2="5.4" width="0.0508" layer="39"/>
-<wire x1="-2" y1="-5.4" x2="-2" y2="-3" width="0.0508" layer="39"/>
-<wire x1="-2" y1="-3" x2="2" y2="-3" width="0.0508" layer="39"/>
-<wire x1="2" y1="-3" x2="2" y2="-5.4" width="0.0508" layer="39"/>
+<wire x1="-5.35" y1="-5.5" x2="-2.2" y2="-5.5" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="-5.5" x2="-2.2" y2="-6" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="-6" x2="2.3" y2="-6" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="-6" x2="2.3" y2="-5.5" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="-5.5" x2="5.35" y2="-5.5" width="0.0508" layer="39"/>
+<wire x1="5.35" y1="-5.5" x2="5.35" y2="5.5" width="0.0508" layer="39"/>
+<wire x1="5.35" y1="5.5" x2="2.3" y2="5.5" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="5.5" x2="2.3" y2="6" width="0.0508" layer="39"/>
+<wire x1="2.3" y1="6" x2="-2.2" y2="6" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="6" x2="-2.2" y2="5.5" width="0.0508" layer="39"/>
+<wire x1="-2.2" y1="5.5" x2="-5.35" y2="5.5" width="0.0508" layer="39"/>
+<wire x1="-5.35" y1="5.5" x2="-5.35" y2="-5.5" width="0.0508" layer="39"/>
 </package>
 <package name="DR127-C">
 <description>&lt;b&gt;High Power Density, High Efficiency, Shielded Inductors&lt;/b&gt;&lt;p&gt;
@@ -1272,13 +1262,9 @@ vertical, distributor Schukat</description>
 <wire x1="-4.85" y1="-5.25" x2="-4.5" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-5.15" y1="4.95" x2="-4.85" y2="5.25" width="0.127" layer="21" curve="-90"/>
 <wire x1="-4.85" y1="5.25" x2="-4.5" y2="5.25" width="0.127" layer="21"/>
-<wire x1="1.85" y1="5.25" x2="2.25" y2="5.25" width="0.127" layer="21"/>
 <wire x1="2.25" y1="5.25" x2="4.5" y2="5.25" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="5.25" x2="-2.25" y2="5.25" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="5.25" x2="-1.85" y2="5.25" width="0.127" layer="21"/>
 <wire x1="-4.5" y1="-5.25" x2="-2.25" y2="-5.25" width="0.127" layer="21"/>
-<wire x1="-2.25" y1="-5.25" x2="-1.85" y2="-5.25" width="0.127" layer="21"/>
-<wire x1="1.85" y1="-5.25" x2="2.25" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="2.25" y1="-5.25" x2="4.5" y2="-5.25" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="5.25" x2="-2.25" y2="2.75" width="0.127" layer="21"/>
 <wire x1="-2.25" y1="2.75" x2="2.25" y2="2.75" width="0.127" layer="21"/>
@@ -1899,34 +1885,34 @@ https://static.chipdip.ru/lib/904/DOC002904350.pdf</description>
 <package name="MWSA1004S">
 <description>&lt;b&gt;Molded SMD Power Inductors – MWSA-S Series&lt;/b&gt;&lt;p&gt;
 &lt;a href="https://data.electronshik.ru/z/Datasheet/M/MWSA-S.pdf"&gt;https://data.electronshik.ru/z/Datasheet/M/MWSA-S.pdf&lt;/a&gt;</description>
-<smd name="1" x="-3.025" y="0" dx="2.35" dy="3.5" layer="1" roundness="20" thermals="no"/>
-<text x="-3.5" y="3.5" size="1.016" layer="25">&gt;NAME</text>
-<smd name="2" x="3.025" y="0" dx="2.35" dy="3.5" layer="1" roundness="20" thermals="no"/>
-<wire x1="3.5" y1="3.3" x2="-3.5" y2="3.3" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="-3.3" x2="3.5" y2="-3.3" width="0.2032" layer="21"/>
-<wire x1="-3.7" y1="3.5" x2="-3.7" y2="2" width="0.0508" layer="39"/>
-<wire x1="-3.7" y1="2" x2="-4.5" y2="2" width="0.0508" layer="39"/>
-<wire x1="-4.5" y1="2" x2="-4.5" y2="-2" width="0.0508" layer="39"/>
-<wire x1="-4.5" y1="-2" x2="-3.7" y2="-2" width="0.0508" layer="39"/>
-<wire x1="-3.7" y1="-2" x2="-3.7" y2="-3.5" width="0.0508" layer="39"/>
-<wire x1="3.7" y1="3.5" x2="3.7" y2="2" width="0.0508" layer="39"/>
-<wire x1="3.7" y1="2" x2="4.5" y2="2" width="0.0508" layer="39"/>
-<wire x1="4.5" y1="2" x2="4.5" y2="-2" width="0.0508" layer="39"/>
-<wire x1="4.5" y1="-2" x2="3.7" y2="-2" width="0.0508" layer="39"/>
-<wire x1="3.7" y1="-2" x2="3.7" y2="-3.5" width="0.0508" layer="39"/>
-<wire x1="-3.7" y1="3.5" x2="3.7" y2="3.5" width="0.0508" layer="39"/>
-<wire x1="-3.7" y1="-3.5" x2="3.7" y2="-3.5" width="0.0508" layer="39"/>
+<smd name="1" x="-4.75" y="0" dx="4.1" dy="4.1" layer="1" roundness="20" thermals="no"/>
+<text x="-3.5" y="5.5" size="1.016" layer="25">&gt;NAME</text>
+<smd name="2" x="4.75" y="0" dx="4.1" dy="4.1" layer="1" roundness="20" thermals="no"/>
+<wire x1="5" y1="5" x2="-5" y2="5" width="0.2032" layer="21"/>
+<wire x1="-5" y1="-5" x2="5" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-5.4" y1="5.4" x2="-5.4" y2="2.4" width="0.0508" layer="39"/>
+<wire x1="-5.4" y1="2.4" x2="-7.2" y2="2.4" width="0.0508" layer="39"/>
+<wire x1="-7.2" y1="2.4" x2="-7.2" y2="-2.4" width="0.0508" layer="39"/>
+<wire x1="-7.2" y1="-2.4" x2="-5.4" y2="-2.4" width="0.0508" layer="39"/>
+<wire x1="-5.4" y1="-2.4" x2="-5.4" y2="-5.4" width="0.0508" layer="39"/>
+<wire x1="5.4" y1="5.4" x2="5.4" y2="2.4" width="0.0508" layer="39"/>
+<wire x1="5.4" y1="2.4" x2="7.2" y2="2.4" width="0.0508" layer="39"/>
+<wire x1="7.2" y1="2.4" x2="7.2" y2="-2.4" width="0.0508" layer="39"/>
+<wire x1="7.2" y1="-2.4" x2="5.4" y2="-2.4" width="0.0508" layer="39"/>
+<wire x1="5.4" y1="-2.4" x2="5.4" y2="-5.4" width="0.0508" layer="39"/>
+<wire x1="-5.4" y1="5.4" x2="5.4" y2="5.4" width="0.0508" layer="39"/>
+<wire x1="-5.4" y1="-5.4" x2="5.4" y2="-5.4" width="0.0508" layer="39"/>
 <text x="-0.003" y="-0.2012" size="0.8128" layer="25" rot="R90" align="center">&gt;VALUE</text>
-<wire x1="-3.5" y1="-3.3" x2="-3.5" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="-3.3" x2="3.5" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="3.3" x2="-3.5" y2="2" width="0.2032" layer="21"/>
-<wire x1="3.5" y1="3.3" x2="3.5" y2="2" width="0.2032" layer="21"/>
-<wire x1="-3.5" y1="2" x2="-1.5" y2="2" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="2" x2="-1.5" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-1.5" y1="-2" x2="-3.5" y2="-2" width="0.2032" layer="51"/>
-<wire x1="3.5" y1="2" x2="1.5" y2="2" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="2" x2="1.5" y2="-2" width="0.2032" layer="51"/>
-<wire x1="1.5" y1="-2" x2="3.5" y2="-2" width="0.2032" layer="51"/>
+<wire x1="-5" y1="-5" x2="-5" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="5" y1="-5" x2="5" y2="-2.3" width="0.2032" layer="21"/>
+<wire x1="-5" y1="5" x2="-5" y2="2.3" width="0.2032" layer="21"/>
+<wire x1="5" y1="5" x2="5" y2="2.3" width="0.2032" layer="21"/>
+<wire x1="-5" y1="2.3" x2="-2.5" y2="2.3" width="0.2032" layer="51"/>
+<wire x1="-2.5" y1="2.3" x2="-2.5" y2="-2.3" width="0.2032" layer="51"/>
+<wire x1="-2.5" y1="-2.3" x2="-5" y2="-2.3" width="0.2032" layer="51"/>
+<wire x1="5" y1="2.3" x2="2.5" y2="2.3" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="2.3" x2="2.5" y2="-2.3" width="0.2032" layer="51"/>
+<wire x1="2.5" y1="-2.3" x2="5" y2="-2.3" width="0.2032" layer="51"/>
 </package>
 <package name="MWSA1206S">
 <description>&lt;b&gt;Molded SMD Power Inductors – MWSA-S Series&lt;/b&gt;&lt;p&gt;
@@ -3496,6 +3482,15 @@ http://www.xlsemi.com/datasheet/XL4005%20datasheet.pdf</description>
 </technologies>
 </device>
 <device name="MWSA1206S" package="MWSA1206S">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MWSA1004S" package="MWSA1004S">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
