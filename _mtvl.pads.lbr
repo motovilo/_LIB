@@ -543,7 +543,7 @@ drill 1.2 mm</description>
 </package>
 <package name="SMD2,54-5,08">
 <description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1"/>
+<smd name="1" x="0" y="0" dx="2.54" dy="5.08" layer="1" cream="no"/>
 <text x="-1.5" y="-2.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.945" y="-2.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
