@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -516,7 +516,7 @@ manufacturer Siemens</description>
 <smd name="6" x="2.7051" y="-0.635" dx="1.6002" dy="0.6096" layer="1" roundness="20"/>
 <smd name="7" x="2.7051" y="0.635" dx="1.6002" dy="0.6096" layer="1" roundness="20"/>
 <smd name="8" x="2.7051" y="1.905" dx="1.6002" dy="0.6096" layer="1" roundness="20"/>
-<smd name="9" x="0" y="0" dx="2.54" dy="2.54" layer="1" roundness="20" thermals="no"/>
+<smd name="9" x="0" y="0" dx="2.49" dy="3.1" layer="1" roundness="20" thermals="no"/>
 <text x="-1.905" y="2.794" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="-1.905" y="-3.81" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-1.905" y1="2.4638" x2="1.905" y2="2.4638" width="0.127" layer="21"/>
