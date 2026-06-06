@@ -2993,7 +2993,7 @@ Source: https://www.bourns.com/pdfs/CATCAY.pdf</description>
 <gate name="G$1" symbol="CPOL" x="0" y="1.27"/>
 </gates>
 <devices>
-<device name="" package="SMD1014+E5-10,5">
+<device name="SMD1014_COMBO" package="SMD1014+E5-10,5">
 <connects>
 <connect gate="G$1" pin="+" pad="+ ++"/>
 <connect gate="G$1" pin="-" pad="- --"/>
