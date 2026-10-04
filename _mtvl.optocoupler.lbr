@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -95,7 +95,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="PM_Ref" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="PF_Ref" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="WFL_Ref" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
@@ -344,14 +347,14 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <wire x1="4.855" y1="-3.18" x2="-4.855" y2="-3.18" width="0.1524" layer="21"/>
 <wire x1="-4.855" y1="-3.18" x2="-4.855" y2="3.18" width="0.1524" layer="21"/>
 <wire x1="4.855" y1="-2.164" x2="-4.855" y2="-2.164" width="0.1524" layer="21"/>
-<smd name="1" x="-3.81" y="-4.77" dx="1.6" dy="2" layer="1"/>
-<smd name="2" x="-1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
-<smd name="3" x="1.27" y="-4.77" dx="1.6" dy="2" layer="1"/>
-<smd name="4" x="3.81" y="-4.77" dx="1.6" dy="2" layer="1"/>
-<smd name="5" x="3.81" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
-<smd name="6" x="1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
-<smd name="7" x="-1.27" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
-<smd name="8" x="-3.81" y="4.77" dx="1.6" dy="2" layer="1" rot="R180"/>
+<smd name="1" x="-3.81" y="-4.77" dx="1.6" dy="2" layer="1" roundness="20"/>
+<smd name="2" x="-1.27" y="-4.77" dx="1.6" dy="2" layer="1" roundness="20"/>
+<smd name="3" x="1.27" y="-4.77" dx="1.6" dy="2" layer="1" roundness="20"/>
+<smd name="4" x="3.81" y="-4.77" dx="1.6" dy="2" layer="1" roundness="20"/>
+<smd name="5" x="3.81" y="4.77" dx="1.6" dy="2" layer="1" roundness="20" rot="R180"/>
+<smd name="6" x="1.27" y="4.77" dx="1.6" dy="2" layer="1" roundness="20" rot="R180"/>
+<smd name="7" x="-1.27" y="4.77" dx="1.6" dy="2" layer="1" roundness="20" rot="R180"/>
+<smd name="8" x="-3.81" y="4.77" dx="1.6" dy="2" layer="1" roundness="20" rot="R180"/>
 <text x="-5.08" y="-3.175" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 <text x="6.35" y="-3.175" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
 <rectangle x1="-4.415" y1="-5.15" x2="-3.19" y2="-3.2" layer="51"/>
@@ -362,6 +365,42 @@ Source: LITE-ON ELECTRONICS, LTV816.pdf</description>
 <rectangle x1="0.65" y1="3.2" x2="1.875" y2="5.15" layer="51" rot="R180"/>
 <rectangle x1="-1.89" y1="3.2" x2="-0.665" y2="5.15" layer="51" rot="R180"/>
 <rectangle x1="-4.43" y1="3.2" x2="-3.205" y2="5.15" layer="51" rot="R180"/>
+</package>
+<package name="SOIC8">
+<description>&lt;b&gt;Small Outline Package 8&lt;/b&gt;&lt;br&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="1.9" width="0.2032" layer="21"/>
+<smd name="2" x="-0.635" y="-2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<smd name="7" x="-0.635" y="2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<smd name="1" x="-1.905" y="-2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<smd name="3" x="0.635" y="-2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<smd name="4" x="1.905" y="-2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<smd name="8" x="-1.905" y="2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<smd name="6" x="0.635" y="2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<smd name="5" x="1.905" y="2.921" dx="0.6604" dy="1.524" layer="1" roundness="20"/>
+<text x="-2.667" y="-1.905" size="0.8128" layer="25" rot="R90">&gt;NAME</text>
+<text x="0" y="0" size="0.6096" layer="27" align="center">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.667" y1="3.937" x2="2.667" y2="3.937" width="0.0508" layer="39"/>
+<wire x1="2.667" y1="3.937" x2="2.667" y2="-3.937" width="0.0508" layer="39"/>
+<wire x1="2.667" y1="-3.937" x2="-2.667" y2="-3.937" width="0.0508" layer="39"/>
+<wire x1="-2.667" y1="-3.937" x2="-2.667" y2="3.937" width="0.0508" layer="39"/>
+<wire x1="-1.905" y1="-1.27" x2="-1.905" y2="1.27" width="0.3048" layer="21"/>
+<rectangle x1="-1.4605" y1="2.159" x2="-1.0795" y2="3.683" layer="41"/>
+<rectangle x1="-0.1905" y1="2.159" x2="0.1905" y2="3.683" layer="41"/>
+<rectangle x1="1.0795" y1="2.159" x2="1.4605" y2="3.683" layer="41"/>
+<rectangle x1="-1.4605" y1="-3.683" x2="-1.0795" y2="-2.159" layer="41"/>
+<rectangle x1="-0.1905" y1="-3.683" x2="0.1905" y2="-2.159" layer="41"/>
+<rectangle x1="1.0795" y1="-3.683" x2="1.4605" y2="-2.159" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -876,6 +915,29 @@ Source: LITEON, LTV816.pdf</description>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ILD217T" prefix="OK">
+<gates>
+<gate name="A" symbol="OK" x="2.54" y="10.16" swaplevel="1"/>
+<gate name="B" symbol="OK" x="2.54" y="-10.16" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="SOIC8">
+<connects>
+<connect gate="A" pin="A" pad="1"/>
+<connect gate="A" pin="C" pad="2"/>
+<connect gate="A" pin="COL" pad="6"/>
+<connect gate="A" pin="EMIT" pad="5"/>
+<connect gate="B" pin="A" pad="3"/>
+<connect gate="B" pin="C" pad="4"/>
+<connect gate="B" pin="COL" pad="8"/>
+<connect gate="B" pin="EMIT" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
